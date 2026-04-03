@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lekcja 01A. O sobie samym</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleZumImage.css">
+    <link rel="stylesheet" href="../css/styleRu.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/styleText.css">
+
+</head>
+
+<body>
+    <div id="vocab-modal" class="modal">
+        <div class="modal-box">
+
+            <span class="modal-close">✖</span>
+
+            <div id="modal-content"></div>
+
+        </div>
+    </div>
+
+    <header>
+        Lekcja 01A. <br>O sobie samym
+    </header>
+
+    <div class="container">
+        <!-- Zadanie 1 -->
+        <div class="box">
+            <div class="flex">
+                <div class="title">Zadanie 1</div>
+                <p class="zadanie">Przeczytaj tekst i uzupełnij formularz informacjami.</p>
+            </div>
+            <p class="text">Cześć! Nazywam się Maria Perez-Woźniak. Urodziłam się 1 maja 1987 roku i jestem Hiszpanką,
+                ale od sześciu lat mieszkam w Warszawie przy ulicy Stromej 10. Swojego męża poznałam osiem lat temu
+                podczas wymiany międzynarodowej, kiedy jako studentka odwiedziłam po raz pierwszy Polskę. Jako
+                obcokrajowiec, po zawarciu małżeństwa z Polakiem, spełniłam wymagania dotyczące podwójnego obywatelstwa.
+                Z wykształcenia jestem kulturoznawcą, jednak nie pracuję w zawodzie. Obecnie prowadzę jednoosobową
+                działalność gospodarczą i zajmuję się udzielaniem korepetycji online z języka hiszpańskiego dla osób
+                początkujących, jak i zaawansowanych językowo. Moi uczniowie mogą skontaktować się ze mną za
+                pośrednictwem służbowego numeru telefonu: 500 230 110 lub adresu e-mail:
+                maria.perez-wozniak@korepetycje.pl.</p>
+            <dib class="rule">Liczba mnoga słowa <em class="red">imię</em> w rodzaju nijakim brzmi <em
+                    class="red">imiona</em>.</dib>
+            <button class="ru-btn modal-trigger" data-modal="ru_1"><img src="../icons/slownik.png" alt=""
+                    class="icons"></button>
+
+            <div class="modal" data-modal="ru_1">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Słownik pojęć:</h3>
+                    <ul>
+                        <li><b>Kawaler/panna</b> – ktoś, kto nigdy nie był w formalnym związku małżeńskim.
+                            <p><em>человек, который никогда не состоял в официальном браке.</em></p>
+                        </li>
+                        <li><b>Żonaty/zamężna</b> – osoba w udokumentowanym prawnie związku małżeńskim.
+                            <p><em>лицо, состоящее в юридически оформленном браке.</em></p>
+                        </li>
+                        <li><b>Rozwiedziony/rozwiedziona</b> – osoba, której małżeństwo zostało rozwiązane.
+                            <p><em>человек, чей брак был расторгнут.</em></p>
+                        </li>
+                        <li><b>Wdowiec/wdowa</b> – określenie osoby po utracie żony/męża.
+                            <p><em>обозначение лица, потерявшего жену/мужа</em></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h4>Kwestionariusz osobowy</h4>
+                <div class="two">
+                    <div>
+                        <p>Imię/Imiona: <b>.......</b></p>
+                        <p>Nazwisko: <b>.......</b></p>
+                        <p>Nazwisko rodowe: <b>.......</b></p>
+                        <p>Data urodzenia: <b>.......</b></p>
+                        <p>Płeć: <b>.......</b></p>
+                    </div>
+                    <div>
+                        <p>Narodowość: <b>.......</b></p>
+                        <p>Obywatelstwo: <b>.......</b> </p>
+                        <p>Kraj: <b>.......</b></p>
+                        <p>Adres zamieszkania: <b>.......</b></p>
+                    </div>
+                    <div>
+                        <p>Tel. kontaktowy: <b>.......</b></p>
+                        <p>E-mail: <b>.......</b></p>
+                        <p>Stan cywilny: <b>.......</b></p>
+                        <p>Zawód wyuczony: <b>.......</b></p>
+                        <p>Zawód wykonywany: <b>.......</b></p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="toggleAnswer('ru1')">Odpowiedź</button>
+
+            <div id="ru1" class="answer">
+                <p>
+                    Imię/imiona: Maria; <br>
+                    nazwisko: Perez-Woźniak; <br>
+                    nazwisko rodowe: Perez; <br>
+                    data urodzenia: 01.05.1987 r.; <br>
+                    płeć: kobieta; <br>
+                    narodowość Hiszpanka; <br>
+                    obywatelstwo: hiszpańskie i polskie; <br>
+                    kraj: Polska; <br>
+                    adres zamieszkania: ul. Stroma 10, Warszawa; <br>
+                    tel. kontaktowy: 500230110; <br>
+                    e-mail: maria.perez-wozniak@korepetycje.pl; <br>
+                    stan cywilny: mężatka; <br>
+                    zawód wyuczony: kulturoznawca; <br>
+                    zawód wykonywany: nauczyciel języka hiszpańskiego.</p>
+                <p class="p22">🧠 1. Narodowość</p>
+                <p>👉 Это кто ты по происхождению / культуре</p>
+                <p>👉 Даже если ты живёшь в Польше, ты всё равно можешь быть: <em>Narodowość: Ukrainka</em></p>
+                <p class="p22">🛂 2. Obywatelstwo (гражданство)</p>
+                <p>👉 Это что написано в паспорте - 📌 Юридическое понятие</p>
+                <p>👉 Можно иметь два: <em>hiszpańskie i polskie</em></p>
+                <p class="p22">🌍 3. Kraj (страна)</p>
+                <ul>
+                    👉 Это обычно:
+                    <li>где ты живёшь</li>
+                    <li>с какой страной связан сейчас</li>
+                </ul>
+                <p>👉 В анкетах чаще значит: текущая страна проживания</p>
+                <p class="p22">🏠 4. Adres zamieszkania (адрес проживания)</p>
+                <p>👉 Это твой фактический адрес, где ты живёшь</p>
+                <p class="p22">💍 5. Stan cywilny (семейное положение)</p>
+                <p>👉 Это твой статус в отношениях / браке</p>
+                <p><b>Варианты:</b></p>
+                <ul>
+                    <li><b>panna</b> → не замужем</li>
+                    <li><b>kawaler</b> → не женат</li>
+                    <li><b>mężatka</b> → замужем</li>
+                    <li><b>żonaty</b> → женат</li>
+                    <li><b>rozwiedziona / rozwiedziony</b> → в разводе</li>
+                    <li><b>wdowa / wdowiec</b> → вдова / вдовец</li>
+                </ul>
+                <p class="p22">🎓 6. Zawód wyuczony (полученная профессия)</p>
+                <p>👉 Это: что ты учила / какое у тебя образование</p>
+                <p><b>Примеры:</b></p>
+                <ul>
+                    <li><b>lekarz</b> → врач</li>
+                    <li><b>prawnik</b> → юрист</li>
+                    <li><b>nauczyciel</b> → учитель</li>
+                    <li><b>ekonomista</b> → экономист</li>
+                </ul>
+                <p class="p22">💼 7. Zawód wykonywany (текущая работа)</p>
+                <p>кем ты работаешь СЕЙЧАС</p>
+                <p><b>Примеры:</b></p>
+                <ul>
+                    <li><b>kelner</b> → официант</li>
+                    <li><b>sprzedawca</b> → продавец</li>
+                    <li><b>programista</b> → программист</li>
+                </ul>
+                <p class="p22">🧠 Как запомнить</p>
+                <ul>
+                    <li><b>👉 wyuczony = выученный (училась)</b></li>
+                    <li><b>👉 wykonywany = выполняемый (работаешь)</b></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Zadanie 2, -->
+
+        <div class="box">
+            <div class="title">Zadanie 2</div>
+            <p class="zadanie">Odmień przez przypadki w liczbie pojedynczej i mnogiej przymiotnik <em
+                    class="blue">osobowy</em> i
+                uzupełnij zdania odpowiednią formą gramatyczną.</p>
+            <table class="lesson-table" style="width: 70%;margin: 0 auto;">
+                <tr>
+                    <th>PRZYPADEK </th>
+                    <th>LICZBA POJEDYNCZA </th>
+                    <th>LICZBA MNOGA</th>
+                </tr>
+                <tr>
+                    <td>Mianownik</td>
+                    <td><em>osobowy</em></td>
+                    <td><em>osobowe</em></td>
+                </tr>
+                <tr>
+                    <td>Dopełniacz</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Celownik</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Biernik</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Narzędnik</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Miejscownik</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Wołacz</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <ol>
+                <li>Na parkingu nie mogę znaleźć swojego (samochód osobowy) ..........</li>
+                <li>
+                    Głównym celem uzupełnienia (kwestionariusz osobowy) .......... jest przekazanie podstawowych danych
+                    o osobie.
+                </li>
+                <li>Nie umiem uzupełnić wielu zdań (zaimek osobowy) ..........</li>
+                <li>Nie wiem, jak mogę zgłosić wykorzystanie moich (dane osobowe) ..........</li>
+                <li>Podróżowałem dzisiaj dwoma (pociąg osobowy) ..........</li>
+            </ol>
+            <div class="rule">
+                <div class="tutle">ZAPAMIĘTAJ!</div>
+                <p>Przymiotniki <em class="blue">osobisty</em> i <em class="blue">osobowy</em> pochodzą od rzeczownika
+                    <em class="red">osoba</em>, jednak mają różne znaczenia:
+                </p>
+                <p><b class="blue">Osobisty</b> – odnosi się do konkretnej osoby i stanowi jej własność, np.: <br><em
+                        class="orang">dowód osobisty, rzeczy osobiste, majątek osobisty, bagaż osobisty</em>.</p>
+                <p><b class="blue">Osobowy</b> – dotyczy danej osoby, osób jako ogółu, transportu bądź kategorii
+                    gramatycznej, np.: <br><em class="orang">dane osobowe, formularz osobowy, samochód osobowy, zaimek
+                        osobowy</em>.</p>
+            </div>
+            <button onclick="toggleAnswer('ot2')">Odpowiedź</button>
+
+            <div id="ot2" class="answer">
+                <table class="lesson-table" style="width: 70%;margin: 0 auto;">
+                    <tr>
+                        <th>PRZYPADEK </th>
+                        <th>LICZBA POJEDYNCZA </th>
+                        <th>LICZBA MNOGA</th>
+                    </tr>
+                    <tr>
+                        <td>Mianownik</td>
+                        <td><em>osobowy</em></td>
+                        <td><em>osobowe</em></td>
+                    </tr>
+                    <tr>
+                        <td>Dopełniacz</td>
+                        <td>osobowego</td>
+                        <td>osobowych</td>
+                    </tr>
+                    <tr>
+                        <td>Celownik</td>
+                        <td>osobowemu</td>
+                        <td>osobowym</td>
+                    </tr>
+                    <tr>
+                        <td>Biernik</td>
+                        <td>osobowy</td>
+                        <td>osobowe</td>
+                    </tr>
+                    <tr>
+                        <td>Narzędnik</td>
+                        <td>osobowym</td>
+                        <td>osobowymi</td>
+                    </tr>
+                    <tr>
+                        <td>Miejscownik</td>
+                        <td>osobowym</td>
+                        <td>osobowych</td>
+                    </tr>
+                    <tr>
+                        <td>Wołacz</td>
+                        <td>osobowy</td>
+                        <td>osobowe</td>
+                    </tr>
+                </table>
+                <ol>
+                    <li>samochodu osobowego;</li>
+                    <li>kwestionariusza osobowego;</li>
+                    <li>zaimkami osobowymi;</li>
+                    <li>danych osobowych,</li>
+                    <li>pociągami osobowymi</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Zadanie 3 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 3</div>
+            <div class="zadanie">Posłuchaj nagrania i uzupełnij wolne pola hasłami związanymi z wyrażeniem dane osobowe.
+            </div>
+            <div class="two">
+                <div class="audio">
+                    <audio src="../audio/podrecznik/1.1.mp3" controls></audio>
+                </div>
+                <div>
+                    <button class="ru-btn modal-trigger" data-modal="ru_2"><img src="../icons/nauczyciel.png" alt=""
+                            class="icons"></button>
+
+                    <div class="modal" data-modal="ru_2">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h6>Zadanie 3. Nagranie 1.1</h6>
+                            <div class="text">
+                                <p>Dane osobowe obejmują różnorodne informacje, które dotyczą konkretnej osoby i
+                                    pozwalają ją zidentyfikować. W skład danych osobowych wchodzi między innymi imię i
+                                    nazwisko, informacja o miejscu zamieszkania oraz numer identyfikacyjny, którym może
+                                    być seria i numer dowodu osobistego, paszportu, prawa jazdy lub innych dokumentów
+                                    tożsamości wydawanych przez odpowiednie instytucje. </p>
+                                <p>Bardziej szczegółowe dane każdego człowieka zawierają dzień, miesiąc i rok urodzenia,
+                                    numer kontaktowy, adres elektroniczny i informacje dotyczące zatrudnienia,
+                                    stanowiska, historii zawodowej i edukacyjnej. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="two">
+                <div class="image">
+                    <img src="https://www.wottonkearney.com/wp-content/uploads/2017/04/personal-details-data-screen.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <h5>Dane osobowe:</h5>
+                    <ol>
+                        <li>.............................</li>
+                        <li>.............................</li>
+                        <li>.............................</li>
+                        <li>.............................</li>
+                        <li>.............................</li>
+                        <li>.............................</li>
+                        <li>.............................</li>
+                    </ol>
+                </div>
+            </div>
+
+
+            <button onclick="toggleAnswer('ot3')">Odpowiedź</button>
+
+            <div id="ot3" class="answer">
+                <ol>
+                    <li>imię i nazwisko;</li>
+                    <li>miejsce zamieszkania;</li>
+                    <li>numer indentyfikacyjny;</li>
+                    <li>data urodzenia;</li>
+                    <li>numer kontaktowy;</li>
+                    <li>adres elektroniczny;</li>
+                    <li>informacje</li>
+                </ol>
+                <p>dotyczące historii zawodowej i edukacyjnej.</p>
+            </div>
+        </div>
+        <!-- Zadanie 4 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 4</div>
+            <div class="zadanie">Przyporządkuj pojęcia do ich definicji.</div>
+
+            <div class="two">
+                <div>
+                    <p>A. Dane osobowe</p>
+                    <p>B. Kradzież tożsamości</p>
+
+
+                </div>
+                <div>
+                    <p>C. Administrator danych</p>
+                    <p>D. Obowiązek informacyjny</p>
+                </div>
+                <div>
+                    <p>E. Dane wrażliwe</p>
+                    <p>F. Przetwarzanie danych</p>
+                </div>
+            </div>
+            <table class="lesson-table">
+                <tr>
+                    <td>1.</td>
+                    <td>...</td>
+                    <td>Wymóg udzielenia osobie informacji na temat celów oraz sposobów przetwarzania jej danych
+                        osobowych.</td>
+                    <td>4.</td>
+                    <td>...</td>
+                    <td>Sytuacja, w której osoba uzyskuje nielegalny dostęp do czyichś danych osobowych w celu
+                        popełnienia oszustw lub przestępstw na czyjeś konto lub pod czyimś nazwiskiem.</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>...</td>
+                    <td>Osoba, która zbiera, przechowuje i analizuje dane, mając jednocześnie obowiązek przestrzegania
+                        przepisów dotyczących ich ochrony i zapewnienia bezpieczeństwa..</td>
+                    <td>5.</td>
+                    <td>...</td>
+                    <td>Termin odnoszący się do wszelkich operacji wykonywanych na danych osobowych, takich jak
+                        zbieranie, gromadzenie, przechowywanie, organizowanie, analizowanie, zmienianie, udostępnianie
+                        lub usuwanie.</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>...</td>
+                    <td>Poufne dane osobowe, które zawierają informacje np. o stanie zdrowia, przekonaniach,
+                        przynależnościach.</td>
+                    <td>6.</td>
+                    <td>...</td>
+                    <td>Informacje dotyczące konkretnej osoby, takie jak imię i nazwisko, adres zamieszkania, PESEL,
+                        numer telefonu.</td>
+                </tr>
+            </table>
+
+            <button onclick="toggleAnswer('a4')">Odpowiedź</button>
+
+            <div id="a4" class="answer">
+                <p>1D; </p>
+                <p>2C; </p>
+                <p>3E; </p>
+                <p>4B; </p>
+                <p>5F; </p>
+                <p>6A.</p>
+            </div>
+        </div>
+        <!-- Zadanie 5 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 5</div>
+            <div class="zadanie">
+                Przeczytaj historię Marii i odpowiedz na pytania.
+            </div>
+
+            <div class="border">
+                Niestety – jestem osobą, która nie zabezpieczyła swoich danych osobowych i musiała stawić czoła
+                konsekwencjom swojego zachowania. Moja historia rozpoczęła się, gdy na jednej z internetowych stron
+                zakupowych podałam swoje dane osobowe bez zastanowienia. Nie zdawałam sobie sprawy, że strona
+                była niezabezpieczona i nie była autentycznym sklepem. Przez ten błąd, nieznane osoby miały dostęp
+                do mojego imienia, adresu zamieszkania, numeru telefonu i danych płatniczych. Wkrótce odkryłam,
+                że oszuści uzyskali dostęp do mojego konta bankowego i dokonali transakcji. Niezabezpieczone
+                dane osobowe, które podałam na stronie, stały się łatwym celem dla przestępców. Moje dane zostały
+                wykorzystane do popełniania oszustw, zakładania fałszywych kont i zawierania transakcji na moje
+                nazwisko. Gdy odkryłam, co się stało, czułam się zrozpaczona i bezsilna. Zdałam sobie sprawę, że
+                gdybym wcześniej podjęła odpowiednie środki ostrożności, mogłabym tego uniknąć. Przede wszystkim
+                powinnam była być bardziej świadoma, że nie należy podawać poufnych informacji na podejrzanych
+                stronach internetowych. Powinnam także sprawdzić opinie dotyczące nieznanej mi strony i politykę
+                prywatności portalu. Dodatkowo mogłam zadbać o zastosowanie silnych i unikalnych haseł do swoich
+                kont online, a także korzystać z weryfikacji dwuetapowej, aby zwiększyć bezpieczeństwo logowania. Teraz
+                zdaję sobie sprawę, że mogłam tego uniknąć, gdybym podjęła odpowiednie środki ostrożności. Nauka,
+                którą wyciągnęłam z tej bolesnej lekcji, jest taka, że ochrona danych osobowych jest niezwykle ważna.
+                Musimy być czujni, chronić swoje dane i unikać podawania poufnych informacji na nieznanych stronach.
+                Przyjęcie odpowiednich środków ostrożności w zakresie bezpieczeństwa danych może uchronić nas
+                przed poważnymi konsekwencjami kradzieży tożsamości i uniknąć powiadamiania odpowiednich organów i instytucji finansowych.
+            </div>
+            <br>
+            <div>
+                <ol>
+                    <li>Jak rozpoczęła się historia osoby, której dane zostały wykorzystane?<p>.........................................</p></li>
+                    <li>Gdzie i jakie dane osobowe zostały udostępnione przez bohaterkę tekstu?<p>.........................................</p></li>
+                    <li>Jakie były konsekwencje niezabezpieczenia danych osobowych?<p>.........................................</p></li>
+                    <li>Co czuła bohaterka, gdy dowiedziała się o kradzieży danych?<p>.........................................</p></li>
+                    <li>Dlaczego ochrona danych osobowych jest ważna?<p>.........................................</p></li>
+                </ol>
+            </div>
+            <button onclick="toggleAnswer('a5')">Odpowiedź</button>
+
+            <div id="a5" class="answer">
+                <ol>
+                    <li>Historia osoby, której dane zostały wykorzystane, rozpoczęła się, gdy podała swoje dane osobowe na jednej z internetowych stron zakupowych bez zastanowienia.; </li>
+                    <li>Bohaterka tekstu udostępniła swoje dane osobowe, takie jak imię, adres zamieszkania, numer telefonu i dane płatnicze na niezweryfikowanej stronie internetowej.; </li>
+                    <li>Konsekwencje niezabezpieczenia danych osobowych były takie, że nieznane osoby uzyskały dostęp do jej konta bankowego, dokonały transakcji w jej imieniu i wykorzystały te dane do popełniania oszustw oraz zakładania fałszywych kont.; </li>
+                    <li>Gdy bohaterka dowiedziała się o kradzieży danych, poczuła się zrozpaczona i bezsilna. Zrozumiała, że mogła uniknąć tego problemu, gdyby wcześniej podjęła odpowiednie środki ostrożności.;  </li>
+                    <li>Ochrona danych osobowych jest ważna, ponieważ niezabezpieczone dane mogą stać się łatwym celem dla przestępców. Dlatego należy być czujnym, chronić swoje dane i unikać odpowiednich środków ostrożności w zakresie bezpieczeństwa danych może pomóc w uniknięciu poważnych konsekwencji, takich jak kradzież tożsamości i problemy finansowe. </li>
+                </ol>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Назад -->
+        <a href="index.html" class="back">
+            ⬅ Powrót do wszystkich lekcji
+        </a>
+    </div>
+    <script src="../js/imageZum.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptRu.js"></script>
+
+
+</body>
+
+</html>

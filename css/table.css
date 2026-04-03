@@ -1,0 +1,95 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  color: gray;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Заголовок */
+thead {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #ffffff;
+  text-align: left;
+}
+
+thead th {
+  padding: 14px 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Ячейки */
+tbody td {
+  padding: 5px 5px 5px 15px;
+  border-bottom: 1px solid #f1f1f1;
+  color: #333;
+  font-size: 14px;
+  color: rgb(101, 101, 101);
+}
+tbody td ul li{
+  font-size: 14px;
+  color: rgb(66, 63, 63);
+}
+tbody tr {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+tbody tr:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(54, 53, 53, 0.05);
+}
+
+.titleTb{
+    font-size: 16px;
+    font-weight: 600;
+    width: 130px;
+}
+
+/* Чередование строк */
+tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Ховер эффект */
+tbody tr:hover {
+  background-color: #eef2ff;
+  transition: 0.2s ease;
+}
+
+/* Последняя строка без границы */
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Скругление углов */
+table thead tr th:first-child {
+  border-top-left-radius: 12px;
+}
+
+table thead tr th:last-child {
+  border-top-right-radius: 12px;
+}
+
+/* Lesson-table */
+/* таблица */
+.lesson-table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+
+}
+
+.lesson-table th,
+.lesson-table td{
+border:2px solid #d0cdcd;
+padding:10px;
+text-align:left;
+font-size: 18px;
+background-color: rgb(231, 239, 238);
+}
+
+/* end lesson-table */

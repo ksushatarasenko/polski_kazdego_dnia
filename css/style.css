@@ -1,0 +1,490 @@
+body{
+font-family: Arial;
+background:#eef3fb;
+margin:0;
+}
+
+header{
+background:#ffb347;
+padding:20px;
+text-align:center;
+font-size:26px;
+font-weight:bold;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+.box{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:12px;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+position: relative;
+}
+/* word */
+.word{
+background:#fff3a5;
+padding:2px 6px;
+border-radius:8px;
+margin:8px 0;
+cursor:pointer;
+font-size: 18px;
+}
+.word-close{
+position:absolute;
+top:8px;
+right:10px;
+cursor:pointer;
+font-size:22px;
+font-weight:bold;
+color: red;
+}
+.word:hover{
+background:#ffd84d;
+}
+/* end word */
+
+button{
+background:#ffd84d;
+border:none;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+margin-top:10px;
+font-size:16px;
+}
+
+button:hover{
+background:#ffc107;
+}
+
+
+
+.result{
+font-weight:bold;
+margin-top:10px;
+}
+
+.back{
+margin-top:30px;
+display:inline-block;
+text-decoration:none;
+background:#7ed957;
+padding:10px 15px;
+border-radius:8px;
+color:black;
+}
+
+.rule{
+background:#dff3ff;
+padding:20px;
+border-left:6px solid #3aa6d0;
+border-radius:10px;
+margin:20px 30px;
+position: relative;
+font-size: 19px;
+font-weight: 600;
+}
+.rule-title{
+    font-size: 24px;
+    color: #e76515;
+}
+.absolute{
+    position: absolute;
+
+}
+.absolute img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.vocab{
+background:#fff3a5;
+padding:20px;
+border-radius:10px;
+margin:20px 0;
+}
+
+.words{
+background:#f5f5f5;
+padding:20px;
+border-radius:10px;
+margin:20px 0;
+}
+
+
+.phrases{
+background:#fff7cc;
+padding:20px;
+border-radius:10px;
+margin:20px 0;
+border:2px solid #ffd84d;
+}
+
+.phrase{
+margin:6px 0;
+font-size:17px;
+}
+
+ul>li,
+ol>li{
+    font-size: 19px;
+    line-height: 1.3;
+}
+.end{
+    text-align: right;
+    font-size: 12 px;
+    font-style: italic;
+}
+.autor{
+    margin-bottom: -35px;
+    color: rgb(130, 2, 70);
+    font-style: italic;
+}
+
+
+.str{
+    text-align: right;
+}
+.text{
+    font-family: 19px;
+    line-height: 1.4;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.zadanie{
+    color: rgb(193, 3, 104);;
+    font-size: 22px;
+    margin: 20px 5px;
+    line-height: 1.3;
+}
+
+.blockSzary{
+    background-color: rgb(216, 215, 215);
+    padding: 8px;
+    border-radius: 15px;
+    
+}
+.blockSzary>p{
+    font-size: 17px;
+    line-height: 0.6;
+}
+
+/*  */
+
+
+.lesson {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            display: block;
+            color: #333;
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .lesson:hover {
+            background: #dff3ff;
+        }
+
+
+.vocab-list{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+justify-content: space-around;
+}
+
+/* emotion */
+.emotion p{
+font-size:20px;
+margin:10px 0;
+}
+
+.emotion em{
+color:#444;
+font-style:italic;
+margin-left:5px;
+}
+.emotions-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+}
+
+.emotion{
+background:#efe3a3;
+padding:15px;
+border-radius:12px;
+margin:3px 0;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+font-size: 20px;
+text-align: center;
+line-height: 1.5;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.emotion h3{
+color:#1e40ff;
+margin-bottom:5px;
+}
+
+.emotion h3 span{
+color:#333;
+font-weight:normal;
+}
+
+.emotion em{
+color:#444;
+}
+.emotion b{
+font-size:18px;
+color:#1e40ff;
+}
+/* end emotion */
+
+/* img */
+.lesson-image{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.two{
+    display: flex;
+    padding: 1% 2%;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1px;
+    justify-content: space-around;
+    margin-left: -15px;
+}
+.two>div{
+    width: 100%;
+}
+
+.two>img{
+width: 50%;
+}
+.image{
+    width: 100%;
+    margin: 0 auto;
+}
+.image>img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.video{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.video> iframe{
+    width: 100%;
+    margin: 0 auto;
+}
+.pdf{
+    width: 90%;
+    margin: 0 auto;
+}
+.pdf> iframe{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* ul */
+
+ul{
+    font-size: 18px;
+}
+
+/* интерактивная карта слов */
+.word-map{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+margin-top:15px;
+}
+
+.word-map span{
+background:#fff3a5;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+font-size:18px;
+}
+
+.word-map span:hover{
+background:#ffd84d;
+}
+
+/* окно для показа перевода */
+#word-info{
+position:fixed;
+top:20px;
+right:20px;
+width:260px;
+background:white;
+border:3px solid #ffd84d;
+border-radius:10px;
+padding:20px;
+box-shadow:0 6px 15px rgba(0,0,0,0.2);
+font-size:18px;
+z-index:9999;
+display:none;
+}
+
+/* МодалОкно */
+.vocab-word{
+background:#fff3a5;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+font-size:18px;
+}
+
+.vocab-word:hover{
+background:#ffd84d;
+}
+
+#vocab-modal{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.4);
+display:none;
+justify-content:center;
+align-items:center;
+z-index:9999;
+}
+
+.modal-box{
+background:white;
+padding:25px;
+border-radius:12px;
+max-width:400px;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+position:relative;
+}
+
+.modal-close{
+position:absolute;
+top:10px;
+right:15px;
+font-size:22px;
+cursor:pointer;
+}
+.vocab-data{
+display:none;
+}
+
+.slowo{
+    width: 300px;
+}
+.simwol{
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* mapa */
+.map-container{
+position:relative;
+max-width:700px;
+margin:auto;
+}
+
+.map-image{
+width:100%;
+display:block;
+}
+.city-data{
+    width:100%;
+    display:none;
+}
+
+.map-point{
+position:absolute;
+width:12px;
+height:12px;
+background:red;
+border-radius:50%;
+border:2px solid white;
+cursor:pointer;
+box-shadow:0 0 4px black;
+}
+
+.map-point:hover{
+transform:scale(1.3);
+}
+
+/*  */
+.line_1{
+    width: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icons{
+    width: 30px;
+}
+.icon{
+    width: 80px;
+    margin-bottom: -20px;
+}
+/* video */
+.video {
+    width: 100%;
+    height: 36em;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 2% auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*  */
+.page-image-wrapper{
+    max-width: 600px;
+}
+.page-image-wrapper img{
+    width: 100%;
+}
+.wiersz{
+    width: 300px;
+    margin: 0 auto;
+}
+.left{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 400px;
+}
+.right{
+    margin-left: 150px;
+    margin-top: 15px;
+    width: 300px;
+
+}
