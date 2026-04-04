@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lekcja 01С. CO MÓWIĄ GWIAZDY?</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleZumImage.css">
+    <link rel="stylesheet" href="../css/styleRu.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/styleText.css">
+    <link rel="stylesheet" href="../css/crammar_card.css">
+    <style>
+        .years {
+            background: linear-gradient(135deg, #1f6f94, #2c9ccf);
+            color: white;
+            padding: 40px;
+            font-family: Arial, sans-serif;
+        }
+
+        .year-item {
+            margin-bottom: 30px;
+        }
+
+        .line {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .year {
+            font-weight: bold;
+        }
+
+        .text {
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            padding-bottom: 3px;
+        }
+
+        .highlight {
+            color: #ffd84d;
+            font-weight: bold;
+        }
+
+        .questions {
+            display: flex;
+            gap: 130px;
+            font-style: italic;
+            opacity: 0.9;
+            margin-left: 130px;
+            font-size: 16px;
+        }
+
+        .questions.center {
+            justify-content: center;
+            margin-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="vocab-modal" class="modal">
+        <div class="modal-box">
+
+            <span class="modal-close">✖</span>
+
+            <div id="modal-content"></div>
+
+        </div>
+    </div>
+
+    <header>
+        Lekcja 01С. <br>CO MÓWIĄ GWIAZDY?
+    </header>
+
+    <div class="container">
+        <!-- Zadanie 1 -->
+        <div class="box">
+            <div class="flex">
+                <div class="title">Zadanie 1</div>
+                <p class="zadanie">Przeczytaj dialog i odpowiedz wspólnie z koleżankami/kolegami z grupy na zadane
+                    pytania</p>
+            </div>
+            <div class="rule">
+                Jak myślisz, dlaczego ludzie tak często wierzą w horoskopy, wróżby i przesądy? Z czego to wynika?
+            </div>
+
+            <div class="two">
+                <div>
+                    <p><b class="blue">Olena:</b> Cześć Mario! Ostatnio przeczytałam swój horoskop na ten miesiąc i
+                        uwierz mi, jestem bardzo podekscytowana!</p>
+                    <p><b class="blue">Maria:</b> Opowiadaj!</p>
+                    <p><b class="blue">Olena:</b> Otóż, według horoskopu, dzisiaj mam poznać swoją wielką miłość!</p>
+                    <p><b class="blue">Maria:</b> Naprawdę? To brzmi jak bajka! Ale wiesz, że horoskopy to tylko zabawa…
+                        Nie można ich traktować zbyt poważnie.</p>
+                    <p><b class="blue">Olena:</b> Och, wiem. Ale chociaż raz chciałabym, aby wszystko się spełniło! Mój
+                        horoskop mówi, że mężczyzna, którego poznam będzie przebojowy, odważny, ambitny i pełen
+                        entuzjazmu.</p>
+                    <p><b class="blue">Maria:</b> To cechy charakteru zodiakalnego Barana!</p>
+                    <p><b class="blue">Olena:</b> No właśnie… To też mój znak zodiaku, przecież urodziłam się 25 marca!
+                        Ale co z powiedzeniem, że tylko przeciwieństwa się przyciągają?</p>
+                </div>
+                <div>
+                    <p><b class="blue">Maria:</b> To tylko hipoteza! Co byś zrobiła, jeśli Twój horoskop na jutro powie,
+                        że powinnaś zjeść 10 czekolad w ciągu dnia?</p>
+                    <p><b class="blue">Olena:</b> Nie ma mowy! Choć czekolada jest moją słabością, to nie na taką skalę.
+                        Nie pozwolę, żeby gwiazdy mnie do tego zmuszały…</p>
+                    <p><b class="blue">Maria:</b> No właśnie, dlatego horoskopy nie powinny wpływać na nasze decyzje.
+                    </p>
+                    <p><b class="blue">Olena:</b> Masz absolutną rację, ale czasem dobrze pośmiać się z gwiazd i
+                        podzielić się tym z przyjaciółką.</p>
+                    <p><b class="blue">Maria:</b> Oczywiście, o to właśnie chodzi w przyjaźni! A teraz chodźmy do naszej
+                        ulubionej kawiarni na jedną porcję ciasta z czekoladą!</p>
+                    <p><b class="blue">Olena:</b> Tylko pilnuj, żebym nie zjadła ich dziesięć…</p>
+                </div>
+            </div>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot1')">Odpowiedź</button>
+
+            <div id="ot1" class="answer">
+
+            </div>
+        </div>
+
+        <!-- Zadanie 2, -->
+
+        <div class="box">
+            <div class="title">Zadanie 2</div>
+            <p class="zadanie">Posłuchaj nagrania na temat polskich znaków zodiaku. Dopasuj nazwę znaku zodiaku i daty
+                urodzenia do odpowiedniego symbolu.</p>
+            <div class="audio">
+                <audio src="../audio/podrecznik/1.2.mp3" controls></audio>
+            </div>
+            <table class="lesson-table">
+                <tr>
+                    <td>Waga </td>
+                    <td>Byk </td>
+                    <td>Panna </td>
+                    <td>Bliźnięta </td>
+                    <td>Rak</td>
+                    <td>Lew</td>
+                </tr>
+                <tr>
+                    <td>Koziorożec </td>
+                    <td>Baran</td>
+                    <td>Wodnik</td>
+                    <td>Strzelec</td>
+                    <td>Ryby</td>
+                    <td>Skorpion</td>
+                </tr>
+            </table>
+            <table class="lesson-table">
+                <tr>
+                    <td>19.02-20.03 </td>
+                    <td>21.01-18.02 </td>
+                    <td>22.12-20.01 </td>
+                    <td>23.11-21.12 </td>
+                    <td>23.10-22.11 </td>
+                    <td>23.09-22.10</td>
+                </tr>
+                <tr>
+                    <td>23.08-22.09 </td>
+                    <td>23.07-22.08 </td>
+                    <td>21.06-22.07 </td>
+                    <td>23.05-20.06 </td>
+                    <td>20.04- 22.05 </td>
+                    <td>21.03-19.04</td>
+                </tr>
+            </table>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot2')">Odpowiedź</button>
+
+            <div id="ot2" class="answer">
+
+            </div>
+        </div>
+        <!-- Zadanie 3 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 3</div>
+            <div class="zadanie">Które cechy charakteru są pozytywne, a które negatywne? Wpisz wyrazy z ramki do
+                odpowiedniej kolumny tabeli i wykorzystaj inne przymiotniki, które poznałeś podczas wysłuchania nagrania
+                z zadania drugiego..
+            </div>
+            <table class="lesson-table">
+                <tr>
+                    <td class="cell" data-text="<b>скромность</b><br>
+                            skromność – to cecha osoby, która nie chwali się sobą i nie lubi się wyróżniać.">skromność
+                    </td>
+
+                    <td class="cell" data-text="<b>искренность</b><br>
+                            szczerość – to mówienie prawdy i bycie otwartym wobec innych.">szczerość </td>
+
+                    <td class="cell"
+                        data-text="<b>эгоизм</b><br> egoizm – to myślenie tylko o sobie i swoich potrzebach.">egoizm
+                    </td>
+
+                    <td class="cell"
+                        data-text="<b>жадность</b><br>chciwość – to silna chęć posiadania więcej niż się potrzebuje.">
+                        chciwość</td>
+
+                    <td class="cell" data-text="<b>вовлечённость</b><br>
+                            zaangażowanie – to aktywne uczestnictwo i poświęcanie się sprawie.">zaangażowanie</td>
+
+                    <td class="cell" data-text="<b>любознательность</b><br>
+                            ciekawość – to chęć poznawania nowych rzeczy i zdobywania wiedzy.">ciekawość</td>
+
+                    <td class="cell" data-text="<b>жестокость</b><br>
+                            bezwzględność – to brak współczucia i działanie bez litości.">bezwzględność</td>
+
+                    <td class="cell" data-text="<b>добродушие</b><br>
+                            dobroduszność – to bycie miłym, życzliwym i łagodnym wobec innych.">dobroduszność</td>
+                </tr>
+
+                <tr>
+                    <td class="cell" data-text="<b>пессимизм</b><br>
+                            pesymizm – to skłonność do widzenia wszystkiego w negatywnym świetle.">pesymizm</td>
+
+                    <td class="cell" data-text="<b>лояльность</b><br>
+                            lojalność – to bycie wiernym i oddanym innym osobom.">lojalność</td>
+
+                    <td class="cell" data-text="<b>чувствительность</b><br>
+                            uczuciowość – to silne przeżywanie emocji.">uczuciowość</td>
+
+                    <td class="cell" data-text="<b>тщеславие</b><br>
+                            próżność – to nadmierne dbanie o swój wygląd i opinię innych.">próżność</td>
+
+                    <td class="cell" data-text="<b>общительность</b><br>
+                            kontaktowość – to łatwość nawiązywania relacji z ludźmi.">kontaktowość</td>
+
+                    <td class="cell" data-text="<b>чувствительность</b><br>
+                            wrażliwość – to zdolność odczuwania emocji i reagowania na innych.">wrażliwość</td>
+
+                    <td class="cell" data-text="<b>пунктуальность</b><br>
+                            punktualność – to przychodzenie na czas i dotrzymywanie terminów.">punktualność</td>
+
+                    <td class="cell" data-text="<b>вежливость</b><br>
+                            uprzejmość – to okazywanie szacunku i dobrego wychowania.">uprzejmość</td>
+                </tr>
+
+                <tr>
+                    <td class="cell" data-text="<b>скупость</b><br>
+                            skąpstwo – to niechęć do wydawania pieniędzy nawet wtedy, gdy trzeba.">skąpstwo</td>
+
+                    <td class="cell" data-text="<b>хаотичность</b><br>
+                            chaotyczność – to brak porządku i planu w działaniu.">chaotyczność</td>
+
+                    <td class="cell" data-text="<b>ворчливость</b><br>
+                            marudność – to częste narzekanie i niezadowolenie.">marudność</td>
+
+                    <td class="cell" data-text="<b>точность</b><br>
+                            precyzyjność – to dokładność i staranność w działaniu.">precyzyjność</td>
+
+                    <td class="cell" data-text="<b>амбиция</b><br>
+                            ambicja – to dążenie do osiągania celów i sukcesów.">ambicja</td>
+
+                    <td class="cell" data-text="<b>нетерпеливость</b><br>
+                            niecierpliwość – to brak zdolności do czekania.">niecierpliwość</td>
+
+                    <td class="cell" data-text="<b>преданность</b><br>
+                            oddanie – to pełne zaangażowanie i lojalność wobec kogoś.">oddanie </td>
+
+                    <td class="cell" data-text="<b>забывчивость</b><br>
+                            zapominalstwo – to trudność w zapamiętywaniu rzeczy.">zapominalstwo</td>
+                </tr>
+
+                <tr>
+                    <td class="cell" data-text="<b>наивность</b><br>
+                            naiwność – to zbyt łatwe wierzenie innym.">naiwność</td>
+
+                    <td class="cell" data-text="<b>легкомысленность</b><br>
+                            lekkomyślność – to działanie bez zastanowienia.">lekkomyślność</td>
+
+                    <td class="cell" data-text=" <b>креативность</b><br>
+                            kreatywność – to zdolność tworzenia nowych pomysłów.">kreatywność</td>
+
+                    <td class="cell" data-text="<b>осторожность</b><br>
+                            ostrożność – to unikanie ryzyka i uważne działanie.">ostrożność</td>
+
+                    <td class="cell" data-text="<b>независимость</b><br>
+                            niezależność – to samodzielność i brak zależności od innych.">niezależność</td>
+
+                    <td class="cell" data-text="<b>нервозность</b><br>
+                            nerwowość – to łatwe denerwowanie się.">nerwowość</td>
+
+                    <td class="cell" data-text="<b>обязательность</b><br>
+                            słowność – to dotrzymywanie obietnic.">słowność</td>
+
+                    <td class="cell" data-text="<b>жадность</b><br>
+                            chciwość – to chęć posiadania więcej niż potrzeba.">chciwość</td>
+                </tr>
+            </table>
+            <br>
+            <table class="lesson-table">
+                <tr>
+                    <th>POZYTYWNE CECHY CHARAKTERU </th>
+                    <th>NEGATYWNE CECHY CHARAKTERU</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot3')">Odpowiedź</button>
+
+            <div id="ot3" class="answer">
+                <ul>
+                    <li><b>Włosy:</b> krótkie, proste, kręcone, ciemne, jasne, siwe; </li>
+                    <li><b>oczy:</b> niebieskie, piwne, czarne, małe, duże, skośne; ; </li>
+                    <li><b>wzrost:</b> niski, wysoki, średniego wzrostu</li>
+                    <li><b>twarz:</b> owalna, okrągła, pociągła, smukła, podłużna; </li>
+                    <li><b>budowa ciała</b>: zgrabna, szczupła, wysportowana, otyła, smukła;</li>
+                    <li><b>inne:</b> piegi, okulary, broda, grzywka.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Zadanie 4 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 4</div>
+            <div class="zadanie">Uzupełnij tabele odmianą nazw miesięcy i liczebników porządkowych w datach.</div>
+            <table class="lesson-table">
+                <tr>
+                    <th rowspan="2" style="width: 20%;font-size: 14px;">
+                        OZNACZENIE MIESIĄCA <br>
+                        (CYFRY I LICZBY ARABSKIE/ RZYMSKIE)
+                    </th>
+                    <th colspan="3" style="text-align: center;">
+                        NAZWY MIESIĘCY
+                    </th>
+                </tr>
+                <tr>
+                    <th style="font-size: 16px;">MIANOWNIK</th>
+                    <th style="font-size: 16px;">DOPEŁNIACZ</th>
+                    <th style="font-size: 16px;">MIEJSCOWNIK</th>
+                </tr>
+                <tr>
+                    <td>1 / I</td>
+                    <td><em>styczeń</em></td>
+                    <td><em>stycznia</em></td>
+                    <td><em>w styczniu</em></td>
+                </tr>
+                <tr>
+                    <td>2 / II</td>
+                    <td><em>luty</em></td>
+                    <td><em>lut<span class="blue">ego</span></em></td>
+                    <td><em>lu<span class="blue">tym</span></em></td>
+                </tr>
+                <tr>
+                    <td>3 / III</td>
+                    <td><em></em></td>
+                    <td><em>marca</em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>4 / IV</td>
+                    <td><em>kwiecień</em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>5 / V</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em>w maju</em></td>
+                </tr>
+                <tr>
+                    <td>6 / VI</td>
+                    <td><em></em></td>
+                    <td><em>czerwca</em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>7 / VII</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em>w lipcu</em></td>
+                </tr>
+                <tr>
+                    <td>8 / VIII</td>
+                    <td><em>sierpień</em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>9 / IX</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em><span class="blue">we</span> wrześniu</em></td>
+                </tr>
+                <tr>
+                    <td>10 / X</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em>w październiku</em></td>
+                </tr>
+                <tr>
+                    <td>11 / XI</td>
+                    <td><em>listopad</em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>12 / XII</td>
+                    <td><em>grudzień</em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+            </table><br>
+            <table class="lesson-table">
+                <tr>
+                    <th rowspan="2" style="width: 20%;font-size: 14px;">
+                        LICZEBNIK GŁÓWNY
+                    </th>
+                    <th colspan="3" style="text-align: center;">
+                        ODMIANA LICZEBNIKÓW PORZĄDKOWYCH W DATACH
+                    </th>
+                </tr>
+                <tr>
+                    <th style="font-size: 16px;">MIANOWNIK</th>
+                    <th style="font-size: 16px;">DOPEŁNIACZ</th>
+                    <th style="font-size: 16px;">MIEJSCOWNIK</th>
+                </tr>
+                <tr>
+                    <td>1 / jeden</td>
+                    <td><em>pierwszy</em></td>
+                    <td><em>pierwszego</em></td>
+                    <td><em>pierwszym</em></td>
+                </tr>
+                <tr>
+                    <td>2 / dwa</td>
+                    <td><em>drugi</em></td>
+                    <td><em>drugiego</td>
+                    <td><em>drugim</em></td>
+                </tr>
+                <tr>
+                    <td>3 / trzy</td>
+                    <td><em>trzeci</em></td>
+                    <td><em>trzeciego</em></td>
+                    <td><em>trzecim</em></td>
+                </tr>
+                <tr>
+                    <td>4 / cztery</td>
+                    <td><em>czwarty</em></td>
+                    <td><em>czwartego</em></td>
+                    <td><em>czwartym</em></td>
+                </tr>
+                <tr>
+                    <td>5 / pięć</td>
+                    <td><em>piąty </em></td>
+                    <td><em>piątego</em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>6 / sześć</td>
+                    <td><em>szósty </em></td>
+                    <td><em>szóstego</em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>7 / siedem</td>
+                    <td><em></em></td>
+                    <td><em>siódmego</em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>8 / osiem</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em>ósmym</em></td>
+                </tr>
+                <tr>
+                    <td>9 / dziewięć</td>
+                    <td><em></em></td>
+                    <td><em>dziewiątego</em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>10 / dziesięć</td>
+                    <td><em>dziesiąty</em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>11 / jedenaście</td>
+                    <td><em>jedenasty</em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>12 / dwunaście</td>
+                    <td><em>dwunasty</em></td>
+                    <td><em>dwunastego</em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>13 / trzynaście</td>
+                    <td><em>trzynasty</em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>14 / czternaście</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em>czternastym</em></td>
+                </tr>
+                <tr>
+                    <td>15 / piętnaście </td>
+                    <td><em>piętnasty</em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>16 / szesnaście </td>
+                    <td><em>szesnasty</em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>17 / siedemnaście</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>18 / osiemnaście</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>19 / dziewiętnaście</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>20 / dwadzieścia </td>
+                    <td><em>dwudziesty </em></td>
+                    <td><em>dwudziestego </em></td>
+                    <td><em>dwudziestym</em></td>
+                </tr>
+                <tr>
+                    <td>30 / trzydzieści </td>
+                    <td><em>trzydziesty </em></td>
+                    <td><em>trzydziestego</em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>40 / czterdzieści</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>50 / pięćdziesiąt </td>
+                    <td><em>pięćdziesiąty</em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>60 / sześćdziesiąt </td>
+                    <td><em></em></td>
+                    <td><em>sześćdziesiątego</em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>70 / siedemdziesiąt</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>80 / osiemdziesiąt</td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                </tr>
+                <tr>
+                    <td>90 / dziewięćdziesiąt </td>
+                    <td><em></em></td>
+                    <td><em></em></td>
+                    <td><em>dziewięćdziesiątym</em></td>
+                </tr>
+            </table>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a4')">Odpowiedź</button>
+
+            <div id="a4" class="answer">
+                <p>1D; </p>
+                <p>2C; </p>
+                <p>3E; </p>
+                <p>4B; </p>
+                <p>5F; </p>
+                <p>6A.</p>
+            </div>
+        </div>
+        <!-- Zadanie 5 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 5</div>
+            <div class="zadanie">Zapoznaj się z informacją i uzupełnij zdania odpowiednią formą gramatyczną wpisując
+                datę, nazwę miesiąca lub znaku zodiaku.</div>
+            <div class="rule">
+                <div class="title">ZAPAMĘTAJ!</div>
+                <p class="green"><em>Kiedy się urodziłeś?</em></p>
+                <p>Dwudziestego siódmego czerwca tysiąc dziewięćset osiemdziesiątego pierwszego roku.</p><br>
+                <p>ale:</p><br>
+                <p class="green"><em>Kiedy się urodziłeś?</em></p>
+                <p>W czerwc<span class="yellow">u</span> (Msc.) tysiąc dziewięćset osiemdziesiąt<span
+                        class="yellow">ego</span> pierwsz<span class="yellow">ego</span> roku.</p><br>
+                <p class="green"><em>Który jest dzisiaj dzień?</em></p>
+                <p>Dzisiaj jest pięt<span class="yellow">nasty</span> czerwca.</p><br>
+                <p class="green"><em>W którym roku zamieszkałeś w Polsce?</em></p>
+                <p>W dwa tysiące dwudziest<span class="yellow">ym</span> pierwsz<span class="yellow">ym</span> (Msc.)
+                    roku.</p>
+                <br>
+                <div class="title" style="font-size: 20px;">W datach odmieniamy tylko dwie ostatnie cyfry:</div>
+                <div class="years">
+
+                    <div class="year-item">
+                        <div class="line">
+                            <span class="year">1973</span> –
+                            <span class="text">tysiąc dziewięćset <span class="highlight">siedemdziesiąty
+                                    trzeci</span>.</span>
+                        </div>
+                        <div class="questions">
+                            <span>ile?</span>
+                            <span>który?</span>
+                        </div>
+                    </div>
+
+                    <div class="year-item">
+                        <div class="line">
+                            <span class="year">2019</span> –
+                            <span class="text">dwa tysiące <span class="highlight">dziewiętnasty</span>.</span>
+                        </div>
+                        <div class="questions">
+                            <span>ile?</span>
+                            <span>który?</span>
+                        </div>
+                    </div>
+
+                    <div class="year-item">
+                        <div class="line">
+                            <span class="year highlight">2000</span> –
+                            <span class="text">(rok) <span class="highlight">dwutysięczny</span>.</span>
+                        </div>
+                        <div class="questions center">
+                            <span style="margin-left: -400px;">który?</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two">
+                <ol>
+                    <li>Maria urodziła się (06.07) ..................... i jest spod znaku ..................... .</li>
+                    <li>W (2015) ..................... roku zdałam egzamin z języka polskiego</li>
+                    <li>Osoby urodzone w (styczeń) ..................... są spod znaku Wodnika i ..................... .</li>
+                    <li> Od marca (1996) ..................... roku mieszkam w Polsce.</li>
+                </ol>
+                <ol start="5">
+                    <li> W (2008) ..................... roku wyjechaliśmy za granicę.</li>
+                    <li>Jutro, czyli (25.12) ..................... są moje urodziny, więc jestem zodiakalnym ..................... .</li>
+                    <li>Wyjeżdżam na urlop (18.10) ..................... .</li>
+                    <li> ..................... to znak zodiaku, który mają osoby urodzone między 23 lipca a (22.08) ..................... .</li>
+                </ol>
+            </div>
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a5')">Odpowiedź</button>
+
+            <div id="a5" class="answer">
+                <p>Szatynka; prostymi; jasne; brunetka; cerą; kręconych; ciemnoskóry; zarostem; ciemnymi; szatynowe;
+                    brodę.</p>
+            </div>
+        </div>
+        <!-- Zadanie 6 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 6</div>
+            <div class="zadanie">
+                Odpowiedz ustnie na poniższe pytania.
+            </div>
+
+            <ol>
+                <li>Jaki jest mój znak zodiaku?</li>
+                <li>Czy moje cechy charakteru pokrywają się z cechami mojego znaku zodiaku?</li>
+            </ol>
+
+            <!-- otwet -->
+            <!-- <button onclick="toggleAnswer('a6')">Odpowiedź</button>
+
+            <div id="a6" class="answer">
+                
+            </div> -->
+        </div>
+
+
+
+
+
+
+        <!-- end -->
+        <div class="knopki">
+            <a href="../index.html" class="back">
+                ⬅ Powrót do wszystkich lekcji
+            </a><a href="./lesson003.html" class="back">
+                Następna lekcji ⮕
+            </a>
+        </div>
+
+        <!--  -->
+
+        <div id="tooltip"></div>
+    </div>
+    <script src="../js/imageZum.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptRu.js"></script>
+    <script src="../js/cards.js"></script>
+
+
+
+</body>
+
+</html>

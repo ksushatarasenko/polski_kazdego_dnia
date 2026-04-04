@@ -1,0 +1,120 @@
+.grammar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.g-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(135deg, #1f6f91, #2c9ccf);
+    color: white;
+
+    padding: 25px;
+    border-radius: 6px;
+}
+/* левая часть */
+.g-left {
+    max-width: 60%;
+
+}
+
+.g-left h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(237, 234, 218);
+}
+
+.g-left p {
+    margin: 6px 0;
+    line-height: 1.4;
+}
+/* 👉 правая часть (блок с линиями) */
+.g-right {
+    width: 35%;
+    background: #eee;
+    padding: 15px;
+}
+/* 👉 линии */
+.lines {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.lines::before,
+.lines::after {
+    content: "";
+}
+
+/* создаём строки */
+.lines {
+    position: relative;
+}
+
+.lines::before {
+    content: "........................\A........................\A........................\A........................";
+    white-space: pre;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* ячейка с ответом в таблице */
+.cell {
+    position: relative;
+    cursor: pointer;
+    /* z-index: 0; */
+}
+
+/* скрыто */
+.backOtwet {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    background: #2c9ccf;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 220px;
+
+    z-index: 10000;
+}
+
+/* показ */
+.cell.active .backOtwet {
+    display: block;
+    z-index: 9999;
+}
+
+#tooltip {
+    position: fixed;
+    display: none;
+
+    background: #2c9ccf;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    max-width: 250px;
+
+    z-index: 999999;
+    pointer-events: none;
+}
+
+/* крестик */
+.tooltip-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff4d4d;
+}
+
+.tooltip-close:hover {
+    color: #ff0000;
+}
