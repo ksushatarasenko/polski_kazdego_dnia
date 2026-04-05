@@ -1,10 +1,11 @@
 <!-- knopka z ikonkoj -->
-<button class="ru-btn modal-trigger" data-modal="ru_1"><img src="./icons/nauczyciel.png" alt="" class="icons"></button>
+<button class="ru-btn modal-trigger" data-modal="aud_1"><img src="../icons/nauczyciel.png" alt=""
+                            class="icons"></button>
 
-<div class="modal" data-modal="ru_1">
+<div class="modal" data-modal="aud_1">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4></h4>
+            <h4></h4>
 
     </div>
 </div>
@@ -16,3 +17,17 @@
 <div id="ot3" class="answer">
     Narrator mówi w prostokątnych polach tekstowych.
 </div>
+
+------- окошки с хвостиком ------
+<diw class="two" style="width: 80%;margin: 0 auto;">
+                <div class="bubble">
+                    Przy jakich okazjach spotykasz się z pojęciem danych osobowych?
+                </div>
+                <div class="bubble">
+                    W jakich sytuacjach można podać swoje dane osobowe? 
+                </div>
+                <div class="bubble">
+                    Jak chronisz swoje dane osobowe?
+                </div>
+            </diw>
+
