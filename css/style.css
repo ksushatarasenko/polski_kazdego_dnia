@@ -193,7 +193,7 @@ color:#1e40ff;
     padding: 1% 2%;
     width: 100%;
     margin: 0 auto;
-    gap: 5px;
+    gap: 10px;
     justify-content: space-around;
     margin-left: -15px;
     width: 100%;
@@ -568,5 +568,11 @@ body.modal-open::after {
     font-size: 20px;
     margin: 10px;
     margin-bottom: 20px;
+}
+
+.audio{
+    display: flex;
+    margin-left: 20px;
+    height: 30px;
 }
 

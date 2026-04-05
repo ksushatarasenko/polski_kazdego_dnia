@@ -1,3 +1,6 @@
+ą
+ż 
+
 <!-- knopka z ikonkoj -->
 <button class="ru-btn modal-trigger" data-modal="aud_1"><img src="../icons/nauczyciel.png" alt=""
                             class="icons"></button>

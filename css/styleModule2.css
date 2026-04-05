@@ -1,0 +1,91 @@
+/* fon orang */
+.orang{
+    background-color: orange;
+    margin: 10px 0;
+}
+.orang>tr>th{
+    background-color: orange;
+}
+.orang>th{
+    background-color: orange !important;
+    text-align: center;
+}
+.orang p{
+    
+    color: white;
+    padding: 3%;
+}
+/*  */
+.boxRamkaOrang{
+  width: 90px !important;
+  height: 40px;
+  border: 1px solid orange;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.boxRamkaOrang p{
+    font-size: 24px;
+  letter-spacing: 5px;
+}
+
+/* 2A / 5 */
+.cardOrang{
+  padding: 30px;
+  background: linear-gradient(180deg, #e6a45a, #e2a055);
+  color: white;
+  font-family: sans-serif;
+  border-radius: 6px;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-around;
+}
+
+.cardOrang p{
+font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.cardOrangAnswer {
+  width: 100%;
+  height: 70px;
+  background-color: #ddd;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+
+
+/* blok s hwostikom */
+.bubbleOrang {
+    position: relative;
+    background: #f5f5f5;
+    border: 1px solid orange;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    font-size: 18px;
+    margin: 10px;
+    width: 28%;
+}
+.bubbleOrang::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50px;
+
+    width: 20px;
+    height: 20px;
+    background: #f5f5f5;
+
+    border-left: 1px solid orange;
+    border-bottom: 1px solid orange;
+
+    transform: rotate(-45deg);
+}
+/* end blok s hwostikom */

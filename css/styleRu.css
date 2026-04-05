@@ -3,6 +3,8 @@
     padding: 8px 16px;
     cursor: pointer;
     font-weight: bold;
+    width: 70px;
+    margin-right: 30px;
 }
 
 .answer{
