@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Zeszyt - Module 01</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleZumImage.css">
+    <link rel="stylesheet" href="../css/styleRu.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/styleText.css">
+    <link rel="stylesheet" href="../css/crammar_card.css">
+
+</head>
+
+<body>
+    <div id="vocab-modal" class="modal">
+        <div class="modal-box">
+
+            <span class="modal-close">✖</span>
+
+            <div id="modal-content"></div>
+
+        </div>
+    </div>
+
+    <header>
+        Zeszyt - Module 01
+    </header>
+
+    <div class="container">
+        <!-- Zadanie 1 -->
+        <div class="box">
+            <div>
+                <div class="title">Lekcja 1A</div>
+            </div>
+            <button onclick="toggleAnswer('ot1')">Zadanie 1.</button>
+
+            <div id="ot1" class="answer">
+                <p class="text">
+                    Jak się pan/pani nazywa?; Kiedy się urodziłeś/urodziłaś?; Skąd pan/pani pochodzi?; Jaki jest
+                    pana/pani
+                    adres zamieszkania?; Czy masz telefon?; Gdzie pan pracował/pani pracowała?; Gdzie jesteś
+                    zatrudniony/zatrudniona?; Na jakim stanowisku pan pracował/pani pracowała?; Jaką szkołę pan/pani
+                    ukończył/ukończyła?; Jaki jest pana/pani stan cywilny?; Jaki masz numer telefonu?; Jaki jest twój
+                    adres
+                    do doręczeń elektronicznych?; Jakie masz obywatelstwo?; Jakie wykształcenie pan/pani posiada?
+                </p>
+            </div>
+
+            <!-- 2 -->
+            <button onclick="toggleAnswer('ot2')">Zadanie 2.</button>
+
+            <div id="ot2" class="answer">
+                <p class="text">
+                Nazwisko rodowe; kradzież tożsamości; dowód osobisty; adres zamieszkania; numer identyfikacyjny; dane
+                osobowe; sprawy zawodowe; weryfikacja dwuetapowa; obowiązek informacyjny; data urodzenia; stan cywilny.
+            </p>
+            </div>
+            
+            <!-- 3 -->
+            <button onclick="toggleAnswer('ot3')">Zadanie 3.</button>
+
+            <div id="ot3" class="answer">
+                <p class="text">Imię, imienia, imieniu, imię, imieniem, imieniu, imię; imiona, imion, imionom, imiona, imionami,
+                imionach, imiona.; 1 – imion; 2 – imienia; 3 – imieniu; 4 – imiona; 5 – imieniem; 6 – imionami; 7 –
+                imiona.</p>
+            </div>
+            <!-- 4 -->
+            <button onclick="toggleAnswer('ot4')">Zadanie 4</button>
+            
+
+            <div id="ot4" class="answer">
+                <p class="text">Maria może skontaktować się w administratorem portalu kulinarnego, aby cofnąć zgodę na przetwarzanie danych osobowych.; Adam w pierwszej kolejności powinien skontaktować się z kolegą i poprosić o usunięcie zdjęcia wykorzystującego jego wizerunek ze swojego profilu. Może również zażądać od portalu usunięcia jego danych.</p>
+            </div>
+            <button class="ru-btn modal-trigger" data-modal="aud_1_4"><img src="../icons/audio.png" alt=""
+                    class="icons">zad.4</button>
+            
+
+            <div class="modal" data-modal="aud_1_4">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="audio">
+                        <audio src="../audio/cwiczenia/1.1.mp3" controls></audio>
+                    </div>
+                    <h4>Nagranie 1.1</h4>
+                    <p>1. Maria, wielka pasjonatka kuchni hiszpańskiej, postanowiła zapisać się do newslettera ulubionego portalu kulinarnego, aby otrzymywać regularne aktualizacje na temat nowych przepisów. Jednak przez nieuwagę zaznaczyła również opcję, że zgadza się na przetwarzanie swoich danych osobowych w celach marketingowych. Po kilku dniach Maria zauważyła, że jej skrzynka mailowa jest przepełniona reklamami, których nie chce otrzymywać.</p>
+                    <p>2. Adam przeglądając swoje konto na jednym z popularnych portali społecznościowych zauważył, że jego kolega zamieścił ich wspólne zdjęcie z wakacji. Chociaż wspomnienia z tamtego czasu były bardzo miłe, Adam nie czuł się komfortowo z powodu publicznego udostępnienia jego wizerunku bez zgody.</p>
+                </div>
+            </div>
+            <!-- 5 -->
+             <button onclick="toggleAnswer('ot5')">Zadanie 5</button>
+
+            <div id="ot5" class="answer">
+                <p class="text">Osoba; praca; wykształcenie; ród; zawód; nauka; rodzina; informacja.</p>
+            </div>
+        </div>
+
+        <!-- Zadanie 2, -->
+
+        <div class="box">
+            <div class="title">Zadanie 1B</div>
+           
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot2')">Odpowiedź</button>
+
+            <div id="ot2" class="answer">
+                <table class="lesson-table">
+                    <tr>
+                        <th>ZAZNACZ, KTO… </th>
+                        <th>SOFIA</th>
+                        <th>KARL</th>
+                        <th>NADIA</th>
+                        <th>SAMUEL</th>
+                    </tr>
+                    <tr>
+                        <td>lubi chodzić na kurs języka polskiego.</td>
+                        <td>X</td>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>lubi pracować w grupie.</td>
+                        <td>X</td>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>lubi pracować indywidualnie.</td>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>ma swoją ulubioną metodę nauki.</td>
+                        <td></td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>lubi nietypowe metody nauki.</td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>jest słuchowcem.</td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>jest wzrokowcem.</td>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>jest kinestetykiem.</td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- Zadanie 3 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 3</div>
+            <div class="zadanie">Posłuchaj nagrania dotyczącego stylów uczenia się i przyporządkuj podane zdania do
+                odpowiedniej kategorii.
+            </div>
+            <div class="flex">
+                <div class="audio">
+                    <audio src="../audio/podrecznik/1.3.mp3" controls></audio>
+                </div>
+                <button class="ru-btn modal-trigger" data-modal="aud_1"><img src="../icons/nauczyciel.png" alt=""
+                        class="icons"></button>
+
+                <div class="modal" data-modal="aud_1">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h4>Lekcja 1D</h4>
+                        <h5> Zadanie 3. </h5>
+                        <p><b>Nagranie 1.3</b></p>
+                        <ol type="A">
+                            <li>Wzrokowiec preferuje uczenie się poprzez wizualizację, co oznacza, że wykorzystuje
+                                obrazy, grafiki i inne materiały wizualne do przyswajania informacji. Taka osoba
+                                chętniej czyta niż słucha, ponieważ łatwiej przyswaja i zapamiętuje informacje
+                                widząc je na piśmie. Jest dobra z ortografii i zwraca szczególną uwagę na poprawną
+                                formę pisemną. Wzrokowiec czyta szybko, ponieważ z łatwością potrafi przetwarzać
+                                tekst wizualny i skupiać się na kolejnych linijkach lub zdaniach. Często korzysta z
+                                notatek, które są dla niego ważnym narzędziem nauki i tworzy mapy myśli pomagające w
+                                organizacji informacji i lepszym zrozumieniu związków między nimi. </li> <br>
+                            <li>Słuchowiec najlepiej przyswaja informacje poprzez ustne relacje. Lubi słuchać, a
+                                także sam angażować się w rozmowy. Kiedy pisze, często stara się odzwierciedlić to,
+                                co słyszy. Skupia się na odwzorowaniu dźwięków i intonacji, co pomaga mu w
+                                zapamiętywaniu i utrwalaniu informacji. Może mieć skłonność do pisania powoli,
+                                ponieważ stara się precyzyjnie oddać to, co słyszy. Słuchowiec często uczy się na
+                                głos. Powtarzanie i odtwarzanie słów, fraz i dialogów pomaga mu w utrwaleniu wymowy
+                                i zapamiętaniu słownictwa. Stara się naśladować dźwięki, akcenty i intonację
+                                uczonego języka. Powtarzanie za nagraniami lub native speakerami pozwala mu na
+                                doskonalenie wymowy. </li><br>
+                            <li>Kinestetyk uczy się poprzez ruch i dotyk, co oznacza, że angażuje swoje ciało i
+                                wykorzystuje zmysł dotyku podczas nauki, a także preferuje praktyczne zastosowanie
+                                języka w realnych sytuacjach. Kinestetyk nie może zbyt długo skupić się na
+                                słuchaniu, nie lubi czytać, a mówienie w wielu przypadkach sprawia mu trudność.
+                                Podczas nauki preferuje krótkie ćwiczenia i interakcję. Może to być krótka rozmowa,
+                                zadanie praktyczne lub ruchowe ćwiczenie, które jest niezbędne do utrzymania
+                                koncentracji i uwagi. Często pisze chaotycznie, wielokrotnie zapisuje to samo słowo
+                                lub frazę, aby je zapamiętać. </li>
+                        </ol>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+            <div class="two">
+                <ol>
+                    <li>Uczy się poprzez ruch i dotyk.</li>
+                    <li>Lubi słuchać i mówić.</li>
+                    <li>Ortografia nie sprawia mu problemu.</li>
+                    <li>Uczy się poprzez wizualizację.</li>
+                    <li>Najlepiej przyswaja ustne komunikaty.</li>
+                    <li>Chętniej czyta niż słucha.</li>
+                </ol>
+                <ol start="7">
+                    <li>Pisze jak słyszy.</li>
+                    <li>Nie lubi czytać.</li>
+                    <li>Uczy się na głos.</li>
+                    <li>Pisze powoli.</li>
+                    <li>Szybko czyta.</li>
+                    <li>Mówienie sprawia mu trudność.</li>
+                </ol>
+                <ol start="13">
+                    <li>Naśladuje dźwięki.</li>
+                    <li>Uczy się z notatek.</li>
+                    <li>Pisze chaotycznie.</li>
+                    <li>Preferuje praktyczne zastosowanie języka.</li>
+                </ol>
+            </div>
+            <div>
+                <h5>WZROKOWIEC:</h5>
+                <p>............................................................................................................................................................
+                </p>
+                <p>............................................................................................................................................................
+                </p>
+                <p>............................................................................................................................................................
+                </p>
+                <p>............................................................................................................................................................
+                </p>
+                <div>
+                    <h5>SŁUCHOWIEC:</h5>
+                    <p>............................................................................................................................................................
+                    </p>
+                    <p>............................................................................................................................................................
+                    </p>
+                    <p>............................................................................................................................................................
+                    </p>
+                    <p>............................................................................................................................................................
+                    </p>
+                </div>
+                <div>
+                    <h5>KINESTETYK:</h5>
+                    <p>............................................................................................................................................................
+                    </p>
+                    <p>............................................................................................................................................................
+                    </p>
+                    <p>............................................................................................................................................................
+                    </p>
+                    <p>............................................................................................................................................................
+                    </p>
+                </div>
+            </div>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot3')">Odpowiedź</button>
+
+            <div id="ot3" class="answer">
+                <p><b>Wzrokowiec:</b> uczy się poprzez wizualizację, chętniej czyta niż słucha, szybko czyta, ortografia
+                    nie sprawia mu problemu, uczy się z notatek; </p>
+                <p><b>Słuchowiec:</b> najlepiej przyswaja ustne komunikaty, lubi słuchać i mówić, naśladuje dźwięki,
+                    pisze powoli, pisze jak słyszy, uczy się na głos; </p>
+                <p><b>Kinestetyk:</b> uczy się poprzez ruch i dotyk, preferuje praktyczne zastosowanie języka, nie lubi
+                    czytać, mówienie sprawia mu trudność, pisze chaotycznie. </p>
+            </div>
+        </div>
+        <!-- Zadanie 4 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 4</div>
+            <div class="zadanie">Uzupełnij ulotkę reklamową wyrazami z ramki w odpowiedniej formie.</div>
+            <table class="lesson-table">
+                <tr>
+                    <td>indywidualne </td>
+                    <td>grupowe</td>
+                    <td>biegle</td>
+                    <td>nietypowe</td>
+                    <td>doświadczeni</td>
+                </tr>
+                <tr>
+                    <td>bezstresowa</td>
+                    <td>konsultacje</td>
+                    <td>kursanci</td>
+                    <td>skuteczne</td>
+                    <td>intensywne</td>
+                </tr>
+            </table><br>
+            <div class="image">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module01/1D_4_lotka.png"
+                    alt="">
+            </div>
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a4')">Odpowiedź</button>
+
+            <div id="a4" class="answer">
+                <p>Biegle; kursantów; grupowe; indywidualne; doświadczonych; nietypowe; skuteczne; bezstresową;
+                    konsultacje; intensywne.</p>
+            </div>
+        </div>
+        <!-- Zadanie 5 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 5</div>
+            <div class="zadanie">Ułóż pytania do zdań wykorzystując zaimki pytajne: <em class="blue">jak?, jaki?,
+                    jaka?, jakie?</em></div>
+            <div>
+                <ol>
+                    <li>
+                        Mówię bardzo dobrze po polsku.
+                        <p>..................................................................................................................................................
+                        </p>
+                        <p>..................................................................................................................................................
+                        </p>
+                    </li>
+                    <li>
+                        Moim ulubionym sposobem nauki języka obcego jest przepisywanie notatek z lekcji.
+                        <p>..................................................................................................................................................
+                        </p>
+                        <p>..................................................................................................................................................
+                        </p>
+                    </li>
+                    <li>
+                        Znam język angielski tylko trochę.
+                        <p>..................................................................................................................................................
+                        </p>
+                        <p>..................................................................................................................................................
+                        </p>
+                    </li>
+                    <li>
+                        W trakcie nauki języka polskiego wykorzystuję różne nietypowe metody.
+                        <p>..................................................................................................................................................
+                        </p>
+                        <p>..................................................................................................................................................
+                        </p>
+                    </li>
+                    <li>
+                        Mój sposób na naukę języka polskiego jest bardzo prosty.
+                        <p>..................................................................................................................................................
+                        </p>
+                        <p>..................................................................................................................................................
+                        </p>
+                    </li>
+                    <li>
+                        Rozwijanie umiejętności słuchowych zawsze było moją ulubioną formą ćwiczenia języków obcych.
+                        <p>..................................................................................................................................................
+                        </p>
+                        <p>..................................................................................................................................................
+                        </p>
+                    </li>
+                </ol>
+            </div>
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a5')">Odpowiedź</button>
+
+            <div id="a5" class="answer">
+                <p>1 – Jak mówisz po polsku?;</p>
+                <p>2 – Jaki jest twój ulubiony sposób nauki języka polskiego?;</p>
+                <p>3 – Jak znasz język angielski?;</p>
+                <p>4 – Jakie metody wykorzystujesz w trakcie nauki języka polskiego?;</p>
+                <p>5 – Jaki jest twój sposób na naukę języka polskiego?;</p>
+                <p>6 – Jaka jest twoja ulubiona forma ćwiczenia języków obcych?</p>
+
+            </div>
+        </div>
+        <!-- Zadanie 6 -->
+
+        <div class="box">
+
+            <div class="title">Zadanie 6</div>
+            <div class="zadanie">
+                Zapytaj koleżankę/kolegę z grupy.
+            </div>
+            <div>
+                <diw class="two" style="width: 90%;margin: 0 auto;">
+                    <div class="bubble">
+                        Jakie znasz języki obce?
+                    </div>
+                    <div class="bubble">
+                        Co jest dla Ciebie najtrudniejsze: słuchanie, pisanie, mówienie czy czytanie? Dlaczego?
+                    </div>
+                    <div class="bubble">
+                        Co pomaga Ci w zapamiętywaniu języka obcego?
+                    </div>
+                </diw>
+                <diw class="two" style="width: 90%;margin: 0 auto;">
+                    <div class="bubble">
+                        Jakie ćwiczenia są dla Ciebie szczególnie trudne?
+                    </div>
+                    <div class="bubble">
+                        Jak długo uczysz się języka polskiego?
+                    </div>
+                    <div class="bubble">
+                        Lubisz pracować indywidualnie, a może w grupie?
+                    </div>
+                </diw>
+
+            </div>
+            <div class="borderColorBlue">
+                <h6>Wyrażanie sposobu</h6>
+                <div class="two">
+                    <div>
+                        <p>Uczę się w ten sposób:…</p>
+                        <p>Uczę się, czytając / pisząc / słuchając.</p>
+                        <p>Uczę się najefektywniej, kiedy…</p>
+                        <p>Mówię po polsku dobrze / biegle / słabo / świetnie…</p>
+                    </div>
+                    <div>
+                        <p>Lubię pracować w grupie / w parach / indywidualnie</p>
+                        <p>Trudno powiedzieć.</p>
+                        <p>Pomaga mi…</p>
+                        <p>Najtrudniejsze jest…</p>
+                    </div>
+                </div>
+            </div>
+            <!-- otwet -->
+            <!-- <button onclick="toggleAnswer('a6')">Odpowiedź</button>
+
+            <div id="a6" class="answer">
+                
+            </div> -->
+        </div>
+
+
+
+
+
+
+        <!-- end -->
+        <div class="knopki">
+            <a href="../index.html" class="back">
+                ⬅ Powrót do wszystkich lekcji
+            </a><a href="./lesson005.html" class="back">
+                Następna lekcji ⮕
+            </a>
+        </div>
+
+        <!--  -->
+
+        <div id="tooltip"></div>
+    </div>
+    <script src="../js/imageZum.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptRu.js"></script>
+    <script src="../js/cards.js"></script>
+
+
+
+</body>
+
+</html>
