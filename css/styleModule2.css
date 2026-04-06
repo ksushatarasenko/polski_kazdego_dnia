@@ -1,7 +1,7 @@
 /* fon orang */
 .orang{
     background-color: orange;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 .orang>tr>th{
     background-color: orange;
@@ -11,9 +11,8 @@
     text-align: center;
 }
 .orang p{
-    
     color: white;
-    padding: 3%;
+    padding: 2%;
 }
 /*  */
 .boxRamkaOrang{

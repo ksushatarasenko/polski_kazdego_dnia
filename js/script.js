@@ -182,47 +182,7 @@ function checkOrder() {
 
 // // end Ułóż wydarzenia w kolejności - (перетаскивание событий)
 
-// klik slowa
-document.addEventListener("DOMContentLoaded", function () {
-  const words = document.querySelectorAll("#verb-text span");
 
-  words.forEach((word) => {
-    word.addEventListener("click", function () {
-      this.classList.toggle("selected");
-    });
-  });
-
-  window.checkVerbs = function () {
-    let correct = true;
-
-    words.forEach((word) => {
-      word.classList.remove("correct", "wrong");
-
-      if (word.classList.contains("selected")) {
-        if (word.dataset.verb === "true") {
-          word.classList.add("correct");
-        } else {
-          word.classList.add("wrong");
-          correct = false;
-        }
-      } else {
-        if (word.dataset.verb === "true") {
-          correct = false;
-        }
-      }
-    });
-
-    const result = document.getElementById("verb-result");
-
-    if (correct) {
-      result.textContent = "Świetnie! Wszystkie czasowniki są poprawne.";
-      result.style.color = "green";
-    } else {
-      result.textContent = "Spróbuj ponownie.";
-      result.style.color = "red";
-    }
-  };
-});
 
 // интерактив с вводом.
 

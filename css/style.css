@@ -124,13 +124,16 @@ ol>li{
 .blockSzary{
     background-color: rgb(216, 215, 215);
     padding: 8px;
-    border-radius: 15px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
     
 }
 .blockSzary>p{
-    font-size: 17px;
-    line-height: 0.6;
+    font-size: 20px;
+    line-height: 1.4;
 }
+
 
 
 
@@ -161,7 +164,7 @@ border-radius:12px;
 margin:3px 0;
 box-shadow:0 2px 6px rgba(0,0,0,0.1);
 font-size: 20px;
-text-align: center;
+/* text-align: center; */
 line-height: 1.5;
 font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -177,11 +180,8 @@ color:#333;
 font-weight:normal;
 }
 
-.emotion em{
-color:#444;
-}
 .emotion b{
-font-size:18px;
+font-size:20px;
 color:#1e40ff;
 }
 /* end emotion */

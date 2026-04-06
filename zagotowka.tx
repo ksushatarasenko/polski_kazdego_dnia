@@ -38,3 +38,25 @@
 <p>..................................................................................................................................................</p>
 
 borderColorBlue - block s golubym fonom
+
+__________ slowa s podskazkoq______
+
+<div class="vocab-list">
+  <span class="vocab-word" data-word="run">run</span>
+  <span class="vocab-word" data-word="eat">eat</span>
+</div>
+
+<!-- Скрытые данные -->
+<div id="word-run" class="hidden">
+  <h3>run</h3>
+  <p><b>Перевод:</b> бежать</p>
+  <p><b>Пример:</b> I run every morning.</p>
+</div>
+
+<div id="word-eat" class="hidden">
+  <h3>eat</h3>
+  <p><b>Перевод:</b> есть</p>
+  <p><b>Пример:</b> I eat pizza.</p>
+</div>
+
+__________ end slowa s podskazkoq______
