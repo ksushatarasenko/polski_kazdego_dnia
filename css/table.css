@@ -87,10 +87,14 @@ overflow: visible;
 .lesson-table th,
 .lesson-table td{
 border:2px solid #d0cdcd;
-padding:10px;
-text-align:left;
+padding:5px;
+text-align:center;
 font-size: 18px;
-background-color: rgb(231, 239, 238);
+background-color: rgb(236, 239, 238);
+font-family: 'Montserrat', sans-serif;
+
+  font-weight: 400;
+  letter-spacing: 0.2px;
 }
 .lesson-table tr>th{
   background-color: #2c9ccf;

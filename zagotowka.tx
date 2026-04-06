@@ -2,8 +2,7 @@
 ż 
 
 <!-- knopka z ikonkoj -->
-<button class="ru-btn modal-trigger" data-modal="aud_1"><img src="../icons/nauczyciel.png" alt=""
-                            class="icons"></button>
+ <button class="ru-btn modal-trigger" data-modal="aud_5"><img src="../icons/audio.png" alt="" class="icons"></button>
 
 <div class="modal" data-modal="aud_1">
     <div class="modal-content">

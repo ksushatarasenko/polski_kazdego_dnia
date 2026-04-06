@@ -576,3 +576,8 @@ body.modal-open::after {
     height: 30px;
 }
 
+/*  */
+hr{
+    width: 90%;
+    margin: 2% auto;
+}

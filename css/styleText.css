@@ -2,6 +2,10 @@
 p{
     font-size: 19px;
     margin: 5px;
+    white-space: normal;
+    max-width: 100%;
+    word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .p22{
@@ -14,6 +18,13 @@ p{
     padding: 10px;
 }
 
+em{
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Indie Flower', cursive;
+    /* font-style: italic; */
+    letter-spacing: 1px;
+    color: #333;
+}
 h1{
     color: rgb(0, 128, 122);
     font-size: 28px;

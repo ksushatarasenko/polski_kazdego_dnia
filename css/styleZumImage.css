@@ -15,12 +15,12 @@
 
 
 /* увеличенная картинка */
-/* .image-overlay {
-    overflow: hidden;
+.image-overlay {
+    /* overflow: hidden; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
-} */
+}
 .image-overlay img {
     max-width: none;   
     max-height: none;
@@ -30,7 +30,7 @@
 
     border-radius: 10px;
 
-    transform: scale(1.5); 
+    transform: scale(1.3); 
     transform-origin: top center;
     max-width: 850px;
 }
