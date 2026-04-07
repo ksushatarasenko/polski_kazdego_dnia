@@ -17,6 +17,10 @@ p{
     font-size: 23px;
     padding: 10px;
 }
+.p16{
+    font-size: 16px;
+    padding: 10px;
+}
 
 em{
     /* font-family: 'Caveat', cursive; */

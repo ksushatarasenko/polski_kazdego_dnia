@@ -134,6 +134,13 @@ ol>li{
     line-height: 1.4;
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 
 
