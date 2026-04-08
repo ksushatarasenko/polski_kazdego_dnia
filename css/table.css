@@ -35,6 +35,11 @@ tbody td ul li{
   font-size: 14px;
   color: rgb(66, 63, 63);
 }
+tbody td ul li em{
+  font-size: 16px;
+  color: #4f46e5;
+  font-size: 900;
+}
 tbody tr {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }

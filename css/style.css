@@ -95,6 +95,7 @@ font-weight: 600;
 
 div{
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 ul>li,
@@ -140,8 +141,6 @@ ol>li{
     justify-content: space-around;
     align-items: center;
 }
-
-
 
 
 
@@ -219,6 +218,7 @@ width: 50%;
 .image>img{
     width: 100%;
     margin: 0 auto;
+    border-radius: 15px;
 }
 
 .video{

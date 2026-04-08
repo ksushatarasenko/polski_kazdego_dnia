@@ -60,3 +60,25 @@ __________ slowa s podskazkoq______
 </div>
 
 __________ end slowa s podskazkoq______
+
+<!-- audio -->
+            <div class="two">
+                <div class="audio">
+                    <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a1.1.mp3" controls></audio>
+                </div>
+                <button class="ru-btn modal-trigger" data-modal="aud_1"><img src="../icons/audio.png" alt=""
+                        class="icons"></button>
+
+                <div class="modal" data-modal="aud_1">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="audio">
+                            <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a1.1.mp3" controls></audio>
+                        </div>
+                        <h4>Nagranie 1.1</h4>
+                        <p>Cześć, mam na imię Radima i pochodzę z Estonii. Przeprowadzitam się do Krakowa razem z moją kuzynką Sebillą, która jest Hiszpanką. Na studiach poznałam Saima - mojego męża, który pochodzi z Włoch. W Polsce poznałam wielu obcokrajowców, z którymi utrzymuję stały kontakt. Jakuba i jego przyjaciela Abdula poznałam na warsztatach plastycznych. Jakub pochodzi z Irlandii, a Abdul z Danii. Marek to mój sąsiad, od początku zaciekawił mnie jego akcent, okazało się, że pochodzi z Wielkiej Brytanii. Basia, Kasia i Sebilla to moje najlepsze przyjaciółki, z którymi wspólnie uczyłyśmy się języka polskiego. Basia pochodzi z Holandii, ale jej mama jest Polką. Kasia jest z Francji, ale od dziecka spędzała wakacje u dziadków w małej podlaskiej wsi.</p>
+                    </div>
+                </div>
+            </div>
+
+---- end audio ------
