@@ -18,11 +18,35 @@
   font-weight:bold;
   color: #f5f5f5;
 }
+.headerBlue{
+  background:rgb(90, 140, 163);
+  padding:20px;
+  text-align:center;
+  font-size:26px;
+  font-weight:bold;
+  color: #f5f5f5;
+}
+.headerRed{
+  background:rgb(169, 57, 57);
+  padding:20px;
+  text-align:center;
+  font-size:26px;
+  font-weight:bold;
+  color: #f5f5f5;
+}
+
 
 .greenBox p{
     color: white;
     padding: 2%;
     text-align: center;
+}
+.redBox{
+  background:rgb(170, 72, 72);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  line-height: 1.4;
 }
 /*  */
 .boxRamkaGreen{
