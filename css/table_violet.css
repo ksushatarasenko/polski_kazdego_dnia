@@ -78,9 +78,7 @@ tbody tr:hover {
 }
 
 /* Последняя строка без границы */
-tbody tr:last-child td {
-  border-bottom: none;
-}
+
 
 /* Скругление углов */
 table thead tr th:first-child {

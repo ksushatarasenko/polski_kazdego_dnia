@@ -290,3 +290,15 @@ input.style.background="#f8d7da"
 })
 
 }
+
+// печатался только выбранный блок
+function printTask(id) {
+  const el = document.getElementById(id);
+  el.classList.add('printable');
+
+  window.print();
+
+  el.classList.remove('printable');
+}
+
+// end печатался только выбранный блок

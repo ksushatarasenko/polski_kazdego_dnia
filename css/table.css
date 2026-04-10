@@ -65,10 +65,7 @@ tbody tr:hover {
   transition: 0.2s ease;
 }
 
-/* Последняя строка без границы */
-tbody tr:last-child td {
-  border-bottom: none;
-}
+
 
 /* Скругление углов */
 table thead tr th:first-child {

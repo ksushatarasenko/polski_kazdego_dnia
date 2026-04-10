@@ -108,7 +108,7 @@ ol>li{
 
 .text{
     font-family: 19px;
-    line-height: 1.4;
+    line-height: 1.6;
     padding: 20px;
     width: 90%;
     margin: 0 auto;
@@ -588,3 +588,26 @@ hr{
     width: 90%;
     margin: 2% auto;
 }
+
+/* печатался только выбранный блок */
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .printable, .printable * {
+    visibility: visible;
+  }
+
+  .printable {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px; /* чтобы не прилипало к краю */
+  }
+}
+
+/* end печатался только выбранный блок */

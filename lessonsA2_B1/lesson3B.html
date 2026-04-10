@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Lekcja 3A. Wygląd</title>
+    <title>Lekcja 3B. Z dobrym stylem na „ty"</title>
 
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
@@ -34,90 +34,82 @@
     <header class="headerViolet">
         Poziom A2 z elementami B1 <br>
         Module 3 - Moda i wygląd<br>
-        Lekcja 3A. <br>Wygląd
+        Lekcja 3B. <br> Z dobrym stylem na „ty"
     </header>
 
     <div class="container">
 
         <!-- Zadanie 1 -->
-        <div class="box">
+        <div class="box task" id="task1">
             <div>
                 <div class="titleViolet">Zadanie 1</div>
             </div>
-            <div class="zadanieViolet">Podpisz części twarzy wyrazami z ramki.</div>
+            <div class="zadanieViolet">Co to jest? Podpisz obrazki wyrazami z ramki.</div>
             <table class="lesson-table">
                 <tr>
-                    <td>broda</td>
-                    <td>wąsy</td>
-                    <td>uszy</td>
-                    <td>twarz</td>
-                    <td>zoło</td>
-                    <td>oczy</td>
-                    <td>włosy</td>
+                    <td>kamizelka </td>
+                    <td>leginsy </td>
+                    <td>tunika </td>
+                    <td>futro </td>
+                    <td>suknia ślubna </td>
+                    <td>piżama</td>
+                    <td>chustka</td>
+                    <td>nauszniki</td>
                 </tr>
                 <tr>
-                    <td>nos</td>
-                    <td>karnacja</td>
-                    <td>brwi</td>
-                    <td>zmarszczki</td>
-                    <td>rzęsy</td>
-                    <td>usta</td>
+                    <td>baleriny </td>
+                    <td>sztyblety </td>
+                    <td>ogrodniczki </td>
+                    <td>kombinezon </td>
+                    <td>garsonka</td>
+                    <td>garnitur </td>
+                    <td>kapelusz </td>
+                    <td>strój kapielowy</td>
+                </tr>
+                <tr>
+                    <td>plecak </td>
+                    <td>glany </td>
+                    <td>korki </td>
+                    <td>kalosze </td>
+                    <td>szorty </td>
+                    <td>szlafrok </td>
+                    <td>płaszcz</td>
                     <td></td>
                 </tr>
             </table>
 
             <div class="image" style="width: 60%;">
-                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Poziom%20-A2_B1/Module03/3A_1_1.png"
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Poziom%20-A2_B1/Module03/3B_1.png"
                     alt="3A_1_1" class="zum">
-                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Poziom%20-A2_B1/Module03/3A_1_2.png"
-                    alt="3A_1_2" class="zum">
             </div>
 
             <!-- otwet -->
             <button onclick="toggleAnswer('ot1')" class="violetButton">Odpowiedź</button>
 
             <div id="ot1" class="answer">
-                <p>Oczy; Nos; Wąsy; Broda; Twarz; Karnacja; Uszy; Czoło; Brwi; Rzęsy; Czoło; Usta</p>
+                <h6>Odzież</h6>
+                <p>futro, kamizelka, ogrodniczki, kombinezon, garnitur, suknia ślubna,</p>
+                <p>szorty, garsonka, leginsy, płaszcz, tunika;</p>
+                <h6>Akcesoria i dodatki</h6>
+                <p>chustka, plecak, piżama, szlafrok, kapelusz, strój kąpielowy, nauszniki;</p>
+                <h6>Obuwie</h6>
+                <p>sztyblety, glany, kalosze, korki, baleriny</p>
             </div>
-
+            <button onclick="printTask('task1')" class="violetButton">Drukuj</button>
         </div>
 
         <!-- Zadanie 2, -->
 
-        <div class="box">
+        <div class="box task" id="task2">
             <div class="titleViolet">Zadanie 2</div>
-            <p class="zadanieViolet"><em class="violet">Jaki, jaka, jakie?</em> Wpisz wyrazy z ramki do odpowiedniej
-                kolumny tabeli.</p>
+            <p class="zadanieViolet">Uzupełnij tabelę nazwami ubrań z zadania pierwszego. Dopisz inne, znane nazwy ubrań.</p>
 
+           
             <table class="lesson-table">
                 <tr>
-                    <td>długie </td>
-                    <td>kwadratowa </td>
-                    <td>brązowe </td>
-                    <td>geste </td>
-                    <td>duże </td>
-                    <td>prosty </td>
-                    <td>gruba</td>
-                    <td>jasna </td>
-                    <td>zaokrąglona</td>
-                </tr>
-                <tr>
-                    <td>zadarty </td>
-                    <td>mały </td>
-                    <td>długa </td>
-                    <td>owalna </td>
-                    <td>piegowata </td>
-                    <td>wąski</td>
-                    <td>małe</td>
-                    <td>szeroki</td>
-                    <td>pełne</td>
-                </tr>
-            </table>
-            <table class="lesson-table">
-                <tr>
-                    <th>Jaki?</th>
-                    <th>Jaka?</th>
-                    <th>Jakie?</th>
+                    <th>Odzież codzienna</th>
+                    <th>Odzież wieczorowa</th>
+                    <th>Odzie ż sportowa</th>
                 </tr>
                 <tr style="height: 100px;">
                     <td></td>
@@ -130,19 +122,21 @@
             <button onclick="toggleAnswer('ot2')" class="violetButton">Odpowiedź</button>
 
             <div id="ot2" class="answer">
+                ; ; 
                 <table class="lesson-table">
-                    <tr>
-                        <th>Jaki?</th>
-                        <th>Jaka?</th>
-                        <th>Jakie?</th>
-                    </tr>
-                    <tr style="height: 100px;">
-                        <td>prosty, <br>zadarty, <br>mały,<br> wąski,<br> szeroki</td>
-                        <td>kwadratowa,<br> gruba, <br>jasna,<br> zaokrąglona,<br> długa,<br> owalna, <br>piegowata</td>
-                        <td>długie,<br> brązowe, <br>gęste, <br>duże, <br>małe, <br>pełne.</td>
-                    </tr>
-                </table>
+                <tr>
+                    <th>Odzież codzienna</th>
+                    <th>Odzież wieczorowa</th>
+                    <th>Odzie ż sportowa</th>
+                </tr>
+                <tr style="height: 100px;">
+                    <td>futro <br> kamizelka<br> ogrodniczki<br> kombinezon<br> płaszcz<br> tunika<br> jeansy</td>
+                    <td>garnitur<br> suknia ślubna<br>garsonka<br> koszula<br> marynarka</td>
+                    <td>leginsy<br> szorty<br> strój sportowy<br> korki</td>
+                </tr>
+            </table>
             </div>
+             <button onclick="printTask('task2')" class="violetButton">Drukuj</button>
         </div>
         <!-- Zadanie 3 -->
 
@@ -176,6 +170,7 @@
             <div id="otw3" class="answer">
                 <p>londynką; niebieskie; wąski; pełne; krótkie; kręcone; długie; gęste; wysokim </p>
             </div>
+             <button onclick="printTask('task3')" class="violetButton">Drukuj</button>
         </div>
         <!-- Zadanie 4 -->
 
@@ -359,6 +354,7 @@
                 </div>
                 <p>P: F; F: P; F</p>
             </div>
+             <button onclick="printTask('task4')" class="violetButton">Drukuj</button>
         </div>
         <!-- Zadanie 5 -->
 
@@ -393,6 +389,7 @@
                 </div>
 
             </div>
+             <button onclick="printTask('task5')" class="violetButton">Drukuj</button>
         </div>
         <!-- Zadanie 6 -->
 
@@ -459,6 +456,7 @@
                     </table>
                 </div>
             </div>
+             <button onclick="printTask('task6')" class="violetButton">Drukuj</button>
         </div>
         <!-- Zadanie 7 -->
 
@@ -471,9 +469,17 @@
                 <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Poziom%20-A2_B1/Module03/3A_7.png"
                     alt="3A_7" class="zum">
             </div>
-            <p>1. On jest młody, szczupły i wysoki. Ma proste krótkie włosy, jasną karnację, pełną twarz, małe uszy i nos.</p>
-            <p  class="text">................................................................................................................................................................................</p>
-            <p  class="text">................................................................................................................................................................................</p><p  class="text">................................................................................................................................................................................</p>
+            <p>1. On jest młody, szczupły i wysoki. Ma proste krótkie włosy, jasną karnację, pełną twarz, małe uszy i
+                nos.</p>
+            <p class="text">
+                ................................................................................................................................................................................
+            </p>
+            <p class="text">
+                ................................................................................................................................................................................
+            </p>
+            <p class="text">
+                ................................................................................................................................................................................
+            </p>
 
             <!-- otwet -->
             <button onclick="toggleAnswer('a7')" class="violetButton">Odpowiedź</button>
@@ -481,21 +487,26 @@
             <div id="a7" class="answer">
                 <div class="text">
                     <ol>
-                       
+
                         <li>
-                            On jest młody, szczupły i wysoki. Ma proste krótkie włosy, jasną karnację, pełną twarz, małe uszy i nos.
+                            On jest młody, szczupły i wysoki. Ma proste krótkie włosy, jasną karnację, pełną twarz, małe
+                            uszy i nos.
                         </li>
                         <li>
-                            Ona jest młoda, szczupła i wysoka. Ma długie kręcone włosy, ciemną karnację, okrągłą twarz i pełne usta.
+                            Ona jest młoda, szczupła i wysoka. Ma długie kręcone włosy, ciemną karnację, okrągłą twarz i
+                            pełne usta.
                         </li>
                         <li>
-                            On jest tęgi i niski. Ma krótkie, ciemne włosy, jasną karnację, okrągłą twarz, krótką brodę, duże uszy i nos.
+                            On jest tęgi i niski. Ma krótkie, ciemne włosy, jasną karnację, okrągłą twarz, krótką brodę,
+                            duże uszy i nos.
                         </li>
                         <li>
-                            On jest młody, szczupły i niski. Ma krótkie ciemne włosy, jasną karnację, małe oczy, duży nos i uszy.
+                            On jest młody, szczupły i niski. Ma krótkie ciemne włosy, jasną karnację, małe oczy, duży
+                            nos i uszy.
                         </li>
                         <li>
-                            On jest stary, szczupły i wysoki. Ma krótkie siwe włosy, jasną karnację, zaokrągloną twarz, zmarszczki, małe uszy i nos.
+                            On jest stary, szczupły i wysoki. Ma krótkie siwe włosy, jasną karnację, zaokrągloną twarz,
+                            zmarszczki, małe uszy i nos.
                         </li>
                     </ol>
                 </div>
@@ -505,21 +516,24 @@
                 <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Poziom%20-A2_B1/Module03/3A_7_prawilo.png"
                     alt="3A_7_prawilo" class="zum">
             </div>
+             <button onclick="printTask('task7')" class="violetButton">Drukuj</button>
         </div>
         <!-- Zadanie 8 -->
 
         <div class="box">
 
             <div class="title">Zadanie 8</div>
-            <div class="zadanie">Opowiedz swojemu koledze/koleżance z grupy, jak wyglądają członkowie twojej rodziny.</div>
+            <div class="zadanie">Opowiedz swojemu koledze/koleżance z grupy, jak wyglądają członkowie twojej rodziny.
+            </div>
 
-           
+
             <!-- otwet -->
             <!-- <button onclick="toggleAnswer('a8')">Odpowiedź</button>
 
             <div id="a8" class="answer">
                 
             </div> -->
+             <button onclick="printTask('task8')" class="violetButton">Drukuj</button>
         </div>
 
 
@@ -528,7 +542,7 @@
         <div class="knopki">
             <a href="../index.html" class="back">
                 ⬅ Powrót do wszystkich lekcji
-            </a><a href="./lesson3B.html" class="back">
+            </a><a href="." class="back">
                 Następna lekcji ⮕
             </a>
         </div>
