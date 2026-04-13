@@ -20,6 +20,12 @@
     Narrator mówi w prostokątnych polach tekstowych.
 </div>
 
+<button onclick="toggleAnswer('tl5')">Tłumaczenie</button>
+
+            <div id="tl5" class="answer">
+                Narrator mówi w prostokątnych polach tekstowych.
+            </div>
+
 ------- окошки с хвостиком ------
 <diw class="two" style="width: 80%;margin: 0 auto;">
                 <div class="bubble">
