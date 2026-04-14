@@ -2,7 +2,7 @@
 ż 
 
 <!-- knopka z ikonkoj -->
- <button class="ru-btn modal-trigger" data-modal="aud_5"><img src="../icons/audio.png" alt="" class="icons"></button>
+<button class="ru-btn modal-trigger" data-modal="aud_5"><img src="../icons/audio.png" alt="" class="icons"></button>
 
 <div class="modal" data-modal="aud_1">
     <div class="modal-content">
@@ -23,7 +23,25 @@
 <button onclick="toggleAnswer('tl5')">Tłumaczenie</button>
 
             <div id="tl5" class="answer">
-                Narrator mówi w prostokątnych polach tekstowych.
+                <li class="two">
+                        <div style="width: 50%;">
+                            <b>karton</b> - картон / коробка
+                            <p>to opakowanie z tektury, np. na mleko lub sok</p>
+                        </div>
+                        <div class="image" style="width: 10%;">
+                            <img src="" alt="karton" class="zum">
+                        </div>
+                    </li>
+
+                    <li class="two">
+                        <div style="width: 50%;">
+                            <b>opakowanie</b> - упаковка
+                            <p>to ogólne określenie na pojemnik lub materiał do pakowania</p>
+                        </div>
+                        <div class="image" style="width: 10%;">
+                            <img src="" alt="opakowanie" class="zum">
+                        </div>
+                    </li>
             </div>
 
 ------- окошки с хвостиком ------

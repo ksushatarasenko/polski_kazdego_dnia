@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lekcja 5C. Ale to dobre...</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleZumImage.css">
+    <link rel="stylesheet" href="../css/styleRu.css">
+    <link rel="stylesheet" href="../css/table_green.css">
+    <link rel="stylesheet" href="../css/styleText.css">
+    <link rel="stylesheet" href="../css/crammar_card.css">
+    <link rel="stylesheet" href="../css/styleModule3.css">
+    <link rel="stylesheet" href="../css/styleSlowoPodskazka.css">
+
+
+</head>
+
+<body>
+    <div id="vocab-modal" class="modal">
+        <div class="modal-box">
+
+            <span class="modal-close">✖</span>
+
+            <div id="modal-content"></div>
+
+        </div>
+    </div>
+
+    <header class="headerGreen">
+        Poziom A2 z elementami B1 <br>
+        Module 5 - Idziemy na zakupy!<br>
+        Lekcja 5C. <br>Ale to dobre...
+    </header>
+
+    <div class="container task" id="task5B">
+
+
+        <!-- Zadanie 1 -->
+        <div class="box task" id="task1">
+            <div>
+                <div class="titleGreen">Zadanie 1</div>
+            </div>
+            <div class="zadanieGreen"> Co smakuje Oli? Których potraw i produktów nie lubi? Postuchaj nagrania i
+                odpowiedz na pytania.</div>
+            <div class="two">
+                <div class="audio">
+                    <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a5.3.mp3" controls></audio>
+                </div>
+                <button class="ru-btn modal-trigger" data-modal="aud_5.3"><img src="../icons/audio.png" alt=""
+                        class="icons"></button>
+
+                <div class="modal" data-modal="aud_5.3">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="audio">
+                            <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a5.3.mp3" controls></audio>
+                        </div>
+                        <h4>Nagranie 5.3</h4>
+                        <div class="text">
+                            <p>Ola od pięciu lat jest wegetarianką. Wegetarianin to osoba, która celowo wykluczyła ze
+                                swojej diety niektóre produkty pochodzenia zwierzęcego. Ola nie je mięsa, ryb i owoców
+                                morza, ale je nabiał. Bardzo lubi jajka i kanapki z masłem, dlatego nie wyeliminowała
+                                tych produktów ze swojej diety. W jej codziennym jadłospisie jest mnóstwo warzyw i
+                                owoców, które są podstawą zdrowego odżywiania. Naleśniki z owocami i białą czekoladą to
+                                jej ulubiony deser. Wszystkie swoje potrawy gotuje, nie lubi smażonego jedzenia. W ciągu
+                                dnia pije dużą ilość wody, a wieczorami podczas czytania książek zawsze ma przy sobie
+                                duży kubek gorącej herbaty. Nie pije kawy, ale kiedy spotyka się ze znajomymi, to nigdy
+                                nie odmówi soku pomarańczowego i pizzy z dużą ilością sera.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image" style="width: 90%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module5/5C_1.png"
+                    alt="5C_1" class="zum">
+            </div>
+            <table class="lesson-table">
+                <tr>
+                    <th>Ola lubi:</th>
+                    <th>Ola nie lubi:</th>
+                </tr>
+                <tr>
+                    <td style="height: 100px;"></td>
+                    <td></td>
+                </tr>
+            </table>
+
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot1')" class="greenButton">Odpowiedź</button>
+
+            <div id="ot1" class="answer">
+
+                <div class="two">
+                    <div>
+                        <p><b>Ola lubi:</b></p>
+                        <p>
+                            jabłka, bułki, sok pomarańczowy, masło, biała czekolada, naleśniki, pizza,
+                            gotowane warzywa, brokuły, woda mineralna, herbata, jajecznica, pieczywo, mleko
+                        </p>
+                    </div>
+
+                    <div>
+                        <p><b>Ola nie lubi:</b></p>
+                        <p>
+                            tłuste mięso, smażone ziemniaki, kawa, ryby
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="printTask('task1')" class="greenButton">Drukuj</button>
+        </div>
+
+        <!-- Zadanie 2, -->
+
+        <div class="box task" id="task2">
+            <div class="titleGreen">Zadanie 2</div>
+            <p class="zadanieGreen">Uzupełnij zdania według wzoru.</p>
+            <div class="image" style="width: 90%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module5/5C_2.png"
+                    alt="5C_2" class="zum">
+            </div>
+            <div class="text">
+                <ol>
+                    <li>Lubię czerwone wino. Nie lubię czerwonego wina.</li>
+
+                    <li>Lubię smażone mięso. ..............................................................</li>
+
+                    <li>Lubię pieczone ziemniaki. ..............................................................</li>
+
+                    <li>Lubię zieloną herbatę. ..............................................................</li>
+
+                    <li>Jem pyszne naleśniki. Nie jem pysznych naleśników.</li>
+
+                    <li>Jem barszcz czerwony. ..............................................................</li>
+
+                    <li>Jem gotowane warzywa. ..............................................................</li>
+
+                    <li>Jem żółty ser. ..............................................................</li>
+                </ol>
+            </div>
+            <div class="two">
+                <div class="image" style="width: 70%;">
+                    <img src="https://i.pinimg.com/originals/5f/e1/34/5fe134e17e3dc62278b0233943964b24.jpg" alt=""
+                        class="zum">
+                </div>
+                <div class="image" style="width: 70%;">
+                    <img src="https://i.pinimg.com/originals/63/25/82/632582c5642ff4007efc4e50ff956e7a.png" alt=""
+                        class="zum">
+                </div>
+            </div>
+
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot2')" class="greenButton">Odpowiedź</button>
+
+            <div id="ot2" class="answer">
+                <div class="text">
+                    <ol>
+                        <li>Lubię czerwone wino. Nie lubię <em>czerwonego wina</em>.</li>
+
+                        <li>Lubię smażone mięso. Nie lubię <em>smażonego mięsa</em>.</li>
+
+                        <li>Lubię pieczone ziemniaki. Nie lubię <em>pieczonych ziemniaków</em>.</li>
+
+                        <li>Lubię zieloną herbatę. Nie lubię <em>zielonej herbaty</em>.</li>
+
+                        <li>Jem pyszne naleśniki. Nie jem <em>pysznych naleśników</em>.</li>
+
+                        <li>Jem barszcz czerwony. Nie jem <em>barszczu czerwonego</em>.</li>
+
+                        <li>Jem gotowane warzywa. Nie jem <em>gotowanych warzyw</em>.</li>
+
+                        <li>Jem żółty ser. Nie jem <em>żółtego sera</em>.</li>
+                    </ol>
+                </div>
+            </div>
+            <button onclick="printTask('task2')" class="greenButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 3 -->
+
+        <div class="box task" id="task3">
+
+            <div class="titleGreen">Zadanie 3</div>
+            <div class="zadanieGreen">Ola zamawia jedzenie z restauracji. Przeczytaj trzy dialogi i zaznacz prawidłową
+                odpowiedź.</div>
+
+            <div class="dialog">
+
+                <h4>DIALOG 1. Rozmowa dwóch przyjaciółek</h4>
+                <p><b>Ola:</b> Jesteś głodna? Może coś zamówimy?</p>
+                <p><b>Raiman:</b> Tak, umieram z głodu.</p>
+                <p><b>Ola:</b> W centrum jest nowa włoska restauracja.</p>
+                <p><b>Raiman:</b> Świetnie, uwielbiam włoskie jedzenie.</p>
+                <p><b>Ola:</b> Makarony czy pizza?</p>
+                <p><b>Raiman:</b> Makaron z podwójnym serem i sosem pomidorowym.</p>
+                <p><b>Ola:</b> Ja wolę pizzę.</p>
+
+                <h4>DIALOG 2. Rozmowa telefoniczna z pracownikiem restauracji Roma</h4>
+                <p><b>Kelner:</b> Restauracja Roma, słucham.</p>
+                <p><b>Ola:</b> Dzień dobry! Chciałabym zamówić dwa dania – makaron w sosie pomidorowym z podwójnym serem
+                    i pizzę z włoską szynką.</p>
+                <p><b>Kelner:</b> Oczywiście. Makaron ma być z mięsem czy bez?</p>
+                <p><b>Ola:</b> A jakie mają państwo mięso?</p>
+                <p><b>Kelner:</b> Polecam siekaną wołowinę albo cielęcinę.</p>
+                <p><b>Ola:</b> W takim razie poproszę makaron z cielęciną.</p>
+                <p><b>Kelner:</b> Zamówienie z dostawą do domu czy odbiorem osobistym?</p>
+                <p><b>Ola:</b> Z dostawą do domu. Ulica Polna 12/10.</p>
+                <p><b>Kelner:</b> Poproszę jeszcze podać numer telefonu.</p>
+                <p><b>Ola:</b> 500 840 890. Jaki jest czas oczekiwania na dostawę?</p>
+                <p><b>Kelner:</b> Około półtorej godziny. Proszę zainstalować naszą aplikację, wtedy będzie mogła Pani
+                    śledzić, na jakim etapie jest zamówienie. Płatność gotówką czy kartą?</p>
+                <p><b>Ola:</b> Kartą.</p>
+                <p><b>Kelner:</b> Dziękuję, zamówienie zostało przyjęte.</p>
+
+                <h4>DIALOG 3. Wyrażanie opinii na temat dań zamówionych z restauracji</h4>
+                <p><b>Raiman:</b> I jak? Smakuje ci?</p>
+                <p><b>Ola:</b> Tak! Pizza jest pyszna.</p>
+                <p><b>Raiman:</b> Makaron jest bez smaku, brakuje przypraw. To niezbyt smaczne danie.</p>
+                <p><b>Ola:</b> Mogę spróbować?</p>
+                <p><b>Raiman:</b> Pewnie!</p>
+                <p><b>Ola:</b> Faktycznie, taki sobie. Jest strasznie tłusty.</p>
+            </div>
+            <div class="quiz">
+
+                <div class="question" data-answer="a">
+                    <p>Kto prowadził rozmowę telefoniczną z kelnerem?</p>
+                    <div class="option" data-value="a">A. Ola</div>
+                    <div class="option" data-value="b">B. Kelner</div>
+                    <div class="option" data-value="c">C. Basia</div>
+                </div>
+
+                <div class="question" data-answer="b">
+                    <p>Jak nazywa się restauracja?</p>
+                    <div class="option" data-value="a">A. Włoska</div>
+                    <div class="option" data-value="b">B. Roma</div>
+                    <div class="option" data-value="c">C. U mamy</div>
+                </div>
+
+                <div class="question" data-answer="a">
+                    <p>Komu nie smakowało zamówione danie?</p>
+                    <div class="option" data-value="a">A. Raiman</div>
+                    <div class="option" data-value="b">B. Oli</div>
+                    <div class="option" data-value="c">C. Zosi</div>
+                </div>
+
+                <div class="question" data-answer="b">
+                    <p>Jaki był czas oczekiwania na zamówienie?</p>
+                    <div class="option" data-value="a">A. 2 godziny</div>
+                    <div class="option" data-value="b">B. 1.5 godziny</div>
+                    <div class="option" data-value="c">C. godzina</div>
+                </div>
+
+                <div class="question" data-answer="b">
+                    <p>Ile dań zamówiły przyjaciółki?</p>
+                    <div class="option" data-value="a">A. jedno danie</div>
+                    <div class="option" data-value="b">B. dwa dania</div>
+                    <div class="option" data-value="c">C. trzy dania</div>
+                </div>
+
+                <button onclick="checkQuiz()">Sprawdź</button>
+
+            </div>
+
+
+            <!-- otwet -->
+            <!-- <button onclick="toggleAnswer('otw3')" class="greenButton">Odpowiedź</button>
+
+            <div id="otw3" class="answer">
+
+            </div> -->
+            <button onclick="printTask('task3')" class="greenButton">Drukuj</button>
+
+        </div>
+
+        <!-- Zadanie 4 -->
+
+        <div class="box task" id="task4">
+
+            <div class="titleGreen">Zadanie 4</div>
+            <div class="zadanieGreen">Ola zamieściła n a stronie internetowej restauracji Roma opinie o zamówionych
+                daniach. Przeczytaj krótką informację і wykonaj poniższe zadanie.</div>
+            <div class="text">
+                <p>Jestem miłośniczką włoskiej kuchni, dlatego od razu zainteresowałam się nową restauracją na mapie
+                    Warszawy i bez zastanowienia zamówiłam dwa dania. Klasyczna pizza z dodatkiem salami była
+                    rewelacyjna - lekkie ciasto, najlepszej jakości ser i posiekana natka pietruszki. To świeże
+                    połączenie składników sprawiło, ż e pizza była przepyszna. Absolutnie warta swojej ceny. Makaron
+                    niestety nie smakował mojej przyjaciółce. Brakowało aromatycznych włoskich ziół, które nadają
+                    potrawie smaku. To niezbyt smaczne danie, polane dużą ilością tłustej oliwy.</p>
+            </div>
+
+            <div class="two">
+                <div>
+                    <h4>Pozytywna opinia:</h4>
+                    <ol>
+                        <li><em>Pizza była pyszna.</em></li>
+                        <li>..............................................................</li>
+                        <li>..............................................................</li>
+                        <li>..............................................................</li>
+                        <li>..............................................................</li>
+                    </ol>
+
+                    <h4>Negatywna opinia:</h4>
+                    <ol>
+                        <li><em>To danie nie miało smaku.</em></li>
+                        <li>..............................................................</li>
+                        <li>..............................................................</li>
+                        <li>..............................................................</li>
+                        <li>..............................................................</li>
+                    </ol>
+                </div>
+                <div class="image" style="width: 60%;">
+                    <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module5/5C_4.png"
+                        alt="5C_4" class="zum">
+                </div>
+            </div>
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a4')" class="greenButton">Odpowiedź</button>
+
+            <div id="a4" class="answer">
+                <div class="еуче">
+
+                    <h4>Pozytywna opinia:</h4>
+                    <ol>
+                        <li><em>Pizza była pyszna.</em></li>
+                        <li>Pizza była rewelacyjna.</li>
+                        <li>Pizza była warta swojej ceny.</li>
+                        <li>Świeże połączenie składników.</li>
+                        <li>Lekkie ciasto i najlepszej jakości składniki.</li>
+                    </ol>
+
+                    <h4>Negatywna opinia:</h4>
+                    <ol>
+                        <li><em>To danie nie miało smaku.</em></li>
+                        <li>Daniu brakowało przypraw i ziół, które nadają aromatu potrawie.</li>
+                        <li>Niezbyt smaczne danie.</li>
+                        <li>Tłuste danie, polane dużą ilością oliwy.</li>
+                        <li>Niesmaczne.</li>
+                    </ol>
+
+                </div>
+            </div>
+            <button onclick="printTask('task4')" class="greenButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 5 -->
+
+        <div class="box task" id="task5">
+
+            <div class="titleGreen">Zadanie 5</div>
+            <div class="zadanieGreen">aki to ma smak? Uzupełnij tabelę wyrazami podanymi w ramce.
+            </div>
+           
+            
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a5')" class="greenButton">Odpowiedź</button>
+
+            <div id="a5" class="answer">
+                <div class="lesson-answer">
+                    <div class="еуче">
+                        <ol>
+                            <li>
+                                Ile kosztuje granat?<br><br>
+                                <em>Granat kosztuje 19,99 za <span class="green">kilogram</span>.</em>
+                            </li>
+
+                            <li>
+                                Ile kosztuje marchewka?<br><br>
+                                <em> Marchewka kosztuje 3,99 za <span class="green">700 gramów</span>.</em>
+                            </li>
+
+                            <li>
+                                Ile kosztuje cukinia?<br><br>
+                                <em>Cukinia kosztuje 2,49 za <span class="green">500 gramów</span>.</em>
+                            </li>
+
+                            <li>
+                                Ile kosztują ziemniaki?<br><br>
+                                <em>Ziemniaki kosztują 2,75 za <span class="green">5 kilogramów</span>.</em>
+                            </li>
+
+                            <li>
+                                Ile kosztują borówki?<br><br>
+                                <em>Borówki kosztują 3,99 za <span class="green">125 gramów</span>.</em>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <button onclick="printTask('task5')" class="greenButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 6 -->
+
+        <div class="box task" id="task6">
+
+            <div class="titleGreen">Zadanie 6</div>
+            <div class="zadanieGreen">Spójrz n a listę zakupów Filipa i uzupełnij według wzoru.
+            </div>
+
+            <div class="image" style="width: 80%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module5/5B_6.png"
+                    alt="5B_6" class="zum">
+            </div>
+            <div class="exercise">
+                <p><b>Filip kupił:</b></p>
+
+                <div class="two">
+                    <div>
+                        <p><em>(1) dwanaście bułek</em></p>
+                        <p>(2) ..............................................................</p>
+                        <p>(3) ..............................................................</p>
+                        <p>(4) ..............................................................</p>
+                        <p>(5) ..............................................................</p>
+                        <p>(6) ..............................................................</p>
+                        <p>(7) ..............................................................</p>
+                    </div>
+
+                    <div>
+                        <p>(8) ..............................................................</p>
+                        <p>(9) ..............................................................</p>
+                        <p>(10) ..............................................................</p>
+                        <p>(11) ..............................................................</p>
+                        <p>(12) ..............................................................</p>
+                        <p>(13) ..............................................................</p>
+                        <p>(14) ..............................................................</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a6')" class="greenButton">Odpowiedź</button>
+
+            <div id="a6" class="answer">
+                <div class="two">
+                    <div>
+                        <p><em>(1) dwanaście bułek</em></p>
+                        <p>(2) pięć bakłażanów</p>
+                        <p>(3) dwie kostki masła czosnkowego</p>
+                        <p>(4) kilka buraków</p>
+                        <p>(5) sześć kartonów soku ananasowego</p>
+                        <p>(6) dwa kilogramy pomidorów</p>
+                        <p>(7) pół kilo wiśni</p>
+                    </div>
+
+                    <div>
+                        <p>(8) pięć kilogramów ziemniaków</p>
+                        <p>(9) czterysta gramów pomidorów</p>
+                        <p>(10) dziesięć pomarańczy</p>
+                        <p>(11) dziesięć opakowań makaronu</p>
+                        <p>(12) jeden kilogram pieczarek</p>
+                        <p>(13) cztery kilogramy mąki pszennej</p>
+                        <p>(14) trzy słoiki dżemu</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="printTask('task6')" class="greenButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 7 -->
+
+        <div class="box task" id="task7">
+
+            <div class="titleGreen">Zadanie 7</div>
+            <div class="zadanieGreen">Jesteś z kolegą / koleżanką z grupy w sklepie spożywczym. Ułóżcie dialog z
+                podanych
+                wyrazów.
+            </div>
+            <div class="two">
+                <div>
+                    <h4>DIALOG 1:</h4>
+                    <ul>
+                        <li>1 kg cukru</li>
+                        <li>10 plasterków sera białego</li>
+                        <li>5 puszek coli</li>
+                        <li>2 słoiki dżemu truskawkowego</li>
+                        <li>3 dojrzałe banany</li>
+                    </ul>
+
+                </div>
+                <div>
+                    <h4>DIALOG 2:</h4>
+                    <ul>
+                        <li>4 paczki chipsów</li>
+                        <li>10 kawałków ciasta</li>
+                        <li>500 gramów marchwi</li>
+                        <li>6 opakowań jajek</li>
+                        <li>1 kostka sera żółtego</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <!-- otwet -->
+            <!-- <button onclick="toggleAnswer('a7')" class="greenButton">Odpowiedź</button>
+
+            <div id="a7" class="answer">
+
+            </div>
+
+ -->
+
+            <button onclick="printTask('task7')" class="greenButton">Drukuj</button>
+        </div>
+
+
+
+
+        <button onclick="printTask('task5B')" class="greenButton">Drukuj</button>
+
+        <!-- end -->
+        <div class="knopki">
+            <a href="../index.html" class="back">
+                ⬅ Powrót do wszystkich lekcji
+            </a><a href="./lesson4B.html" class="back">
+                Następna lekcji ⮕
+            </a>
+        </div>
+
+        <!--  -->
+
+        <div id="tooltip"></div>
+    </div>
+    <script src="../js/imageZum.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptRu.js"></script>
+    <script src="../js/cards.js"></script>
+
+
+
+</body>
+
+</html>

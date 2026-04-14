@@ -611,3 +611,22 @@ hr{
 }
 
 /* end печатался только выбранный блок */
+
+.option {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.option.selected {
+  background-color: #d0e7ff;
+}
+
+.option.correct {
+  background-color: #b8f5b8;
+}
+
+.option.wrong {
+  background-color: #ffb8b8;
+}

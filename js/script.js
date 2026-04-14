@@ -37,35 +37,49 @@ function toggleAnswer(id) {
 
 // Вопрос с вариантами ответов
 
+// выбор варианта
 document.querySelectorAll(".option").forEach((option) => {
   option.addEventListener("click", function () {
-    const question = this.parentElement;
-    const options = question.querySelectorAll(".option");
+    const question = this.closest(".question");
 
-    options.forEach((o) => o.classList.remove("selected"));
+    // убираем выделение у других вариантов
+    question.querySelectorAll(".option").forEach((o) => {
+      o.classList.remove("selected");
+    });
 
+    // выделяем выбранный
     this.classList.add("selected");
   });
 });
 
+// проверка теста
 function checkQuiz() {
   document.querySelectorAll(".question").forEach((question) => {
-    const correct = question.dataset.correct;
-    const options = question.querySelectorAll(".option");
+    const correct = question.dataset.answer;
+    const selected = question.querySelector(".option.selected");
 
-    options.forEach((option) => {
-      const letter = option.textContent.trim().charAt(0);
-
-      if (letter === correct) {
-        option.classList.add("correct");
-      }
-
-      if (option.classList.contains("selected") && letter !== correct) {
-        option.classList.add("wrong");
-      }
+    // сброс цветов
+    question.querySelectorAll(".option").forEach((o) => {
+      o.classList.remove("correct", "wrong");
     });
+
+    if (!selected) return;
+
+    if (selected.dataset.value === correct) {
+      selected.classList.add("correct");
+    } else {
+      selected.classList.add("wrong");
+
+      // подсветка правильного ответа
+      question.querySelectorAll(".option").forEach((o) => {
+        if (o.dataset.value === correct) {
+          o.classList.add("correct");
+        }
+      });
+    }
   });
 }
+
 // Kto to powiedział?
 
 document.querySelectorAll(".option").forEach((option) => {
@@ -79,110 +93,6 @@ document.querySelectorAll(".option").forEach((option) => {
     this.classList.add("selected");
   });
 });
-
-function checkQuiz() {
-  document.querySelectorAll(".question").forEach((question) => {
-    let correct = question.dataset.answer;
-    let selected = question.querySelector(".option.selected");
-
-    question.querySelectorAll(".option").forEach((o) => {
-      o.classList.remove("correct", "wrong");
-    });
-
-    if (!selected) return;
-
-    if (selected.dataset.value === correct) {
-      selected.classList.add("correct");
-    } else {
-      selected.classList.add("wrong");
-
-      question.querySelectorAll(".option").forEach((o) => {
-        if (o.dataset.value === correct) {
-          o.classList.add("correct");
-        }
-      });
-    }
-  });
-}
-
-// Ułóż wydarzenia w kolejności - (перетаскивание событий)
-const list = document.getElementById("events");
-
-if (list) {
-  let draggedItem = null;
-
-  list.addEventListener("dragstart", (e) => {
-    draggedItem = e.target;
-    e.target.classList.add("dragging");
-  });
-
-  list.addEventListener("dragend", (e) => {
-    e.target.classList.remove("dragging");
-  });
-
-  list.addEventListener("dragover", (e) => {
-    e.preventDefault();
-    const afterElement = getDragAfterElement(list, e.clientY);
-    const draggable = document.querySelector(".dragging");
-
-    if (afterElement == null) {
-      list.appendChild(draggable);
-    } else {
-      list.insertBefore(draggable, afterElement);
-    }
-  });
-}
-
-
-function getDragAfterElement(container, y) {
-  const draggableElements = [
-    ...container.querySelectorAll("li:not(.dragging)"),
-  ];
-
-  return draggableElements.reduce(
-    (closest, child) => {
-      const box = child.getBoundingClientRect();
-      const offset = y - box.top - box.height / 2;
-
-      if (offset < 0 && offset > closest.offset) {
-        return { offset: offset, element: child };
-      } else {
-        return closest;
-      }
-    },
-    { offset: Number.NEGATIVE_INFINITY },
-  ).element;
-}
-
-function checkOrder() {
-  const items = document.querySelectorAll("#events li");
-  let correctCount = 0;
-
-  items.forEach((item, index) => {
-    item.classList.remove("correct", "wrong");
-
-    if (parseInt(item.dataset.order) === index + 1) {
-      item.classList.add("correct");
-      correctCount++;
-    } else {
-      item.classList.add("wrong");
-    }
-  });
-
-  const result = document.getElementById("order-result");
-
-  if (correctCount === items.length) {
-    result.textContent = "Świetnie! Wszystko jest w dobrej kolejności.";
-    result.style.color = "green";
-  } else {
-    result.textContent = "Sprawdź czerwone zdania i spróbuj poprawić.";
-    result.style.color = "red";
-  }
-}
-
-// // end Ułóż wydarzenia w kolejności - (перетаскивание событий)
-
-
 
 // интерактив с вводом.
 
@@ -207,98 +117,78 @@ function checkGrammar() {
   }
 }
 
-
-
 function closeWord() {
   document.getElementById("word-info").style.display = "none";
 }
 // модалОкно
-document.querySelectorAll(".vocab-word").forEach(word=>{
+document.querySelectorAll(".vocab-word").forEach((word) => {
+  word.addEventListener("click", function () {
+    const key = this.dataset.word;
 
-word.addEventListener("click", function(){
+    const data = document.getElementById("word-" + key);
 
-const key=this.dataset.word
+    const modal = document.getElementById("vocab-modal");
 
-const data=document.getElementById("word-"+key)
+    document.getElementById("modal-content").innerHTML = data.innerHTML;
 
-const modal=document.getElementById("vocab-modal")
+    modal.style.display = "flex";
+  });
+});
 
-document.getElementById("modal-content").innerHTML=data.innerHTML
+document.querySelector(".modal-close").addEventListener("click", closeModal);
 
-modal.style.display="flex"
+document.getElementById("vocab-modal").addEventListener("click", function (e) {
+  if (e.target.id === "vocab-modal") {
+    closeModal();
+  }
+});
 
-})
-
-})
-
-document.querySelector(".modal-close").addEventListener("click", closeModal)
-
-document.getElementById("vocab-modal").addEventListener("click", function(e){
-
-if(e.target.id==="vocab-modal"){
-closeModal()
-}
-
-})
-
-function closeModal(){
-document.getElementById("vocab-modal").style.display="none"
+function closeModal() {
+  document.getElementById("vocab-modal").style.display = "none";
 }
 
 // mapa
-document.querySelectorAll(".map-point").forEach(point=>{
+document.querySelectorAll(".map-point").forEach((point) => {
+  point.addEventListener("click", function () {
+    const city = this.dataset.city;
 
-point.addEventListener("click",function(){
+    const data = document.getElementById("city-" + city);
 
-const city=this.dataset.city
+    const modal = document.getElementById("vocab-modal");
 
-const data=document.getElementById("city-"+city)
+    document.getElementById("modal-content").innerHTML = data.innerHTML;
 
-const modal=document.getElementById("vocab-modal")
-
-document.getElementById("modal-content").innerHTML=data.innerHTML
-
-modal.style.display="flex"
-
-})
-
-})
+    modal.style.display = "flex";
+  });
+});
 // проверка ответа
-function checkAnswers(setId){
+function checkAnswers(setId) {
+  const set = document.getElementById(setId);
 
-const set=document.getElementById(setId)
+  const inputs = set.querySelectorAll("input");
 
-const inputs=set.querySelectorAll("input")
+  inputs.forEach((input) => {
+    const correct = input.dataset.answer.trim();
+    const user = input.value.trim();
 
-inputs.forEach(input=>{
-
-const correct=input.dataset.answer.trim()
-const user=input.value.trim()
-
-if(user===correct){
-
-input.style.border="2px solid green"
-input.style.background="#d4edda"
-
-}else{
-
-input.style.border="2px solid red"
-input.style.background="#f8d7da"
-
-}
-
-})
-
+    if (user === correct) {
+      input.style.border = "2px solid green";
+      input.style.background = "#d4edda";
+    } else {
+      input.style.border = "2px solid red";
+      input.style.background = "#f8d7da";
+    }
+  });
 }
 
 // печатался только выбранный блок
 function printTask(id) {
   const el = document.getElementById(id);
-  el.classList.add('printable');
+  el.classList.add("printable");
 
   window.print();
 
-  el.classList.remove('printable');
+  el.classList.remove("printable");
 }
 
 // end печатался только выбранный блок
