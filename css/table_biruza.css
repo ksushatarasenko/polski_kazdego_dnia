@@ -1,0 +1,96 @@
+
+.headerBiruza{
+  background-color: #45bfa8;
+  color: #eefffc;
+}
+.zadanieBiruza{
+  color: #45bfa8;
+  font-size: 24px;
+  font-style: italic;
+}
+.titleBiruza{
+  color: #45bfa8;
+  font-size: 28px;
+}
+
+.lesson-table {
+  width: 100%;
+  border-collapse: separate; /* важно */
+  border-spacing: 0;
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #5f5f5f;
+  background-color: #e4efec;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Ячейки */
+.lesson-table th,
+.lesson-table td {
+  padding: 10px;
+  text-align: center;
+  border-right: 2px solid #45bfa8;
+  border-bottom: 2px solid #45bfa8;
+}
+
+/* Убираем лишние границы */
+.lesson-table tr td:last-child,
+.lesson-table tr th:last-child {
+  border-right: none;
+}
+
+.lesson-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Заголовок */
+.lesson-table th {
+  background-color: #45bfa8;
+  color: #d9ece8;
+  font-weight: 500;
+}
+
+/* Ховер эффект */
+.lesson-table tbody tr {
+  transition: all 0.25s ease;
+}
+
+.lesson-table tbody tr:hover {
+  background-color: #d9ecea;
+  transform: scale(1.01);
+}
+
+/* Скругление углов */
+.lesson-table tr:first-child th:first-child {
+  border-top-left-radius: 16px;
+}
+
+.lesson-table tr:first-child th:last-child {
+  border-top-right-radius: 16px;
+}
+
+.lesson-table tr:last-child td:first-child {
+  border-bottom-left-radius: 16px;
+}
+
+.lesson-table tr:last-child td:last-child {
+  border-bottom-right-radius: 16px;
+}
+
+.biruzaButton{
+  background-color: #e4efed;
+  color: #45bfa8;
+}
+.biruzaButton:hover{
+  background-color: #c8dfdf;
+  scale: 0.9;
+}
+
+.biruzaFon{
+  background-color: #45bfa8;
+  color: #eef2ff;
+}
+/* end lesson-table */

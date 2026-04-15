@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lekcja 6A. Szukam</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleZumImage.css">
+    <link rel="stylesheet" href="../css/styleRu.css">
+    <link rel="stylesheet" href="../css/table_biruza.css">
+    <link rel="stylesheet" href="../css/styleText.css">
+    <link rel="stylesheet" href="../css/crammar_card.css">
+    <link rel="stylesheet" href="../css/styleModule3.css">
+    <link rel="stylesheet" href="../css/styleSlowoPodskazka.css">
+
+
+</head>
+
+<body>
+    <div id="vocab-modal" class="modal">
+        <div class="modal-box">
+
+            <span class="modal-close">✖</span>
+
+            <div id="modal-content"></div>
+
+        </div>
+    </div>
+
+    <header class="headerBiruza">
+        Poziom A2 z elementami B1 <br>
+        Module 6 - Wszędzie dobrze, ale w domu najlepiej<br>
+        Lekcja 6A. <br>Szukam
+    </header>
+
+    <div class="container task" id="task6A">
+
+
+        <!-- Zadanie 1 -->
+        <div class="box task" id="task1">
+            <div>
+                <div class="titleBiruza">Zadanie 1</div>
+            </div>
+            <div class="zadanieBiruza">Dopasuj pojęcie do definicji.</div>
+            <table class="lesson-table">
+                <tr>
+                    <td>1. Dom piętrowy </td>
+                    <td></td>
+                    <td>a) inaczej nazywany domem parterowym. Wszystkie pomieszczenia znajdują się na jednym piętrze.
+                    </td>
+                </tr>
+                <tr>
+                    <td>2. Dom szeregowy </td>
+                    <td></td>
+                    <td>b) dom dla dwóch rodzin z osobnym wejściem.</td>
+                </tr>
+                <tr>
+                    <td>3. Dom jednopiętrowy </td>
+                    <td></td>
+                    <td>c) zabytkowy budynek z cegły lub kamienia, ma przynajmniej jedno piętro.</td>
+                </tr>
+                <tr>
+                    <td>4. Dom bliźniaczy </td>
+                    <td style="width: 10%;"><em>4b</em></td>
+                    <td>d) połączenie kilku budynków, domy dzielą od siebie ściany boczne.</td>
+                </tr>
+                <tr>
+                    <td>5. Blok </td>
+                    <td></td>
+                    <td>e) wysoki budynek mieszkalny, który ma kilkanaście pięter.</td>
+                </tr>
+                <tr>
+                    <td>6. Wieżowiec </td>
+                    <td></td>
+                    <td>f) dom, który ma więcej niż jedno piętro.</td>
+                </tr>
+                <tr>
+                    <td>7. Kamienica </td>
+                    <td></td>
+                    <td>g ) budynek wielorodzinny, ma co najmniej trzy piętra.</td>
+                </tr>
+            </table><br>
+            <div class="image" style="width: 90%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6A_1.png"
+                    alt="6A_1" class="zum">
+            </div>
+
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot1')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="ot1" class="answer">
+                <table class="lesson-table">
+                    <tr>
+                        <td>1. Dom piętrowy </td>
+                        <td><em>F</em></td>
+                        <td>a) inaczej nazywany domem parterowym. Wszystkie pomieszczenia znajdują się na jednym
+                            piętrze.</td>
+                    </tr>
+                    <tr>
+                        <td>2. Dom szeregowy </td>
+                        <td><em>D</em></td>
+                        <td>b) dom dla dwóch rodzin z osobnym wejściem.</td>
+                    </tr>
+                    <tr>
+                        <td>3. Dom jednopiętrowy </td>
+                        <td><em>A</em></td>
+                        <td>c) zabytkowy budynek z cegły lub kamienia, ma przynajmniej jedno piętro.</td>
+                    </tr>
+                    <tr>
+                        <td>4. Dom bliźniaczy </td>
+                        <td style="width: 10%;"><em>B</em></td>
+                        <td>d) połączenie kilku budynków, domy dzielą od siebie ściany boczne.</td>
+                    </tr>
+                    <tr>
+                        <td>5. Blok </td>
+                        <td><em>G</em></td>
+                        <td>e) wysoki budynek mieszkalny, który ma kilkanaście pięter.</td>
+                    </tr>
+                    <tr>
+                        <td>6. Wieżowiec </td>
+                        <td><em>E</em></td>
+                        <td>f) dom, który ma więcej niż jedno piętro.</td>
+                    </tr>
+                    <tr>
+                        <td>7. Kamienica </td>
+                        <td><em>C</em></td>
+                        <td>g ) budynek wielorodzinny, ma co najmniej trzy piętra.</td>
+                    </tr>
+                </table><br>
+
+
+            </div>
+            <button onclick="printTask('task1')" class="biruzaButton">Drukuj</button>
+        </div>
+
+        <!-- Zadanie 2, -->
+
+        <div class="box task" id="task2">
+            <div class="titleBiruza">Zadanie 2</div>
+            <p class="zadanieBiruza"><span class="p22">W</span> czy <span class="p22">na</span>? Podkreśl odpowiedni
+                przyimek.</p>
+
+            <ol>
+                <li>Basia mieszka <b>w / na</b> bloku <b>na / w</b> obrzeżach miasta.</li>
+                <li>Moja rodzina mieszka <b>w / na</b> dużym domu <b>na / w</b> wsi.</li>
+                <li>Filip wynajmuje mieszkanie <b>na / w</b> wieżowcu <b>na / w</b> ostatnim piętrze.</li>
+                <li>Chciałabym zamieszkać <b>w / na</b> domu jednorodzinnym, ale na razie mieszkam z rodziną <b>w /
+                        na</b> szeregowcu.</li>
+                <li>Kupiłem mieszkanie <b>w / na</b> dużym osiedlu.</li>
+                <li>Szukam mieszkania, chciałbym zamieszkać <b>w / na</b> dużym apartamencie <b>w / na</b> centrum
+                    miasta.</li>
+            </ol>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot2')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="ot2" class="answer">
+                <ol>
+                    <li>Basia mieszka <b>w</b> bloku <b>na</b> obrzeżach miasta.</li>
+                    <li>Moja rodzina mieszka <b>w</b> dużym domu <b>na</b> wsi.</li>
+                    <li>Filip wynajmuje mieszkanie <b>w</b> wieżowcu <b>na</b> ostatnim piętrze.</li>
+                    <li>Chciałabym zamieszkać <b>w</b> domu jednorodzinnym, ale na razie mieszkam z rodziną <b>w</b>
+                        szeregowcu.</li>
+                    <li>Kupiłem mieszkanie <b>na</b> dużym osiedlu.</li>
+                    <li>Szukam mieszkania, chciałbym zamieszkać <b>w</b> dużym apartamencie <b>w</b> centrum miasta.
+                    </li>
+                </ol>
+            </div>
+            <button onclick="printTask('task2')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 3 -->
+
+        <div class="box task" id="task3">
+
+            <div class="titleBiruza">Zadanie 3</div>
+            <div class="zadanieBiruza">Połącz nazwy z odpowiednimi definicjami.</div>
+
+            <table class="lesson-table">
+                <tr>
+                    <td>Sąsiad</td>
+                    <td>osoba, która na stałe mieszka w określonym miejscu.</td>
+                </tr>
+                <tr>
+                    <td>Domownik</td>
+                    <td>osoba, z którą mieszkasz i dzielisz się opłatami.</td>
+                </tr>
+                <tr>
+                    <td>Współlokator</td>
+                    <td>inaczej najemca wynajmowanego mieszkania.</td>
+                </tr>
+                <tr>
+                    <td>Lokator</td>
+                    <td>osoba mieszkająca w poblizu.</td>
+                </tr>
+                <tr>
+                    <td>Mieszkaniec</td>
+                    <td>stały mieszkaniec domu lub mieszkania.</td>
+                </tr>
+                <tr>
+                    <td>Dozorca</td>
+                    <td>człowiek, który dba o czystość i porządek w budynku.</td>
+                </tr>
+            </table>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('otw3')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="otw3" class="answer">
+                <div class="text">
+                    <p><b>Sąsiad</b> - osoba mieszkająca w pobliżu;</p>
+                    <p><b>Domownik</b> - stały mieszkaniec domu lub mieszkania;</p>
+                    <p><b>Współlokator</b> - osoba, z którą mieszkasz i dzielisz się opłatami;</p>
+                    <p><b>Lokator</b> - inaczej najemca wynajmowanego mieszkania;</p>
+                    <p><b>Mieszkaniec</b> - osoba, która n a stałe mieszka w określonym miejscu;</p>
+                    <p><b>Dozorca</b> - człowiek, który dba o czystość i porządek w budynk;</p>
+                </div>
+            </div>
+            <button onclick="printTask('task3')" class="biruzaButton">Drukuj</button>
+
+        </div>
+
+        <!-- Zadanie 4 -->
+
+        <div class="box task" id="task4">
+
+            <div class="titleBiruza">Zadanie 4</div>
+            <div class="zadanieBiruza">Ola sprzedaje mieszkanie. Przeczytaj ogłoszenie i odpowiedz n a pytania.</div>
+            <div class="two">
+                <div class="text">
+                    <ol>
+                        <li>Gdzie znajduje się mieszkanie?
+                            <p>......................................................................</p>
+                        </li>
+                        <li>Czy mieszkanie jest wyposażone?
+                            <p>......................................................................</p>
+                        </li>
+                        <li>Jakie są dodatkowe atuty mieszkania?
+                            <p>......................................................................</p>
+                        </li>
+                        <li>Ile wynoszą miesięczne opłaty?
+                            <p>......................................................................</p>
+                        </li>
+                        <li>W jakiej okolicy znajduje się mieszkanie?
+                            <p>......................................................................</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="image" style="width: 80%;">
+                    <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6A_4.png"
+                        alt="6A_4" class="zum">
+                </div>
+            </div>
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a4')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a4" class="answer">
+
+                <div class="text">
+                    <ol>
+                        <li>Mieszkanie znajduje się w centrum Poznania.</li>
+                        <li>Mieszkanie jest w pełni wyposażone.</li>
+                        <li>Dodatkowe atuty mieszkania to taras i miejsce w garażu podziemnym.</li>
+                        <li>Miesięczne opłaty wynoszą około 1200 złotych.</li>
+                        <li>Mieszkanie znajduje się w cichej i spokojnej okolicy.</li>
+                    </ol>
+                </div>
+            </div>
+            <button onclick="printTask('task4')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 5 -->
+
+        <div class="box task" id="task5">
+
+            <div class="titleBiruza">Zadanie 5</div>
+            <div class="zadanieBiruza">Przeczytaj ogłoszenia i uzupełnij tabelę.
+            </div>
+            <div class="two">
+                <table class="lesson-table" style="width: 30%;">
+                    <tr>
+                        <th>OGŁOSZENIE 1. </th>
+                    </tr>
+                    <tr>
+                        <td>Jestem zainteresowany kupnem trzypokojowego mieszkania w Poznaniu. Zależy mi na salonie z
+                            aneksem kuchennym, dwóch sypialniach, a także na miejscu parkingowym w garażu podziemnym.
+                            Mieszkanie do 80 m<sup>2</sup>, w zależności od ceny. Opłaty miesięczne nieprzekraczające
+                            900 złotych.</td>
+                    </tr>
+                </table>
+                <table class="lesson-table" style="width: 30%;">
+                    <tr>
+                        <th>OGŁOSZENIE 2. </th>
+                    </tr>
+                    <tr>
+                        <td>Kupię dom na obrzeżach Warszawy - najlepiej blisko obwodnicy miasta. Maksymalnie 140
+                            m<sup>2</sup> i nowe budownictwo. Może być nieumeblowany i do remontu. Mile widziane dwa
+                            garaże i duży ogród. Proszę o kontakt.</td>
+                    </tr>
+                </table>
+                <table class="lesson-table" style="width: 30%;">
+                    <tr>
+                        <th>OGŁOSZENIE 3. </th>
+                    </tr>
+                    <tr>
+                        <td>Szukam kawalerki na sprzedaż w Poznaniu. Matej, ale wyremontowanej i w pełni wyposażonej.
+                            Preferuję okolice ścisłego centrum. Z możliwością wprowadzenia się od zaraz.</td>
+                    </tr>
+                </table>
+            </div><br>
+            <table class="lesson-table">
+                <tr>
+                    <th></th>
+                    <th>Ogłoszenie 1 </th>
+                    <th>Ogłoszenie 2</th>
+                    <th>Ogłoszenie 3</th>
+                </tr>
+                <tr>
+                    <td>Kawalerka</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Trzypokojowe mieszkanie</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Dom</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Powierzchnia do 80 m<sup>2</sup></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Umeblowane</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Do remontu</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Nieumeblowane</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Ścisłe centrum miasta</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Gotowe do wprowadzenia</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Wyremontowane</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Dwa garaże</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Garaż podziemny</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Ogród</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Powierzchnia do 140 m<sup>2</sup></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a5')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a5" class="answer">
+                <table class="lesson-table">
+                    <tr>
+                        <th></th>
+                        <th>Ogłoszenie 1</th>
+                        <th>Ogłoszenie 2</th>
+                        <th>Ogłoszenie 3</th>
+                    </tr>
+                    <tr>
+                        <td>Kawalerka</td>
+                        <td></td>
+                        <td></td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>Trzypokojowe mieszkanie</td>
+                        <td>✔</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Dom</td>
+                        <td></td>
+                        <td>✔</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Powierzchnia do 80 m<sup>2</sup></td>
+                        <td>✔</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Umeblowane</td>
+                        <td></td>
+                        <td></td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>Do remontu</td>
+                        <td></td>
+                        <td>✔</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Nieumeblowane</td>
+                        <td></td>
+                        <td>✔</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Ścisłe centrum miasta</td>
+                        <td></td>
+                        <td></td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>Gotowe do wprowadzenia</td>
+                        <td></td>
+                        <td></td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>Wyremontowane</td>
+                        <td></td>
+                        <td></td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>Dwa garaże</td>
+                        <td></td>
+                        <td>✔</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Garaż podziemny</td>
+                        <td>✔</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Ogród</td>
+                        <td></td>
+                        <td>✔</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Powierzchnia do 140 m<sup>2</sup></td>
+                        <td></td>
+                        <td>✔</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <button onclick="printTask('task5')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 6 -->
+
+        <div class="box task" id="task6">
+
+            <div class="titleBiruza">Zadanie 6</div>
+            <div class="zadanieBiruza">Postuchaj nagrania. Uzupełnij dialog brakującymi informacjami i zdecyduj, które zdanie jest prawdziwe <span class="p22">P</span>, a które fałszywe <span class="p22">F</span> .
+            </div>
+           
+           
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a6')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a6" class="answer">
+                
+            </div>
+            <button onclick="printTask('task6')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 7 -->
+
+        <div class="box task" id="task7">
+
+            <div class="titleGreen">Zadanie 7</div>
+            <div class="zadanieGreen">Porozmawiaj z lektorem i koleżankami/kolegami z grupy.
+            </div>
+            <div class="two">
+                <div>
+                    <ol>
+                        <li>Co najczęściej jesz n a śniadanie, obiad i kolację?</li>
+                        <li>Jakie produkty spożywcze najczęściej kupujesz? </li>
+                    </ol>
+                </div>
+                <div class="image" style="width: 80%;">
+                    <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module5/5A_7.png"
+                        alt="5A_7" class="zum">
+                </div>
+            </div>
+
+
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a7')" class="greenButton">Odpowiedź</button>
+
+            <div id="a7" class="answer">
+
+            </div>
+
+
+
+            <button onclick="printTask('task7')" class="greenButton">Drukuj</button>
+        </div>
+
+        <div class="box">
+            <div class="two">
+                <div class="image" style="width: 70%;">
+                    <img src="https://scontent.fpoz5-1.fna.fbcdn.net/v/t1.6435-9/89546761_2998214463551738_8033051670726311936_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_ohc=XEyHF5u5tGAQ7kNvwHeiZ3J&_nc_oc=Adr1cT2lx7yZtAQl9_YFOQWEGkWvY6dmvj00AlxS3KofKKIcolnwdfV23mKQn_GevXk&_nc_zt=23&_nc_ht=scontent.fpoz5-1.fna&_nc_gid=NQpjiQh79VI27iFfDhaKvA&_nc_ss=7a3a8&oh=00_Af3H6QhvZo22V2KHQLhP51rmVXdDU5iiGjxJdBGt50kGCg&oe=6A0555CA"
+                        alt="narzednik" class="zum">
+                </div>
+                <div class="image" style="width: 70%;">
+                    <img src="https://i.pinimg.com/736x/78/98/5e/78985eef189c77e73fdbdbec3d92e8d0.jpg" alt="narzednik"
+                        class="zum">
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <button onclick="printTask('task5A')" class="greenButton">Drukuj</button>
+
+        <!-- end -->
+        <div class="knopki">
+            <a href="../index.html" class="back">
+                ⬅ Powrót do wszystkich lekcji
+            </a><a href="./lesson5B.html" class="back">
+                Następna lekcji ⮕
+            </a>
+        </div>
+
+        <!--  -->
+
+        <div id="tooltip"></div>
+    </div>
+    <script src="../js/imageZum.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptRu.js"></script>
+    <script src="../js/cards.js"></script>
+
+
+
+</body>
+
+</html>
