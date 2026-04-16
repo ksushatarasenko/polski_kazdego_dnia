@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Lekcja 6B. Znalazłem</title>
+    <title>Lekcja 6C. Wynajmę</title>
 
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
@@ -34,10 +34,10 @@
     <header class="headerBiruza">
         Poziom A2 z elementami B1 <br>
         Module 6 - Wszędzie dobrze, ale w domu najlepiej<br>
-        Lekcja 6B. <br>Znalazłem
+        Lekcja 6C. <br>Wynajmę
     </header>
 
-    <div class="container task" id="task6B">
+    <div class="container task" id="task6C">
 
 
         <!-- Zadanie 1 -->
@@ -45,64 +45,40 @@
             <div>
                 <div class="titleBiruza">Zadanie 1</div>
             </div>
-            <div class="zadanieBiruza">Jakie pomieszczenia znajdują się w mieszkaniu? Podpisz obrazek.</div>
-            <div class="two">
-                <ul>
-                    <li>Salon</li>
-                    <li>Gabinet</li>
-                </ul>
-                <ul>
-                    <li>Aneks kuchenny</li>
-                    <li>Sypalnia</li>
-                </ul>
-                <ul>
-                    <li>Łazienka</li>
-                    <li>Przedpokój</li>
-                </ul>
-                <ul>
-                    <li>Balkon</li>
-                    <li></li>
-                </ul>
+            <div class="zadanieBiruza">Przeczytaj informacje i podpisz obrazki wyrazami z ramki.</div>
+            <table class="lesson-table">
+                <tr>
+                    <td>opłata za wynajem </td>
+                    <td>właściciel </td>
+                    <td>prąd </td>
+                    <td>ogrzewanie</td>
+                </tr>
+                <tr>
+                    <td>rachunki </td>
+                    <td>woda </td>
+                    <td>gaz </td>
+                    <td>wynajmujący</td>
+                </tr>
+            </table>
+            <div class="text">
+                <p><b>Właściciel</b> to osoba, która ma swoje mieszkanie i c o miesiąc musi płacić rachunki.</p>
+                <p><b>Czynsz</b> to opłata z a zużycie wody, z a ogrzewanie i za energię elektryczną.</p>
+                <p><b>Wynajmujący</b> to osoba, która mieszka w lokalu właściciela. Opłaca rachunki i płaci
+                    właścicielowi z a wynajem.</p>
             </div>
 
-            <div class="image" style="width: 70%;">
-                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6B_1.png"
-                    alt="6B_1" class="zum">
+            <div class="image" style="width: 90%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6C_1.png"
+                    alt="6C_1" class="zum">
             </div>
-            <div class="text">
-                <div class="two">
-                    <ol>
-                        <li>............................................................</li>
-                        <li>............................................................</li>
-                        <li>............................................................</li>
-                        <li>............................................................</li>
-                    </ol>
-                    <ol start="5">
-                        <li>............................................................</li>
-                        <li>............................................................</li>
-                        <li>............................................................</li>
-                    </ol>
-                </div>
-            </div>
+
 
             <!-- otwet -->
             <button onclick="toggleAnswer('ot1')" class="biruzaButton">Odpowiedź</button>
 
             <div id="ot1" class="answer">
                 <div class="text">
-                    <div class="two">
-                        <ol>
-                            <li><em>balkon</em></li>
-                            <li><em>sypialnia</em></li>
-                            <li><em>aneks kuchenny</em></li>
-                            <li><em>salon</em>.</li>
-                        </ol>
-                        <ol start="5">
-                            <li><em>gabinet</em></li>
-                            <li><em>łazienka</em></li>
-                            <li><em>przedpokój</em></li>
-                        </ol>
-                    </div>
+                    <p class="p22">gaz; wynajmujący; opłata za wynajem; rachunki; prąd; właściciel; ogrzewanie; woda</p>
                 </div>
             </div>
             <button onclick="printTask('task1')" class="biruzaButton">Drukuj</button>
@@ -112,85 +88,58 @@
 
         <div class="box task" id="task2">
             <div class="titleBiruza">Zadanie 2</div>
-            <p class="zadanieBiruza">Posłuchaj nagrania i zaznacz prawidłową odpowiedź. </p>
+            <p class="zadanieBiruza">Przeczytaj dialog i zdecyduj, które zdanie jest prawdziwe <span
+                    class="violet">P</span>, a które fałszywe <span class="violet">F</span> .</p>
 
-            <div class="two">
-                <div class="audio">
-                    <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a6.2.mp3" controls></audio>
-                </div>
-                <button class="ru-btn modal-trigger" data-modal="aud_6.2"><img src="../icons/audio.png" alt=""
-                        class="icons"></button>
+            <div class="text">
+                <p><b>Filip:</b> Cześć! Co robisz?</p>
+                <p><b>Ola:</b> Przeglądam oferty wynajmu mieszkań.</p>
 
-                <div class="modal" data-modal="aud_6.2">
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <div class="audio">
-                            <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a6.2.mp3" controls></audio>
-                        </div>
-                        <h4>Nagranie 1.1</h4>
-                        <div class="two">
-                            <div>
-                                <h5>Dialog 1</h5>
+                <p><b>Filip:</b> Chcesz zmienić mieszkanie? Dlaczego?</p>
+                <p><b>Ola:</b> Mieszkam sama, nie potrzebuję tak dużego mieszkania. Poza tym mieszkanie jest bardzo
+                    drogie, za wynajem i rachunki płacę prawie 3000 złotych. Rozmawiałam wczoraj z właścicielem.
+                    Powiedział, że od następnego miesiąca będę musiała płacić 150 złotych więcej.</p>
 
-                                <p><strong>Ola:</strong> Dzień dobry!</p>
-                                <p><strong>Projektant wnętrz:</strong> Dzień dobry! W czym mogę pani pomóc?</p>
-                                <p><strong>Ola:</strong> Chciałabym zmienić wygląd swojej sypialni. Jest mało przytulna
-                                    i ciasna, szafa zajmuje pół wolnej przestrzeni.</p>
-                                <p><strong>Projektant wnętrz:</strong> Ile metrów ma sypialnia?</p>
-                                <p><strong>Ola:</strong> Sypialnia ma 20 m<sup>2</sup>. Całe mieszkanie 70
-                                    m<sup>2</sup>.</p>
-                                <p><strong>Projektant wnętrz:</strong> Sporo! W takim razie sypialnia jest źle
-                                    rozplanowana. Proszę powiedzieć coś więcej o swoim mieszkaniu.</p>
-                                <p><strong>Ola:</strong> Mieszkanie jest nowe, budynek ma zaledwie 2 lata. W całym domu
-                                    są duże okna. Wydaje się nowoczesne, ale nie czuję się w nim dobrze.</p>
-                                <p><strong>Projektant wnętrz:</strong> Najchętniej obejrzałbym pani mieszkanie, dopiero
-                                    wtedy będę w stanie zaproponować konkretne zmiany.</p>
-                                <p><strong>Ola:</strong> Oczywiście. Ulica Miła 30, mieszkanie numer 12. Kiedy może pan
-                                    przyjechać?</p>
-                                <p><strong>Projektant wnętrz:</strong> Jutro o godzinie 12:30?</p>
-                                <p><strong>Ola:</strong> Świetnie, zapraszam.</p>
-                            </div>
-                            <div>
-                                <h5>Dialog 2</h5>
+                <p><b>Filip:</b> Próbowałaś negocjować cenę z właścicielem?</p>
+                <p><b>Ola:</b> Tak, ale bezskutecznie. Podwyżka obowiązuje od nowego miesiąca. Muszę się stąd jak
+                    najszybciej wyprowadzić.</p>
 
-                                <p><strong>Projektant wnętrz:</strong> Pani Olu, mieszkanie jest piękne. Proponuję
-                                    aranżację sypialni, zmianę ustawienia mebli i nowy kolor ścian.</p>
-                                <p><strong>Ola:</strong> Myśli pan, że to wystarczy?</p>
-                                <p><strong>Projektant wnętrz:</strong> Tak, zmieni to cały układ pomieszczenia. Brakuje
-                                    tu też dodatków – kwiatów, obrazów.</p>
-                                <p><strong>Ola:</strong> A kolor ścian?</p>
-                                <p><strong>Projektant wnętrz:</strong> Jasne oraz ciepłe kolory optycznie powiększają
-                                    wnętrze. Każdy pastelowy kolor będzie pasował do białych mebli.</p>
-                                <p><strong>Ola:</strong> Ile za to wszystko zapłacę?</p>
-                                <p><strong>Projektant wnętrz:</strong> Proszę się nie martwić o cenę, pomieszczenie nie
-                                    wymaga dużych zmian. Projekt i koszty prześlę pani jutro.</p>
-                                <p><strong>Ola:</strong> Dziękuję!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <p><b>Filip:</b> Rozumiem. Pytałaś znajomych, może ktoś szuka współlokatora i ma pokój do wynajęcia?</p>
+                <p><b>Ola:</b> Chciałabym nadal mieszkać sama. Szukam niewielkiego mieszkania, do 35 m².</p>
+
+                <p><b>Filip:</b> Myślałaś o jednopokojowym mieszkaniu z aneksem kuchennym i łazienką?</p>
+                <p><b>Ola:</b> Tak, chciałabym mieszkać w kawalerce. Widziałam kilka ogłoszeń, ale wszędzie jest bardzo
+                    drogo. Szukam mieszkania do 2000 złotych.</p>
+
+                <p><b>Filip:</b> A lokalizacja? Gdzie chciałabyś mieszkać?</p>
+                <p><b>Ola:</b> Nie ma to dla mnie większego znaczenia i tak wszędzie jeżdżę samochodem. W centrum na
+                    pewno nie wynajmę mieszkania za mniej niż płacę dotychczas.</p>
+
+                <p><b>Filip:</b> To fakt, w Warszawie jest bardzo drogo. Pomogę ci szukać, tylko pójdę do kiosku kupić
+                    gazetę. Tam też są ogłoszenia.</p>
+
+                <p><b>Ola:</b> Dziękuję! Kup coś do jedzenia, zapowiada się długi wieczór.</p>
             </div>
-            <div class="video">
-                <iframe style="max-width:100%"
-                    src="https://wordwall.net/uk/embed/0f5b4612eaad42c1835a5b3cba71beee?themeId=49&templateId=5&fontStackId=0"
-                    width="500" height="580" frameborder="0" allowfullscreen></iframe>
-            </div>
+            <ul>
+                <li>Ola chce kupić nowe mieszkanie. <b>P / F</b></li>
+                <li>Podwyżka za wynajmowane mieszkanie obowiązuje od następnego miesiąca. <b>P / F</b></li>
+                <li>Filip chciałby zaproponować Oli wspólne mieszkanie. <b>P / F</b></li>
+                <li>Ola chciałaby wynająć kawalerkę w centrum miasta. <b>P / F</b></li>
+                <li>Przyjaciel pomoże Oli znaleźć nowe mieszkanie. <b>P / F</b></li>
+            </ul>
 
             <!-- otwet -->
-            <!-- <button onclick="toggleAnswer('ot2')" class="biruzaButton">Odpowiedź</button>
+            <button onclick="toggleAnswer('ot2')" class="biruzaButton">Odpowiedź</button>
 
             <div id="ot2" class="answer">
-                <ol>
-                    <li>Basia mieszka <b>w</b> bloku <b>na</b> obrzeżach miasta.</li>
-                    <li>Moja rodzina mieszka <b>w</b> dużym domu <b>na</b> wsi.</li>
-                    <li>Filip wynajmuje mieszkanie <b>w</b> wieżowcu <b>na</b> ostatnim piętrze.</li>
-                    <li>Chciałabym zamieszkać <b>w</b> domu jednorodzinnym, ale na razie mieszkam z rodziną <b>w</b>
-                        szeregowcu.</li>
-                    <li>Kupiłem mieszkanie <b>na</b> dużym osiedlu.</li>
-                    <li>Szukam mieszkania, chciałbym zamieszkać <b>w</b> dużym apartamencie <b>w</b> centrum miasta.
-                    </li>
-                </ol>
-            </div> -->
+                <ul>F: P: F: P; P
+                    <li>Ola chce kupić nowe mieszkanie. <b>F</b></li>
+                    <li>Podwyżka za wynajmowane mieszkanie obowiązuje od następnego miesiąca. <b>P</b></li>
+                    <li>Filip chciałby zaproponować Oli wspólne mieszkanie. <b>F</b></li>
+                    <li>Ola chciałaby wynająć kawalerkę w centrum miasta. <b>F</b></li>
+                    <li>Przyjaciel pomoże Oli znaleźć nowe mieszkanie. <b>P</b></li>
+                </ul>
+            </div>
             <button onclick="printTask('task2')" class="biruzaButton">Drukuj</button>
         </div>
         <!-- Zadanie 3 -->
@@ -198,12 +147,118 @@
         <div class="box task" id="task3">
 
             <div class="titleBiruza">Zadanie 3</div>
-            <div class="zadanieBiruza">Znajdź w diagramie dziesięć nazw pomieszczeń.</div>
+            <div class="zadanieBiruza">Zapoznaj się z ofertami wynajmu mieszkań i odpowiedz na pytania.</div>
 
-            <div class="image" style="width: 80%;">
-                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6B_3.png"
-                    alt="6B_3" class="zum">
+            <div class="two">
+                <table class="lesson-table">
+                    <tr>
+                        <th>Pokój do wynajęcia - Oferta 1</th>
+                    </tr>
+                    <tr>
+                        <td class="two">
+                            <div class="image" style="width: 100px;margin-left: 10px;">
+                                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6C_3_Dom.png"
+                                    alt="6C_3_Dom" class="zum">
+                            </div>
+                            <ul style="text-align: left;">
+                                <li>Żoliborz, mieszkanie 50 m<sup>2</sup></li>
+                                <li>3 pokoje, salon z aneksem kuchennym, umeblowane i wyposażone;</li>
+                                <li>okres wynajmu minimum 1 rok;</li>
+                                <li>cena 1200 złotych + media do podziału;</li>
+                                <li>tel. 510 655 165.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <table class="lesson-table">
+                    <tr>
+                        <th>Wynajmę nowoczesne mieszkanie - Oferta 2</th>
+                    </tr>
+                    <td class="two">
+                        <div class="image" style="width: 100px;margin-left: 10px;">
+                            <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6C_3_Dom.png"
+                                alt="6C_3_Dom" class="zum">
+                        </div>
+                        <ul style="text-align: left;">
+                            <li>Ochota, 40 m<sup>2</sup></li>
+                            <li>w pełni wyposażona i umeblowana kawalerka po remoncie;</li>
+                            <li>pokój, oddzielna kuchnia, duży taras, obok stacja metra;</li>
+                            <li>cena 2000 złotych + rachunki ok. 700 złotych;</li>
+                            <li>kontakt: majafert@gmail.com.</li>
+                        </ul>
+                    </td>
+                </table>
+            </div><br>
+            <div class="two">
+                <table class="lesson-table">
+                    <tr>
+                        <th>Mieszkanie dwupokojowe - Oferta 3</th>
+                    </tr>
+                    <tr>
+                        <td class="two">
+                            <div class="image" style="width: 100px;margin-left: 10px;">
+                                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6C_3_Dom.png"
+                                    alt="6C_3_Dom" class="zum">
+                            </div>
+
+
+                            <ul style="text-align: left;">
+                                <li>Kabaty, 60 m<sup>2</sup></li>
+                                <li>dwa duże pokoje, oddzielna kuchnia;</li>
+                                <li>brak podstawowego sprzętu (pralka, telewizor);</li>
+                                <li>spokojna okolica, obok sklepy i lokale gastronomiczne;</li>
+                                <li>tączna cena 3200 złotych;</li>
+                                <li>tel. 945 546 498.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <table class="lesson-table">
+                    <tr>
+                        <th>Wynajm ę kawalerk ę - Oferta 4</th>
+                    </tr>
+                    <td class="two">
+                        <div class="image" style="width: 100px;margin-left: 10px;">
+                            <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6C_3_Dom.png"
+                                alt="6C_3_Dom" class="zum">
+                        </div>
+                        <ul style="text-align: left;">
+                            <li>Mokotów, 32 m<sup>2</sup></li>
+                            <li>salon z aneksem kuchennym;</li>
+                            <li>wyposażone w niezbędny sprzęt;</li>
+                            <li>dostępne od zaraz;</li>
+                            <li>cena 1900 złotych - w cenę wliczony czynsz i inne optaty;</li>
+                            <li>tel. 595 595 320</li>
+                        </ul>
+                    </td>
+                </table>
             </div>
+            <div>
+                <ol>
+                    <li>Która oferta ma najwyższą cenę najmu?
+                        <p>......................................................................................................................................................
+                        </p>
+                    </li>
+                    <li>Dlaczego Ola nie powinna wybrać oferty numer 1?
+                        <p>......................................................................................................................................................
+                        </p>
+                    </li>
+                    <li>Które mieszkanie ma najniższą cenę najmu?
+                        <p>......................................................................................................................................................
+                        </p>
+                    </li>
+                    <li>Czy oferta numer 2 jest odpowiednia dla Oli? Dlaczego?
+                        <p>......................................................................................................................................................
+                        </p>
+                    </li>
+                    <li>Czy kawalerka z ostatniej oferty spełnia wymagania Oli? Dlaczego?
+                        <p>......................................................................................................................................................
+                        </p>
+                    </li>
+                </ol>
+            </div>
+
+
 
 
 
@@ -211,10 +266,15 @@
             <button onclick="toggleAnswer('otw3')" class="biruzaButton">Odpowiedź</button>
 
             <div id="otw3" class="answer">
-                <div class="text">
-                    <p class="p22">jadalnia; korytarz; kuchnia; toaleta; pokój; spiżarnia; gabinet; balkon; piwnica;
-                        garaż</p>
-                </div>
+                <ol>
+                    <li>Najwyższą cenę najmu ma mieszkanie z oferty numer trzy.</li>
+                    <li>Ola nie powinna wybrać oferty numer jeden, ponieważ szuka kawalerki do wynajęcia, a nie pokoju w
+                        trzypokojowym mieszkaniu.</li>
+                    <li>Najniższą cenę najmu ma mieszkanie z oferty numer jeden.</li>
+                    <li>Nie, oferta numer dwa nie jest odpowiednia dla Oli, ponieważ mieszkanie jest zbyt drogie.</li>
+                    <li>Tak, kawalerka z ostatniej oferty spełnia wymagania Oli, ponieważ łączny koszt wynajęcia
+                        mieszkania z opłatami nie przekracza dwóch tysięcy złotych.</li>
+                </ol>
             </div>
             <button onclick="printTask('task3')" class="biruzaButton">Drukuj</button>
 
@@ -694,7 +754,7 @@
         <div class="knopki">
             <a href="../index.html" class="back">
                 ⬅ Powrót do wszystkich lekcji
-            </a><a href="./lesson6C.html" class="back">
+            </a><a href="./lesson5B.html" class="back">
                 Następna lekcji ⮕
             </a>
         </div>
