@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lekcja 6B. Znalazłem</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleZumImage.css">
+    <link rel="stylesheet" href="../css/styleRu.css">
+    <link rel="stylesheet" href="../css/table_biruza.css">
+    <link rel="stylesheet" href="../css/styleText.css">
+    <link rel="stylesheet" href="../css/crammar_card.css">
+    <link rel="stylesheet" href="../css/styleModule3.css">
+    <link rel="stylesheet" href="../css/styleSlowoPodskazka.css">
+
+
+</head>
+
+<body>
+    <div id="vocab-modal" class="modal">
+        <div class="modal-box">
+
+            <span class="modal-close">✖</span>
+
+            <div id="modal-content"></div>
+
+        </div>
+    </div>
+
+    <header class="headerBiruza">
+        Poziom A2 z elementami B1 <br>
+        Module 6 - Wszędzie dobrze, ale w domu najlepiej<br>
+        Lekcja 6B. <br>Znalazłem
+    </header>
+
+    <div class="container task" id="task6B">
+
+
+        <!-- Zadanie 1 -->
+        <div class="box task" id="task1">
+            <div>
+                <div class="titleBiruza">Zadanie 1</div>
+            </div>
+            <div class="zadanieBiruza">Jakie pomieszczenia znajdują się w mieszkaniu? Podpisz obrazek.</div>
+            <div class="two">
+                <ul>
+                    <li>Salon</li>
+                    <li>Gabinet</li>
+                </ul>
+                <ul>
+                    <li>Aneks kuchenny</li>
+                    <li>Sypalnia</li>
+                </ul>
+                <ul>
+                    <li>Łazienka</li>
+                    <li>Przedpokój</li>
+                </ul>
+                <ul>
+                    <li>Balkon</li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="image" style="width: 70%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6B_1.png"
+                    alt="6B_1" class="zum">
+            </div>
+            <div class="text">
+                <div class="two">
+                    <ol>
+                        <li>............................................................</li>
+                        <li>............................................................</li>
+                        <li>............................................................</li>
+                        <li>............................................................</li>
+                    </ol>
+                    <ol start="5">
+                        <li>............................................................</li>
+                        <li>............................................................</li>
+                        <li>............................................................</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot1')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="ot1" class="answer">
+                <div class="text">
+                    <div class="two">
+                        <ol>
+                            <li><em>balkon</em></li>
+                            <li><em>sypialnia</em></li>
+                            <li><em>aneks kuchenny</em></li>
+                            <li><em>salon</em>.</li>
+                        </ol>
+                        <ol start="5">
+                            <li><em>gabinet</em></li>
+                            <li><em>łazienka</em></li>
+                            <li><em>przedpokój</em></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <button onclick="printTask('task1')" class="biruzaButton">Drukuj</button>
+        </div>
+
+        <!-- Zadanie 2, -->
+
+        <div class="box task" id="task2">
+            <div class="titleBiruza">Zadanie 2</div>
+            <p class="zadanieBiruza">Posłuchaj nagrania i zaznacz prawidłową odpowiedź. </p>
+
+            <div class="two">
+                <div class="audio">
+                    <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a6.2.mp3" controls></audio>
+                </div>
+                <button class="ru-btn modal-trigger" data-modal="aud_6.2"><img src="../icons/audio.png" alt=""
+                        class="icons"></button>
+
+                <div class="modal" data-modal="aud_6.2">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="audio">
+                            <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a6.2.mp3" controls></audio>
+                        </div>
+                        <h4>Nagranie 1.1</h4>
+                        <div class="two">
+                            <div>
+                                <h5>Dialog 1</h5>
+
+                                <p><strong>Ola:</strong> Dzień dobry!</p>
+                                <p><strong>Projektant wnętrz:</strong> Dzień dobry! W czym mogę pani pomóc?</p>
+                                <p><strong>Ola:</strong> Chciałabym zmienić wygląd swojej sypialni. Jest mało przytulna
+                                    i ciasna, szafa zajmuje pół wolnej przestrzeni.</p>
+                                <p><strong>Projektant wnętrz:</strong> Ile metrów ma sypialnia?</p>
+                                <p><strong>Ola:</strong> Sypialnia ma 20 m<sup>2</sup>. Całe mieszkanie 70
+                                    m<sup>2</sup>.</p>
+                                <p><strong>Projektant wnętrz:</strong> Sporo! W takim razie sypialnia jest źle
+                                    rozplanowana. Proszę powiedzieć coś więcej o swoim mieszkaniu.</p>
+                                <p><strong>Ola:</strong> Mieszkanie jest nowe, budynek ma zaledwie 2 lata. W całym domu
+                                    są duże okna. Wydaje się nowoczesne, ale nie czuję się w nim dobrze.</p>
+                                <p><strong>Projektant wnętrz:</strong> Najchętniej obejrzałbym pani mieszkanie, dopiero
+                                    wtedy będę w stanie zaproponować konkretne zmiany.</p>
+                                <p><strong>Ola:</strong> Oczywiście. Ulica Miła 30, mieszkanie numer 12. Kiedy może pan
+                                    przyjechać?</p>
+                                <p><strong>Projektant wnętrz:</strong> Jutro o godzinie 12:30?</p>
+                                <p><strong>Ola:</strong> Świetnie, zapraszam.</p>
+                            </div>
+                            <div>
+                                <h5>Dialog 2</h5>
+
+                                <p><strong>Projektant wnętrz:</strong> Pani Olu, mieszkanie jest piękne. Proponuję
+                                    aranżację sypialni, zmianę ustawienia mebli i nowy kolor ścian.</p>
+                                <p><strong>Ola:</strong> Myśli pan, że to wystarczy?</p>
+                                <p><strong>Projektant wnętrz:</strong> Tak, zmieni to cały układ pomieszczenia. Brakuje
+                                    tu też dodatków – kwiatów, obrazów.</p>
+                                <p><strong>Ola:</strong> A kolor ścian?</p>
+                                <p><strong>Projektant wnętrz:</strong> Jasne oraz ciepłe kolory optycznie powiększają
+                                    wnętrze. Każdy pastelowy kolor będzie pasował do białych mebli.</p>
+                                <p><strong>Ola:</strong> Ile za to wszystko zapłacę?</p>
+                                <p><strong>Projektant wnętrz:</strong> Proszę się nie martwić o cenę, pomieszczenie nie
+                                    wymaga dużych zmian. Projekt i koszty prześlę pani jutro.</p>
+                                <p><strong>Ola:</strong> Dziękuję!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <iframe style="max-width:100%"
+                    src="https://wordwall.net/uk/embed/0f5b4612eaad42c1835a5b3cba71beee?themeId=49&templateId=5&fontStackId=0"
+                    width="500" height="580" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <!-- otwet -->
+            <!-- <button onclick="toggleAnswer('ot2')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="ot2" class="answer">
+                <ol>
+                    <li>Basia mieszka <b>w</b> bloku <b>na</b> obrzeżach miasta.</li>
+                    <li>Moja rodzina mieszka <b>w</b> dużym domu <b>na</b> wsi.</li>
+                    <li>Filip wynajmuje mieszkanie <b>w</b> wieżowcu <b>na</b> ostatnim piętrze.</li>
+                    <li>Chciałabym zamieszkać <b>w</b> domu jednorodzinnym, ale na razie mieszkam z rodziną <b>w</b>
+                        szeregowcu.</li>
+                    <li>Kupiłem mieszkanie <b>na</b> dużym osiedlu.</li>
+                    <li>Szukam mieszkania, chciałbym zamieszkać <b>w</b> dużym apartamencie <b>w</b> centrum miasta.
+                    </li>
+                </ol>
+            </div> -->
+            <button onclick="printTask('task2')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 3 -->
+
+        <div class="box task" id="task3">
+
+            <div class="titleBiruza">Zadanie 3</div>
+            <div class="zadanieBiruza">Znajdź w diagramie dziesięć nazw pomieszczeń.</div>
+
+            <div class="image" style="width: 80%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6B_3.png"
+                    alt="6B_3" class="zum">
+            </div>
+
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('otw3')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="otw3" class="answer">
+                <div class="text">
+                    <p class="p22">jadalnia; korytarz; kuchnia; toaleta; pokój; spiżarnia; gabinet; balkon; piwnica;
+                        garaż</p>
+                </div>
+            </div>
+            <button onclick="printTask('task3')" class="biruzaButton">Drukuj</button>
+
+        </div>
+
+        <!-- Zadanie 4 -->
+
+        <div class="box task" id="task4">
+
+            <div class="titleBiruza">Zadanie 4</div>
+            <div class="zadanieBiruza">Dopisz pojęcia do podanych definicji. Wszystkie potrzebne wyrazy znajdziesz w
+                powyższym zadaniu.</div>
+            <div class="two">
+                <div class="text">
+                    <ol>
+                        <li>Mejsce, w którym spożywamy posiłki.
+                            <p>...........................................................................................
+                            </p>
+                        </li>
+                        <li>Znajduje się w podziemiach budynku.
+                            <p>...........................................................................................
+                            </p>
+                        </li>
+                        <li>Pomieszczanie, w którym przechowujemy przetwory.
+                            <p>...........................................................................................
+                            </p>
+                        </li>
+                        <li>Łączy ze sobą pomieszczenia w mieszkaniu.
+                            <p>...........................................................................................
+                            </p>
+                        </li>
+                        <li>Pomieszczenie, które służy do pracy umysłowej.
+                            <p>...........................................................................................
+                            </p>
+                        </li>
+                        <li>Miejsce przeznaczone do przechowywania pojazdów mechanicznych.
+                            <p>...........................................................................................
+                            </p>
+                        </li>
+                        <li>Dodatkowa powierzchnia mieszkania, która stanowi otwartą część budynku.
+                            <p>...........................................................................................
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+
+            </div>
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a4')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a4" class="answer">
+
+                <div class="text">
+                    <ol>
+                        <li>Mejsce, w którym spożywamy posiłki.
+                            <p><em>jadalnia</em></p>
+                        </li>
+                        <li>Znajduje się w podziemiach budynku.
+                            <p><em>piwnica</em></p>
+                        </li>
+                        <li>Pomieszczanie, w którym przechowujemy przetwory.
+                            <p><em>spiżarnia</em></p>
+                        </li>
+                        <li>Łączy ze sobą pomieszczenia w mieszkaniu.
+                            <p><em>korytarz</em></p>
+                        </li>
+                        <li>Pomieszczenie, które służy do pracy umysłowej.
+                            <p><em>gabinet</em></p>
+                        </li>
+                        <li>Miejsce przeznaczone do przechowywania pojazdów mechanicznych.
+                            <p><em>garaż</em></p>
+                        </li>
+                        <li>Dodatkowa powierzchnia mieszkania, która stanowi otwartą część budynku.
+                            <p><em>balkon</em></p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <button onclick="printTask('task4')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 5 -->
+
+        <div class="box task" id="task5">
+
+            <div class="titleBiruza">Zadanie 5</div>
+            <div class="zadanieBiruza">Dopasuj meble i sprzęty do odpowiedniego pomieszczenia.</div>
+            <table class="lesson-table">
+                <tr>
+                    <td>pralka</td>
+                    <td>kanapa </td>
+                    <td>lampa </td>
+                    <td>szafa </td>
+                    <td>stół </td>
+                    <td>stolik </td>
+                    <td>obraz</td>
+                </tr>
+                <tr>
+                    <td>czajnik</td>
+                    <td>lustro </td>
+                    <td>mikrofalówka </td>
+                    <td>fotel </td>
+                    <td>komoda </td>
+                    <td>zmywarka</td>
+                    <td>wanna</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>telewizor </td>
+                    <td>prysznic </td>
+                    <td>garnek</td>
+                    <td>umywalka</td>
+                    <td>lodówka</td>
+                    <td></td>
+                </tr>
+            </table>
+            <button onclick="toggleAnswer('tl5')" class="biruzaButton">Tłumaczenie</button>
+
+            <div id="tl5" class="answer">
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>pralka</b> - стиральная машина
+                        <p>to urządzenie do prania ubrań</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://hurtownia7.pl/images/full/dc84d926a31c6d9115be5771bb0bbc4b.jpg" alt="pralka"
+                            class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>kanapa</b> - диван
+                        <p>to mebel do siedzenia lub leżenia w salonie</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://modernomeble.pl/wp-content/uploads/2023/11/kanapa-Pufetto-zielen.jpg"
+                            alt="kanapa" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>lampa</b> - лампа
+                        <p>to źródło światła w pomieszczeniu</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://media.home-you.com/catalog/product/6/f/6ff1db31ee721761a7d495a7005e2f42.jpg?store=pl&image-type=image&width=920&height=920"
+                            alt="lampa" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>szafa</b> - шкаф
+                        <p>to mebel do przechowywania ubrań</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://lukmebel.pl/103788-large_default/szafa-aurora-4d2sz-kaszmir-z-szufladami.jpg"
+                            alt="szafa" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>stół</b> - стол
+                        <p>to mebel do jedzenia lub pracy</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://meblomoda.pl/media/d7/9a/b4/1712234021/st%C3%B3%C5%82%20falko%20d%C4%99bowy%20rozk%C5%82adany%20d%C4%85b%20natura%20olejowany%20(3).jpg"
+                            alt="stół" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>stolik</b> - столик
+                        <p>to mały stół, np. kawowy</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://orlinski-woodart.pl/wp-content/uploads/2025/03/IMG_2033.jpg" alt="stolik"
+                            class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>obraz</b> - картина
+                        <p>to dekoracja na ścianie</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Jacob_van_geel%2C_imboscata%2C_1635%2C_01.JPG/250px-Jacob_van_geel%2C_imboscata%2C_1635%2C_01.JPG"
+                            alt="obraz" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>czajnik</b> - чайник
+                        <p>to urządzenie do gotowania wody</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://a.allegroimg.com/original/11e836/6884caa14b2ea360f63f3c8c53f3/CZAJNIK-na-GAZ-CZAJNIK-CZARNY-3L-Z-GWIZDKIEM-POKRYWA-RACZKA-STAL-INDUKCJA-EAN-GTIN-5907564504980"
+                            alt="czajnik" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>lustro</b> - зеркало
+                        <p>to powierzchnia odbijająca obraz</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://mebloscenka.pl/16439-large_default/portal-czarne-lustro-w-stylu-bauhaus-polski-design.jpg"
+                            alt="lustro" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>mikrofalówka</b> - микроволновка
+                        <p>to urządzenie do podgrzewania jedzenia</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://image.ceneostatic.pl/data/products/160544424/i-kuchenka-mikrofalowa-mikrofalowka-20l.jpg"
+                            alt="mikrofalówka" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>fotel</b> - кресло
+                        <p>to wygodny mebel do siedzenia</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://mebloo.pl/img/products/37/43/12_max.jpg" alt="fotel" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>komoda</b> - комод
+                        <p>to mebel z szufladami</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://lukmebel.pl/78850-large_default/komoda-lina-kaszmir-4s-z-szufladami-i-oswietleniem-led.jpg"
+                            alt="komoda" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>zmywarka</b> - посудомоечная машина
+                        <p>to urządzenie do mycia naczyń</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://image.ceneostatic.pl/data/products/175198245/i-zmywarka-mini-do-naczyn-wolnostojaca-nablatowa-hermitlux-dw04-5l.jpg"
+                            alt="zmywarka" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>wanna</b> - ванна
+                        <p>to urządzenie do kąpieli</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://polimat.com.pl/cdn/shop/products/medium_1445x.jpg?v=1664879402" alt="wanna"
+                            class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>telewizor</b> - телевизор
+                        <p>to urządzenie do oglądania programów</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://maxelektro.pl/storage/image/pimcore_import/2023/8/14/64117d53f35fd04755695bbb2a4cb965/jpg/maxelektro/store_main_image/telewizor-philips-32phs680812-2.jpg"
+                            alt="telewizor" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>prysznic</b> - душ
+                        <p>to urządzenie do szybkiej kąpieli</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://m.media-amazon.com/images/I/71-zhI4QabL.jpg" alt="prysznic" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>garnek</b> - кастрюля
+                        <p>to naczynie do gotowania</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://www.galerialimonka.pl/pics/prod/garnek-stalowy-ze-szklana-pokrywa-55-litra-flavoria-kela-ke-10176-3.jpg"
+                            alt="garnek" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>umywalka</b> - раковина
+                        <p>to miejsce do mycia rąk</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://sklep.deante.pl/1978-thickbox_default/floks-umywalka-ceramiczna-wpuszczana-z-miejscem-na-baterie-60-cm.jpg"
+                            alt="umywalka" class="zum">
+                    </div>
+                </li>
+
+                <li class="two">
+                    <div style="width: 50%;">
+                        <b>lodówka</b> - холодильник
+                        <p>to urządzenie do przechowywania jedzenia w chłodzie</p>
+                    </div>
+                    <div class="image" style="width: 10%;">
+                        <img src="https://f00.osfr.pl/foto/2/104269571361/e6ffb14165e9a778b1b93f14d4dad5b1/haier-3-drzwiowa-htw7720enmp,104269571361_5.webp"
+                            alt="lodówka" class="zum">
+                    </div>
+                </li>
+
+            </div>
+
+            <table class="lesson-table">
+                <tr>
+                    <th>Kuchnia</th>
+                    <th>Łazienka</th>
+                    <th>Salon</th>
+                </tr>
+                <tr>
+                    <td style="height: 100px;"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a5')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a5" class="answer">
+                <table class="lesson-table">
+                    <tr>
+                        <th>Kuchnia</th>
+                        <th>Łazienka</th>
+                        <th>Salon</th>
+                    </tr>
+                    <tr>
+                        <td style="height: 100px;">stół, czajnik, mikrofalówka, zmywarka, garnek, lodówka</td>
+                        <td>pralka, lustro, wanna, prysznic, umywalka</td>
+                        <td>kanapa, lampa, szafa, stolik, obraz, fotel, komoda, telewizor</td>
+                    </tr>
+                </table>
+            </div>
+            <button onclick="printTask('task5')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 6 -->
+
+        <div class="box task" id="task6">
+
+            <div class="titleBiruza">Zadanie 6</div>
+            <div class="zadanieBiruza"> Uzupełnij zdania przyimkami: <span class="violet">pod, przed, za, na, nad, obok
+                    oraz</span> odpowiednią formą gramatyczną rzeczownika podanego w nawiasie.
+            </div>
+            <div class="two">
+                <div>
+                    <ol>
+                        <li>Dywan leży ........................................ (kanapa).</li>
+                        <li>Lampa wisi ........................................ (stół).</li>
+                        <li>Komputer stoi ........................................ (biurko).</li>
+                        <li>Obraz wisi ........................................ (zegar).</li>
+                    </ol>
+                </div>
+                <div>
+                    <ol start="5">
+                        <li>Fotel stoi ........................................ (biurko).</li>
+                        <li>Biurko stoi ........................................ (okno).</li>
+                        <li>Okno jest ........................................ (kanapa).</li>
+                    </ol>
+                </div>
+            </div><br>
+
+            <div class="image" style="width: 60%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6B_6_1.png"
+                    alt="6B_6_1" class="zum">
+            </div>
+            <div class="image" style="width: 90%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6B_6_2.png"
+                    alt="6B_6_2" class="zum">
+            </div>
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a6')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a6" class="answer">
+                <div class="two">
+                    <div>
+                        <ol>
+                            <li>Dywan leży <b>pod kanapą</b>.</li>
+                            <li>Lampa wisi <b>nad stołem</b>.</li>
+                            <li>Komputer stoi <b>na biurku</b>.</li>
+                            <li>Obraz wisi <b>obok zegara</b>.</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <ol start="5">
+                            <li>Fotel stoi <b>obok biurka</b>.</li>
+                            <li>Biurko stoi <b>przed oknie</b>.</li>
+                            <li>Okno jest <b>za kanapą</b>.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <button onclick="printTask('task6')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 7 -->
+
+        <div class="box task" id="task7">
+
+            <div class="titleBiruza">Zadanie 7</div>
+            <div class="zadanieBiruza">Uzupełnij zdania czasownikami: <span class="violet">stoi, wisi, leży</span>.
+            </div>
+            <div class="two">
+                <div>
+                    <h6>Pytania:</h6>
+                    <ol>
+                        <li>Na półce ........................................ zdjęcie.</li>
+                        <li>Obraz ........................................ w salonie.</li>
+                        <li>Szafa ........................................ po prawej stronie.</li>
+                        <li>Dywan ........................................ na podłodze.</li>
+                        <li>Półki ........................................ na ścianie.</li>
+                        <li>Klucze ........................................ na stole.</li>
+                        <li>Telewizor ........................................ na szafce.</li>
+                    </ol>
+                </div>
+                <div class="image" style="width: 50%;">
+                    <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module6/6B_6_3.png"
+                        alt="6B_6_3" class="zum">
+                </div>
+            </div>
+
+
+
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a7')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a7" class="answer">
+                <div>
+                    <ol>
+                        <li>Na półce <b>leży</b> zdjęcie.</li>
+                        <li>Obraz <b>wisi</b> w salonie.</li>
+                        <li>Szafa <b>stoi</b> po prawej stronie.</li>
+                        <li>Dywan <b>leży</b> na podłodze.</li>
+                        <li>Półki <b>wiszą</b> na ścianie.</li>
+                        <li>Klucze <b>leżą</b> na stole.</li>
+                        <li>Telewizor <b>stoi</b> na szafce.</li>
+                    </ol>
+                </div>
+            </div>
+
+
+
+            <button onclick="printTask('task7')" class="biruzaButton">Drukuj</button>
+        </div>
+
+
+
+
+        <button onclick="printTask('task6B')" class="biruzaButton">Drukuj</button>
+
+        <!-- end -->
+        <div class="knopki">
+            <a href="../index.html" class="back">
+                ⬅ Powrót do wszystkich lekcji
+            </a><a href="./lesson5B.html" class="back">
+                Następna lekcji ⮕
+            </a>
+        </div>
+
+        <!--  -->
+
+        <div id="tooltip"></div>
+    </div>
+    <script src="../js/imageZum.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptRu.js"></script>
+    <script src="../js/cards.js"></script>
+
+
+
+</body>
+
+</html>
