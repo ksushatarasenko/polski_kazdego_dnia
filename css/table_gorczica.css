@@ -94,3 +94,11 @@
   color: #fffdee;
 }
 /* end lesson-table */
+
+.p16 li{
+  text-align: left;
+  font-size: 16px;
+}
+.p16{
+  max-width: 50%;
+}
