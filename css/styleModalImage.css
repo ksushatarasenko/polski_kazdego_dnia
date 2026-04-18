@@ -1,0 +1,26 @@
+.open-modal {
+  cursor: pointer;
+  color: #183ac2;
+  cursor: pointer;
+}
+.open-modal:hover{
+  color: #b1101b;
+  scale: 1.2;
+  font-weight: 900;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+   z-index: 9999; /* ВАЖНО */
+}
+
+.modal-content img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+}

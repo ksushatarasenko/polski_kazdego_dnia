@@ -1,5 +1,6 @@
 ą
 ż 
+<!-- &nbsp;  probel -->
 
 <!-- knopka z ikonkoj -->
 <button class="ru-btn modal-trigger" data-modal="aud_5"><img src="../icons/audio.png" alt="" class="icons"></button>
@@ -106,3 +107,14 @@ __________ end slowa s podskazkoq______
             </div>
 
 ---- end audio ------
+
+<!-- КЛИК НА СЛОВО - МОДАЛКА КАРТИНКИ -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+    <span class="open-modal" data-img="../../imagesPrzypadki/biernik_l_p.png"></span>
+
+<!-- END КЛИК НА СЛОВО - МОДАЛКА КАРТИНКИ -->

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lekcja 7C. Zgubiłem się, czy możesz mi pomóc?</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleZumImage.css">
+    <link rel="stylesheet" href="../css/styleRu.css">
+    <link rel="stylesheet" href="../css/table_gorczica.css">
+    <link rel="stylesheet" href="../css/styleText.css">
+    <link rel="stylesheet" href="../css/crammar_card.css">
+    <!-- <link rel="stylesheet" href="../css/styleModule3.css"> -->
+    <link rel="stylesheet" href="../css/styleSlowoPodskazka.css">
+    <link rel="stylesheet" href="../css/styleModalImage.css">
+
+</head>
+
+<body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+    <div id="vocab-modal" class="modal">
+        <div class="modal-box">
+            <span class="modal-close">✖</span>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <header class="headerBiruza">
+        Poziom A2 z elementami B1 <br>
+        Module 7 - Podroze małe i duże!<br>
+        Lekcja 7C. <br>Zgubiłem się, czy możesz mi pomóc?
+    </header>
+
+    <div class="container task" id="task7C">
+
+
+        <!-- Zadanie 1 -->
+        <div class="box task" id="task1">
+            <div>
+                <div class="titleBiruza">Zadanie 1</div>
+            </div>
+            <div class="zadanieBiruza">Co to jest? Podpisz znaki.</div>
+            <table class="lesson-table">
+                <tr>
+                    <td>droga jednokierunkowa</td>
+                    <td>przejście dla pieszych</td>
+                    <td>idź prosto</td>
+                    <td>skręć w prawo</td>
+                </tr>
+                <tr>
+                    <td>skręć w lewo</td>
+                    <td>skrzyżowanie</td>
+                    <td>rondo</td>
+                    <td>sygnalizacja świetlna</td>
+                </tr>
+            </table>
+
+            <div class="image" style="width: 90%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module7/7C_1.png"
+                    alt="7C_1" class="zum">
+            </div>
+
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot1')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="ot1" class="answer">
+                <div class="text">
+                    <p class="p22">skręć w lewo; przejście dla pieszych; droga jednokierunkowa; rondo; sygnalizacja
+                        świetlna; skrzyżowanie; idź prosto; skręć w prawo </p>
+                </div>
+            </div>
+            <button onclick="printTask('task1')" class="biruzaButton">Drukuj</button>
+        </div>
+
+        <!-- Zadanie 2, -->
+
+        <div class="box task" id="task2">
+            <div class="titleBiruza">Zadanie 2</div>
+            <p class="zadanieBiruza">Uzupełnij tabelę wyrazami z ramki. Pamiętaj o prawidłowej odmianie rzeczowników.
+            </p>
+
+            <table class="lesson-table">
+                <tr>
+                    <td>hotel</td>
+                    <td>parking</td>
+                    <td>stacja</td>
+                    <td>peron</td>
+                    <td>pokój</td>
+                    <td>bank</td>
+                </tr>
+                <tr>
+                    <td>stadion</td>
+                    <td>szkoła</td>
+                    <td>las</td>
+                    <td>rynek</td>
+                    <td>kino</td>
+                    <td>poczta</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>plaża </td>
+                    <td>sklep</td>
+                    <td>biblioteka</td>
+                    <td>księgarnia</td>
+                    <td></td>
+                </tr>
+            </table>
+            <table class="lesson-table">
+                <tr>
+                    <th>Idę <span class="blue">do</span> + <span class="open-modal"
+                            data-img="../imagesPrzypadki/dopełniacz_l_p.png">dopełniacz</span> </th>
+                    <th>Idę <span class="blue">na</span> + <span class="open-modal"
+                            data-img="../imagesPrzypadki/biernik_l_p.png">biernik</span></th>
+                </tr>
+                <tr>
+                    <td style="height: 100px;"><em>hotelu</em></td>
+                    <td><em>stadion</em></td>
+                </tr>
+            </table><br>
+            <div class="image" style="width: 70%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module7/7C_2.png"
+                    alt="7C_2" class="zum">
+            </div>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot2')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="ot2" class="answer">
+                <table class="lesson-table">
+                    <tr>
+                        <th>Idę <span class="blue">do</span> + <span class="open-modal"
+                                data-img="../imagesPrzypadki/dopełniacz_l_p.png">dopełniacz</span> </th>
+                        <th>Idę <span class="blue">na</span> + <span class="open-modal"
+                                data-img="../imagesPrzypadki/biernik_l_p.png">biernik</span></th>
+                    </tr>
+                    <tr>
+                        <td style="height: 100px;"><em>hotelu</em><br>
+                            pokoju, <br>banku, <br>szkoły, <br>lasu, <br>kina,<br> sklepu,<br> biblioteki,<br> księgarni
+                        </td>
+
+                        <td><em>stadion</em> <br>
+                            parking,<br> stację,<br> peron, <br>rynek,<br> pocztę,<br> plażę
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button onclick="printTask('task2')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 3 -->
+
+        <div class="box task" id="task3">
+
+            <div class="titleBiruza">Zadanie 3</div>
+            <div class="zadanieBiruza">Uzupełnij dialog.</div>
+
+            <div class="text">
+                <p><b>Turysta:</b> Przepraszam, czy tu niedaleko jest restauracja? Strasznie zmarzłam, chciałabym napić
+                    się ciepłej herbaty.</p>
+                <p><b>Przechodzień:</b> Tak, proszę iść ........................ <img
+                        src="https://ltesty.pl/images/znaki/znaki/big/C-5.png" alt="" class="icons"> przez pół
+                    kilometra, potem skręcić w ........................ <img
+                        src="https://ltesty.pl/images/znaki/znaki/big/C-2.png" alt="" class="icons"> i dojść aż do
+                    ........................ <img src="https://ltesty.pl/images/znaki/znaki/big/D-23.png" alt=""
+                        class="icons">. Za ........................ <img
+                        src="https://ltesty.pl/images/znaki/znaki/big/D-23.png" alt="" class="icons">. trzeba skręcić w
+                    ........................ <img src="https://ltesty.pl/images/znaki/znaki/big/C-4.png" alt=""
+                        class="icons">, będzie tam ........................ <img
+                        src="https://ltesty.pl/images/znaki/znaki/big/A-5.png" alt="" class="icons">, na którym musi pan
+                    skręcić w pierwszy zjazd. Za ........................ <img
+                        src="https://ltesty.pl/images/znaki/znaki/big/A-5.png" alt="" class="icons"> będzie
+                    ........................ <img src="https://ltesty.pl/images/znaki/znaki/big/D-18.png" alt=""
+                        class="icons">, a po prawej stronie ........................ <img
+                        src="https://ltesty.pl/images/znaki/znaki/big/D-6.png" alt="" class="icons">. Po przejściu na
+                    drugą stronę ulicy proszę iść
+                    do końca ........................ <img src="https://ltesty.pl/images/znaki/znaki/big/A-6a.png"
+                        alt="" class="icons">. ........................ <img
+                        src="https://ltesty.pl/images/znaki/znaki/big/D-28.png" alt="" class="icons"> będzie po lewej
+                    stronie, tuż za ........................ <img
+                        src="https://ltesty.pl/images/znaki/znaki/big/A-29.png" alt="" class="icons">. Proszę uważać,
+                    jeździ tam dużo samochodów ........................ <img
+                        src="https://fotoomnia.com/zdjecia/e2df80cc19057977959c38507a0c9aba.jpg" alt="" class="icons">.
+                </p>
+                <p><b>Turysta:</b> Dziękuję, bardzo mi pan pomógł.</p>
+            </div>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('otw3')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="otw3" class="answer">
+                <div class="text">
+                    <p><b>Przechodzień:</b> Tak, proszę iść <b>prosto</b> przez pół kilometra, potem skręcić w
+                        <b>prawo</b> i dojść aż do <b>stacji paliw</b>. Za <b>stacją paliw</b>. trzeba skręcić w
+                        <b>lewo</b>, będzie tam <b>skrzyżowanie</b>, na którym musi pan skręcić w pierwszy zjazd. Za
+                        <b>skrzyżowaniem</b> będzie <b>parking</b>, a po prawej stronie <b>przejście dla pieszych</b>.
+                        Po przejściu na drugą stronę ulicy proszę iść do końca <b>ulicy</b>. <b>Restauracja</b> będzie
+                        po lewej stronie, tuż za <b>sygnalizacją świetlną</b>. Proszę uważać, jeździ tam dużo samochodów
+                        <b>osobowych</b>.
+                    </p>
+                </div>
+            </div>
+            <button onclick="printTask('task3')" class="biruzaButton">Drukuj</button>
+
+        </div>
+
+        <!-- Zadanie 4 -->
+
+        <div class="box task" id="task4">
+
+            <div class="titleBiruza">Zadanie 4</div>
+            <div class="zadanieBiruza">Posłuchaj nagrania i wybierz mapę, która odpowiada opisowi drogi. </div>
+            <div class="two">
+                <div class="audio">
+                    <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a7.3.mp3" controls></audio>
+                </div>
+                <button class="ru-btn modal-trigger" data-modal="aud_1"><img src="../icons/audio.png" alt=""
+                        class="icons"></button>
+
+                <div class="modal" data-modal="aud_1">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="audio">
+                            <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a7.3.mp3" controls></audio>
+                        </div>
+                        <h4>Nagranie 7.3</h4>
+                        <div class="text">
+                            <p>Ola i Raiman są w okolicach Zamku Królewskiego na Wawelu, przy ulicy Podzamcze.
+                                Przyjaciółki chcą zobaczyć pomnik słynnego poety Adama Mickiewicza, który znajduje się
+                                na Rynku Głównym Starego Miasta. Po wyjściu z Zamku muszą kierować się na północny
+                                wschód. Przyjaciółki powinny iść w prawo do pierwszego skrzyżowania i skręcić w lewo w
+                                ulicę Kanoniczą. Po lewej stronie ulicy znajduje się Uniwersytet Papieski Jana Pawła II.
+                                Muszą dalej iść prosto i na końcu skręcić w prawo, w ulice Senacką. Na skrzyżowaniu
+                                ulicy Senackiej z ulicą Grodzką muszą skręcić w lewo, a następnie iść cały czas prosto.
+                                Po lewej stronie zobaczą pomnik Adama Mickiewicza.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="two" style="width: 80%;margin: 0 auto;gap: 5%;">
+                <div class="image" style="width: 40%;">
+                    <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module7/7C_4_1.png"
+                        alt="7B_3" class="zum">
+                </div>
+                <div class="image" style="width: 40%;">
+                    <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module7/7C_4_2.png"
+                        alt="7B_3" class="zum">
+                </div>
+                <div class="image" style="width: 40%;">
+                    <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module7/7C_4_3.png"
+                        alt="7B_3" class="zum">
+                </div>
+            </div>
+
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a4')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a4" class="answer">
+                <div class="text">
+                    <p class="p22">Trzecia mapa odpowiada opisowi drogi.</p>
+                </div>
+            </div>
+            <button onclick="printTask('task4')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 5 -->
+
+        <div class="box task" id="task5">
+
+            <div class="titleBiruza">Zadanie 5</div>
+            <div class="zadanieBiruza">N a podstawie planu miasta zdecyduj, które zdanie jest prawdziwe <b
+                    class="blue">P</b>, a które fałszywe <b class="blue">F</b>.</div>
+            <div class="image" style="width: 60%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module7/7C_5.png"
+                    alt="7B_5" class="zum">
+            </div>
+            <div class="text">
+                <ol>
+                    <li>Jadąc ze szpitala do restauracji należy przejechać przez tunel. &nbsp;&nbsp;&nbsp; <b>P / F</b>
+                    </li>
+                    <li>Niedaleko szpitala znajduje się bank. &nbsp;&nbsp;&nbsp; <b>P / F</b></li>
+                    <li>Jadąc z domu na stację paliw należy przejechać przez most. &nbsp;&nbsp;&nbsp; <b>P / F</b></li>
+                    <li>Obok ronda znajduje się parking i szpital. &nbsp;&nbsp;&nbsp; <b>P / F</b></li>
+                    <li>Hotel znajduje się niedaleko stadionu. &nbsp;&nbsp;&nbsp; <b>P / F</b></li>
+                    <li>Obok restauracji jest komisariat policji. &nbsp;&nbsp;&nbsp; <b>P / F</b></li>
+                </ol>
+            </div>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a5')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a5" class="answer">
+                <div class="text">
+                    <ol>
+                        <li>Jadąc ze szpitala do restauracji należy przejechać przez tunel. &nbsp;&nbsp;&nbsp; <b>F</b>
+                        </li>
+                        <li>Niedaleko szpitala znajduje się bank. &nbsp;&nbsp;&nbsp; <b>P</b></li>
+                        <li>Jadąc z domu na stację paliw należy przejechać przez most. &nbsp;&nbsp;&nbsp; <b>P</b></li>
+                        <li>Obok ronda znajduje się parking i szpital. &nbsp;&nbsp;&nbsp; <b>P</b></li>
+                        <li>Hotel znajduje się niedaleko stadionu. &nbsp;&nbsp;&nbsp; <b>F</b></li>
+                        <li>Obok restauracji jest komisariat policji. &nbsp;&nbsp;&nbsp; <b>F</b></li>
+                    </ol>
+                </div>
+            </div>
+            <button onclick="printTask('task5')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 6 -->
+
+        <div class="box task" id="task6">
+
+            <div class="titleBiruza">Zadanie 6</div>
+            <div class="zadanieBiruza">orozmawiaj Z kolegą / koleżanką z grupy.</div>
+            <div class="image" style="width: 60%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module7/7C_6.png"
+                    alt="7C_6" class="zum">
+            </div>
+            <div class="text">
+                <ol>
+                    <li>Jak dotrzeć ze szpitala na przystanek tramwajowy?</li>
+                    <li>Czy na ilustracji znajduje się plac zabaw i boisko sportowe? Jeśli tak, to opisz jego położenie.</li>
+                    <li>Ile skrzyżowań widzisz na ilustracji?</li>
+                    <li>Opisz drogę z Twojego domu do szpitala.</li>
+                    <li>Opisz położenie parku.</li>
+                </ol>
+            </div>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a6')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a6" class="answer">
+                <div class="text">
+                    <ol>
+                        <li>Aby dotrzeć ze szpitala na przystanek tramwajowy należy kierować się na zachód, przejść przez park i przejść przez przejście dla pieszych.</li>
+                        <li>Plac zabaw i boisko sportowe znajdują się w południowo-wschodniej części miasta, obok budynku straży pożarnej.</li>
+                        <li>Na ilustracji jest sześć skrzyżowań.</li>
+                        <li>Aby dotrzeć do szpitala należy po wyjściu z domu skręcić w prawo i iść cały czas prosto, za parkiem skręcić w prawo i iść na wschód. Szpital będzie po lewej stronie.</li>
+                        <li>Park znajduje się w centralnej części miasta, pomiędzy dworcem, a budynkiem straży pożarnej.</li>
+                    </ol>
+                </div>
+            </div>
+            <button onclick="printTask('task6')" class="biruzaButton">Drukuj</button>
+        </div>
+        
+
+        <button onclick="printTask('task7C')" class="biruzaButton">Drukuj</button>
+
+        <!-- end -->
+        <div class="knopki">
+            <a href="../index.html" class="back">
+                ⬅ Powrót do wszystkich lekcji
+            </a><a href="./lesson8A.html" class="back">
+                Następna lekcji ⮕
+            </a>
+        </div>
+
+        <!--  -->
+
+        <div id="tooltip"></div>
+    </div>
+    <script src="../js/imageZum.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptRu.js"></script>
+    <script src="../js/cards.js"></script>
+    <script src="../js/modalImage.js"></script>
+
+
+
+
+</body>
+
+</html>
