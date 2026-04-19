@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lekcja 9A. Jakie masz plany?</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleZumImage.css">
+    <link rel="stylesheet" href="../css/styleRu.css">
+    <link rel="stylesheet" href="../css/table_module9.css">
+    <link rel="stylesheet" href="../css/styleText.css">
+    <link rel="stylesheet" href="../css/crammar_card.css">
+    <!-- <link rel="stylesheet" href="../css/styleModule3.css"> -->
+    <link rel="stylesheet" href="../css/styleSlowoPodskazka.css">
+
+
+</head>
+
+<body>
+    <div id="vocab-modal" class="modal">
+        <div class="modal-box">
+
+            <span class="modal-close">✖</span>
+
+            <div id="modal-content"></div>
+
+        </div>
+    </div>
+
+    <header class="headerBiruza">
+        Poziom A2 z elementami B1 <br>
+        Module 9 - Czas wolny<br>
+        Lekcja 9A. <br>Jakie masz plany?
+    </header>
+
+    <div class="container task" id="task9A">
+        <div class="box">
+            <div class="image" style="width: 60%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module9/9A_1.png"
+                    alt="9A_1" class="zum">
+            </div>
+        </div>
+
+
+        <!-- Zadanie 1 -->
+        <div class="box task" id="task1">
+            <div>
+                <div class="titleBiruza">Zadanie 1</div>
+            </div>
+            <div class="zadanieBiruza">Przeczytaj tekst i uzupełnij tabelę.</div>
+            <div class="text">
+                <p>Basia codziennie wstaje o piątej trzydzieści, by przygotować rodzinie śniadanie. W tym samym czasie
+                    jej mąż Bartek pije herbatę z miodem i cytryną, córka Kasia ścieli łóżka, a syn Maciek pakuje
+                    kanapki do plecaka. Wszyscy bardzo się śpieszą, ponieważ przed południem dzieci muszą być już w
+                    szkole, a rodzice w pracy. Basia w południe zawsze ma przerwę obiadową i idzie z koleżankami do
+                    restauracji. Bartek w tym czasie jedzie na spotkanie biznesowe. Małżeństwo kończy pracę po południu.
+                    Basia od razu jedzie zrobić zakupy, a Filip odbiera dzieci ze szkoły. Kasia po południu ma lekcje
+                    gry na fortepianie, a Maciek dodatkowe zajęcia z pitki siatkowej. Rodzeństwo wraca do domu dopiero
+                    wieczorem. Po powrocie ich rodzice nadal pracują - mama prowadzi zdalnie zajęcia z języka polskiego,
+                    a tata wciąż rozmawia przez telefon z pracownikami swojej firmy.</p>
+            </div>
+
+            <table class="lesson-table">
+                <tr>
+                    <th><em>Co robi? </em></th>
+                    <th>Basia </th>
+                    <th>Bartek</th>
+                    <th>Kasia</th>
+                    <th>Maciek</th>
+                </tr>
+                <tr>
+                    <td>rano</td>
+                    <td><em>robi śniadanie</em></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>przed południem </td>
+                    <td></td>
+                    <td><em>jedzie do pracy</em></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>w południe</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>po południu</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>wieczorem</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot1')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="ot1" class="answer">
+                <table class="lesson-table">
+
+                    <tr>
+                        <th><em>Co robi? </em></th>
+                        <th>Basia </th>
+                        <th>Bartek</th>
+                        <th>Kasia</th>
+                        <th>Maciek</th>
+                    </tr>
+
+                    <tr>
+                        <td>rano</td>
+                        <td><em>robi śniadanie</em></td>
+                        <td><b>pije herbatę</b></td>
+                        <td><b>ścieli łóżko</b></td>
+                        <td><b>pakuje kanapki</b></td>
+                    </tr>
+
+                    <tr>
+                        <td>przed południem</td>
+                        <td><b>jedzie do pracy</b></td>
+                        <td><em>jedzie do pracy</em></td>
+                        <td><b>jest w szkole</b></td>
+                        <td><b>jest w szkole</b></td>
+                    </tr>
+
+                    <tr>
+                        <td>w południe</td>
+                        <td><b>idzie do restauracji</b></td>
+                        <td><b>jedzie na spotkanie biznesowe</b></td>
+                        <td><b>jest w szkole</b></td>
+                        <td><b>jest w szkole</b></td>
+                    </tr>
+
+                    <tr>
+                        <td>po południu</td>
+                        <td><b>jedzie na zakupy</b></td>
+                        <td><b>kończy pracę</b></td>
+                        <td><b>ma lekcje gry na fortepianie</b></td>
+                        <td><b>ma zajęcia z piłki siatkowej</b></td>
+                    </tr>
+
+                    <tr>
+                        <td>wieczorem</td>
+                        <td><b>prowadzi zajęcia online</b></td>
+                        <td><b>rozmawia przez telefon</b></td>
+                        <td><b>wraca do domu</b></td>
+                        <td><b>wraca do domu</b></td>
+                    </tr>
+
+                </table>
+            </div>
+            <button onclick="printTask('task1')" class="biruzaButton">Drukuj</button>
+        </div>
+
+        <!-- Zadanie 2, -->
+
+        <div class="box task" id="task2">
+            <div class="titleBiruza">Zadanie 2</div>
+            <p class="zadanieBiruza">Uzupełnij tabelę wyrazami z ramki.</p>
+
+            <table class="lesson-table">
+                <tr>
+                    <td>robić</td>
+                    <td>zaśpiewać</td>
+                    <td>nauczyć się</td>
+                    <td>napisać</td>
+                    <td>wstawać</td>
+                    <td>dać</td>
+                </tr>
+                <tr>
+                    <td>styszeć</td>
+                    <td>porozmawiać</td>
+                    <td>sprzątać</td>
+                    <td>jeść</td>
+                    <td>przeczytać</td>
+                    <td>powtarzać</td>
+                </tr>
+            </table>
+            <div class="two">
+                <table class="lesson-table">
+                    <tr>
+                        <th>CZASOWNIK NIEDOKONANY</th>
+                        <th>CZASOWNIK DOKONANY</th>
+                    </tr>
+                    <tr>
+                        <td><em>pisać</em></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><em>czytać</em></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><em>powtórzyć</em></td>
+                    </tr>
+                    <tr>
+                        <td><em>śpiewać</em></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><em>posprzątać</em></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><em>zrobić</em></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><em>zjeść</em></td>
+                    </tr>
+                    <tr>
+                        <td><em>uczyć się</em></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><em>wstać</em></td>
+                    </tr>
+                    <tr>
+                        <td><em>dawać</em></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><em>rozmawiać</em></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><em>usłyszeć</em></td>
+                    </tr>
+                </table>
+                <div class="image">
+                    <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module9/9A_2.png"
+                        alt="9A_2" class="zum">
+                </div>
+            </div>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot2')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="ot2" class="answer">
+                <table class="lesson-table" style="width: 50%;margin: 0 auto;">
+                    <tr>
+                        <th>CZASOWNIK NIEDOKONANY</th>
+                        <th>CZASOWNIK DOKONANY</th>
+                    </tr>
+                    <tr>
+                        <td><em>pisać</em></td>
+                        <td><b>napisać</b></td>
+                    </tr>
+                    <tr>
+                        <td><em>czytać</em></td>
+                        <td><b>przeczytać</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>powtarzać</b></td>
+                        <td><em>powtórzyć</em></td>
+                    </tr>
+                    <tr>
+                        <td><em>śpiewać</em></td>
+                        <td><b>zaśpiewać</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>sprzątać</b></td>
+                        <td><em>posprzątać</em></td>
+                    </tr>
+                    <tr>
+                        <td><b>robić</b></td>
+                        <td><em>zrobić</em></td>
+                    </tr>
+                    <tr>
+                        <td><b>jeść</b></td>
+                        <td><em>zjeść</em></td>
+                    </tr>
+                    <tr>
+                        <td><em>uczyć się</em></td>
+                        <td><b>nauczyć się</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>wstawać</b></td>
+                        <td><em>wstać</em></td>
+                    </tr>
+                    <tr>
+                        <td><em>dawać</em></td>
+                        <td><b>dać</b></td>
+                    </tr>
+                    <tr>
+                        <td><em>rozmawiać</em></td>
+                        <td><b>porozmawiać</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>słyszeć</b></td>
+                        <td><em>usłyszeć</em></td>
+                    </tr>
+                </table>
+            </div>
+            <button onclick="printTask('task2')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 3 -->
+
+        <div class="box task" id="task3">
+
+            <div class="titleBiruza">Zadanie 3</div>
+            <div class="zadanieBiruza">Podkreśl poprawną formę czasownika.</div>
+            <ol>
+                <li>Nie lubię <em>wstawać / wstać</em> rano.</li>
+                <li>Wczoraj <em>przeczytałam / czytam</em> świetną książkę, bardzo mi się podobała.</li>
+                <li>Obiad zawsze <em>zjem / jem / będę jeść</em> w pracy.</li>
+                <li>Jutro <em>zrobię / zrobiłem / robiłem</em> kolację dla moich przyjaciół.</li>
+                <li>Ola wczoraj <em>zaplanowała / planuje / zaplanować</em> co będzie robić w weekend.</li>
+                <li>Krótko <em>uczyłem się / nauczyłem się</em> na sprawdzian.</li>
+                <li>Nagle ktoś zaczął <em>zadzwonić / dzwonić</em> do drzwi.</li>
+            </ol>
+
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('otw3')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="otw3" class="answer">
+                <ol>
+                    <li>Nie lubię <b>wstawać</b> rano.</li>
+                    <li>Wczoraj <b>przeczytałam</b> świetną książkę, bardzo mi się podobała.</li>
+                    <li>Obiad zawsze <b>jem</b> w pracy.</li>
+                    <li>Jutro <b>zrobię</b> kolację dla moich przyjaciół.</li>
+                    <li>Ola wczoraj <b>zaplanowała</b> co będzie robić w weekend.</li>
+                    <li>Krótko <b>uczyłem się</b> na sprawdzian.</li>
+                    <li>Nagle ktoś zaczął <b>dzwonić</b> do drzwi.</li>
+                </ol>
+            </div>
+            <button onclick="printTask('task3')" class="biruzaButton">Drukuj</button>
+
+        </div>
+
+        <!-- Zadanie 4 -->
+
+        <div class="box task" id="task4">
+
+            <div class="titleBiruza">Zadanie 4</div>
+            <div class="zadanieBiruza">Przeczytaj tekst. Podkreśl wszystkie czasowniki i przyporządkuj je do
+                odpowiedniej kolumny.</div>
+            <div class="text">
+                <p>Wstałam dzisiaj o szóstej trzydzieści.. Zaspałam! Zazwyczaj budzę się godzinę wcześniej. Po
+                    przebudzeniu robię śniadanie i rozpoczynam dzień od pysznej kawy z mlekiem. Dzisiaj niestety nie
+                    miałam na to czasu. Nie lubię się śpieszyć, zawsze wolę wstać wcześniej i mieć więcej czasu na
+                    poranną toaletę. Wzięłam szybki prysznic, umyłam zęby i wybiegłam z mieszkania. Do pracy muszę
+                    dojeżdżać tramwajem, co jest bardzo problematyczne, ponieważ sam dojazd zajmuje mi ponad godzinę. W
+                    drodze zawsze czytam książkę, albo przeglądam portale społecznościowe, ale tym razem z pośpiechu
+                    zapomniałam założyć okularów. W pracy spędzam osiem godzin, kiedy wychodzę jest już godzina
+                    siedemnasta. Mieszkam sama, więc od razu muszę zrobić zakupy. Zawsze wracam do domu późnym
+                    wieczorem. W tygodniu nie mam za wiele czasu na odpoczynek. Dlatego cieszę się, kiedy przychodzi
+                    weekend. W każdy sobotni poranek chodzę na siłownię i spotykam się ze znajomymi. Staram się też
+                    znaleźć czas na domowe porządki. Choć muszę przyznać, że nie lubię sprzątać...</p>
+            </div>
+            <div class="two">
+                <table class="lesson-table" style="width: 70%;">
+                    <tr>
+                        <th style="height: 30px;">CZASOWNIKI NIEDOKONANE</th>
+                        <th>CZASOWNIKI DOKONANE</th>
+                    </tr>
+                    <tr>
+                        <td style="height: 200px;"></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <div class="image" style="width: 30%;">
+                    <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module9/9A_4.png"
+                        alt="9A_4" class="zum">
+                </div>
+            </div>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a4')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a4" class="answer">
+                <table class="lesson-table" style="width: 70%;">
+                    <tr>
+                        <th style="height: 30px;">CZASOWNIKI NIEDOKONANE</th>
+                        <th>CZASOWNIKI DOKONANE</th>
+                    </tr>
+                    <tr>
+                        <td style="height: 200px;">budzę się, robię, rozpoczynam, lubię, śpieszyć się, wolę, mieć,
+                            muszę, dojeżdżać, zajmuje, czytam, przeglądam, spędzam, wychodzę, mieszkam, wracam, mam,
+                            miałam, cieszę się, przychodzi, chodzę, spotykam się, staram się, sprzątać</td>
+                        <td>wstałam, zaspałam, wzięłam, umyłam, wybiegłam, zapomniałam, założyć, zrobić, znaleźć,
+                            przyznać</td>
+                    </tr>
+                </table>
+            </div>
+            <button onclick="printTask('task4')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 5 -->
+
+        <div class="box task" id="task5">
+
+            <div class="titleBiruza">Zadanie 5</div>
+            <div class="zadanieBiruza">Połącz i zapisz pary aspektowe czasowników nieregularnych.</div>
+            <table class="lesson-table">
+                <tr>
+                    <td>wziąć</td>
+                    <td>pójść</td>
+                    <td>wytrzeć</td>
+                    <td>kłaść</td>
+                    <td>widzieć</td>
+                    <td>wycierać</td>
+                    <td>oglądać</td>
+                </tr>
+                <tr>
+                    <td>powiedzieć</td>
+                    <td>obejrzeć</td>
+                    <td>położyć</td>
+                    <td>mówić</td>
+                    <td>iść</td>
+                    <td>brać</td>
+                    <td>zobaczyć</td>
+                </tr>
+            </table><br>
+            <ol>
+                <li><em>wziąć - brać</em></li>
+                <li>......................................................................................................................................................
+                </li>
+                <li>......................................................................................................................................................
+                </li>
+                <li>......................................................................................................................................................
+                </li>
+                <li>......................................................................................................................................................
+                </li>
+                <li>......................................................................................................................................................
+                </li>
+                <li>......................................................................................................................................................
+                </li>
+            </ol>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a5')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a5" class="answer">
+                <ol>
+                    <li><em>wziąć - brać</em></li>
+                    <li><b>pójść, iść</b></li>
+                    <li><b>wytrzeć, wycierać</b></li>
+                    <li><b>kłaść, położyć</b></li>
+                    <li><b>widzieć, zobaczyć</b></li>
+                    <li><b>oglądać, obejrzeć</b></li>
+                    <li><b>powiedzieć, mówić</b></li>
+                </ol>
+            </div>
+            <button onclick="printTask('task5')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 6 -->
+
+        <div class="box task" id="task6">
+
+            <div class="titleBiruza">Zadanie 6</div>
+            <div class="zadanieBiruza">Postuchaj nagrania i uzupełnij kartkę z kalendarza Filipa. </div>
+            <div class="two">
+                <div class="audio">
+                    <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a9.1.mp3" controls></audio>
+                </div>
+                <button class="ru-btn modal-trigger" data-modal="aud_9.1"><img src="../icons/audio.png" alt=""
+                        class="icons"></button>
+
+                <div class="modal" data-modal="aud_9.1">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="audio">
+                            <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a9.1.mp3" controls></audio>
+                        </div>
+                        <h4>Nagranie 9.1</h4>
+                        <p>Filip w każdą sobotę wstaje o siódmej rano i trzydzieści minut później robi śniadanie. O godzinie ösmej bierze szybki prysznic, ponieważ śpieszy się na trening. Od razu po porannej toalecie, która zajmuje mu 25 minut, wychodzi z domu. Na siłownię jedzie aż 40 minut, przebiera się i o 9:30 zaczyna dwugodzinny trening. Po treningu jedzie na obiad z przyjacielem, z którym umówił się na godzinę 12:00. Filip i Bartek znają się jeszcze z czasów szkolnych, więc przyjaciele zawsze długo rozmawiają. Filip wraca do domu dopiero o 15:00, resztę dnia przeznacza na odpoczynek i domowe porządki, a wieczorem ogląda mecz.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="two">
+                <div class="image" style="width: 30%;">
+                    <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module9/9A_6.png"
+                        alt="9A_6" class="zum">
+                </div>
+                <table class="lesson-table" style="width: 60%;">
+                    <tr>
+                        <th>GODZINA</th>
+                        <th>PLAN DNIA</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>7:30</td>
+                        <td>Robi śniadanie</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>20:00</td>
+                        <td>Ogląda mecz</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a6')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a6" class="answer">
+                <table class="lesson-table" style="width: 60%;">
+                    <tr>
+                        <th>GODZINA</th>
+                        <th>PLAN DNIA</th>
+                    </tr>
+                    <tr>
+                        <td><b>7:00</b></td>
+                        <td><b>wstaje</b></td>
+                    </tr>
+                    <tr>
+                        <td>7:30</td>
+                        <td>Robi śniadanie</td>
+                    </tr>
+                    <tr>
+                        <td><b>8:00</b></td>
+                        <td><b>bierze prysznic</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>8:25</b></td>
+                        <td><b>wychodzi z domu</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>9:05</b></td>
+                        <td><b>dociera na sitownię</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>9:30</b></td>
+                        <td><b>zaczyna trening</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>11:30</b></td>
+                        <td><b>jedzie na obiad z przyjacielem</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>12:00</b></td>
+                        <td><b>je obiad</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>15:00</b></td>
+                        <td><b>wraca do domu</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>15:00-20:00</b></td>
+                        <td><b>odpoczywa</b></td>
+                    </tr>
+                    <tr>
+                        <td>20:00</td>
+                        <td>Ogląda mecz</td>
+                    </tr>
+                </table>
+            </div>
+            <button onclick="printTask('task6')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 7 -->
+
+        <div class="box task" id="task7">
+
+            <div class="titleBiruza">Zadanie 7</div>
+            <div class="zadanieBiruza">Na postawie planu dnia, opowiedz co Ola robiła wczoraj.</div>
+            <table class="lesson-table">
+                <tr>
+                    <th>GODZINA </th>
+                    <th>PLAN DNIA</th>
+                </tr>
+                <tr>
+                    <td>5:30</td>
+                    <td>Pobudka</td>
+                </tr>
+                <tr>
+                    <td>5:45 - 6:15 </td>
+                    <td>Poranna toaleta</td>
+                </tr>
+                <tr>
+                    <td>6:30 </td>
+                    <td>Śniadanie</td>
+                </tr>
+                <tr>
+                    <td>7:00 </td>
+                    <td>Wyjście do pracy</td>
+                </tr>
+                <tr>
+                    <td>8:00 - 10:00 </td>
+                    <td>Spotkanie biznesowe na drugim końcu miasta</td>
+                </tr>
+                <tr>
+                    <td>10:30 - 13:00 </td>
+                    <td>Przygotowywanie analiz finansowych</td>
+                </tr>
+                <tr>
+                    <td>13:00 - 14:00 </td>
+                    <td>Przerwa obiadowa, rozmowa telefoniczna z mężem</td>
+                </tr>
+                <tr>
+                    <td>14:00 - 16:00 </td>
+                    <td>Rozmowy telefonicznie z klientami firmy</td>
+                </tr>
+                <tr>
+                    <td>16:00 </td>
+                    <td>Koniec pracy. Zakupy w sklepie spożywczym</td>
+                </tr>
+                <tr>
+                    <td>17:00 </td>
+                    <td>Kolacja z przyjaciółkami</td>
+                </tr>
+                <tr>
+                    <td>18:00 </td>
+                    <td>Powrót do domu</td>
+                </tr>
+                <tr>
+                    <td>18:00 - 19:00 </td>
+                    <td>Spacer z psem</td>
+                </tr>
+                <tr>
+                    <td>19:00 - 22:00 </td>
+                    <td>Czas dla siebie (czytanie książki, oglądanie serialu)</td>
+                </tr>
+                <tr>
+                    <td>22:00</td>
+                    <td>Prysznic. Czas na sen</td>
+                </tr>
+            </table>
+            
+            
+
+            <!-- otwet -->
+            <!-- <button onclick="toggleAnswer('a7')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a7" class="answer">
+                
+            </div> -->
+            <button onclick="printTask('task7')" class="biruzaButton">Drukuj</button>
+        </div>
+
+        <button onclick="printTask('task9A')" class="biruzaButton">Drukuj</button>
+
+        <!-- end -->
+        <div class="knopki">
+            <a href="../index.html" class="back">
+                ⬅ Powrót do wszystkich lekcji
+            </a><a href="./lesson8B.html" class="back">
+                Następna lekcji ⮕
+            </a>
+        </div>
+
+        <!--  -->
+
+        <div id="tooltip"></div>
+    </div>
+    <script src="../js/imageZum.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptRu.js"></script>
+    <script src="../js/cards.js"></script>
+
+
+
+</body>
+
+</html>

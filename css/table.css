@@ -83,8 +83,9 @@ width:100%;
 border-collapse:collapse;
 margin-top:15px;
 overflow: visible;
-
+margin: 0 auto;
 }
+
 
 .lesson-table th,
 .lesson-table td{
@@ -108,5 +109,6 @@ font-family: 'Montserrat', sans-serif;
   background-color: rgb(192, 102, 102);
   color: #e8e4e4;
 }
+
 
 /* end lesson-table */
