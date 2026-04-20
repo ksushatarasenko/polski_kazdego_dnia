@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lekcja 10C. Listy</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleZumImage.css">
+    <link rel="stylesheet" href="../css/styleRu.css">
+    <link rel="stylesheet" href="../css/table_module10.css">
+    <link rel="stylesheet" href="../css/styleText.css">
+    <link rel="stylesheet" href="../css/crammar_card.css">
+    <!-- <link rel="stylesheet" href="../css/styleModule3.css"> -->
+    <link rel="stylesheet" href="../css/styleSlowoPodskazka.css">
+
+
+</head>
+
+<body>
+    <div id="vocab-modal" class="modal">
+        <div class="modal-box">
+
+            <span class="modal-close">✖</span>
+
+            <div id="modal-content"></div>
+
+        </div>
+    </div>
+
+    <header class="headerBiruza">
+        Poziom A2 z elementami B1 <br>
+        Module 10 - Edukacja<br>
+        Lekcja 10C. <br>Listy
+    </header>
+
+    <div class="container task" id="task10C">
+
+
+        <!-- Zadanie 1 -->
+        <div class="box task" id="task1">
+            <div>
+                <div class="titleBiruza">Zadanie 1</div>
+            </div>
+            <div class="zadanieBiruza">Przeczytaj i podpisz brakujące elementy listu prywatnego wyrazami podanymi w
+                ramce.</div>
+            <table class="lesson-table">
+                <tr>
+                    <td>wstęp</td>
+                    <td>podpis</td>
+                    <td>nagłówek</td>
+                    <td>zakończenie</td>
+                    <td>data</td>
+                    <td>akapit</td>
+                    <td>rowinięcie</td>
+                </tr>
+            </table>
+
+            <div class="image" style="width: 70%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module10/10C_1.png"
+                    alt="10C_1" class="zum">
+            </div>
+            <div class="image" style="width: 80%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module10/10C_1_prawilo.png"
+                    alt="10C_1_prawilo" class="zum">
+            </div>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot1')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="ot1" class="answer">
+                <ul>
+                    <li><b>nagłówek</b> → Kochany Dziadku! - <em>zwrot grzecznościowy do adresata</em></li>
+                    <li><b>data</b> → Poznań, 05.09.2020 r.</li>
+                    <li><b>akapit</b> → wyodrębnienie części tekstu</li>
+                    <li><b>rozwinięcie</b> → główna część tekstu</li>
+                    <li><b>wstęp</b> → rozpoczęcie, określenie celu wypowiedzi</li>
+                    <li><b>zakończenie</b> → słowa podsumowujące</li>
+                    <li><b>podpis</b> → Raiman</li>
+                </ul>
+            </div>
+            <button onclick="printTask('task1')" class="biruzaButton">Drukuj</button>
+        </div>
+
+        <!-- Zadanie 2, -->
+
+        <div class="box task" id="task2">
+            <div class="titleBiruza">Zadanie 2</div>
+            <p class="zadanieBiruza">Podkreśl prawidłową odpowiedź.</p>
+
+            <ol>
+                <li>Podstawową formą listu jest <em>monolog / dialog</em>.</li>
+                <li>Nazwę miejscowości i datę napisania listu umieszczamy <em>w prawym / w lewym</em> górnym rogu.</li>
+                <li>Nagłówek umieszczamy <em>w dowolnej części strony / na środku strony</em>.</li>
+                <li>List prywatny <em>musimy / nie musimy</em> podpisać swoim imieniem.</li>
+                <li>Zwroty i wyrazy odnoszące się do adresata piszemy <em>wielką / małą</em> literą.</li>
+                <li>W liście prywatnym <em>nie możemy / możemy</em> używać słownictwa potocznego.</li>
+                <li>Postscriptum <em>jest / nie jest</em> obowiązkowym elementem listu.</li>
+            </ol>
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('ot2')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="ot2" class="answer">
+                <ol>
+                    <li>Podstawową formą listu jest <b>monolog</b>.</li>
+                    <li>Nazwę miejscowości i datę napisania listu umieszczamy <b>w prawym</b> górnym rogu.</li>
+                    <li>Nagłówek umieszczamy <b>na środku</b>.</li>
+                    <li>List prywatny <b>musimy</b> podpisać swoim imieniem.</li>
+                    <li>Zwroty i wyrazy odnoszące się do adresata piszemy <b>wielką literą</b> literą.</li>
+                    <li>W liście prywatnym <b>możemy</b> używać słownictwa potocznego.</li>
+                    <li>Postscriptum <b>nie jest</b> obowiązkowym elementem listu.</li>
+                </ol>
+            </div>
+            <button onclick="printTask('task2')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 3 -->
+
+        <div class="box task" id="task3">
+
+            <div class="titleBiruza">Zadanie 3</div>
+            <div class="zadanieBiruza">Postuchaj nagrania. Uzupełnij brakujące wyrazy w zdaniach i dopasuj nazwy do
+                definicji..</div>
+
+            <div class="two">
+                <div class="audio">
+                    <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a10.3.mp3" controls></audio>
+                </div>
+                <button class="ru-btn modal-trigger" data-modal="aud_10.3"><img src="../icons/audio.png" alt=""
+                        class="icons"></button>
+
+                <div class="modal" data-modal="aud_10.3">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="audio">
+                            <audio src="../audio/Poziom A2 z elementami B1/podrecznik/a10.3.mp3" controls></audio>
+                        </div>
+                        <h4>Nagranie 10.3</h4>
+                        <div class="text">
+                            <p><strong>Raiman:</strong> Tato, o której wychodzisz do pracy?</p>
+                            <p><strong>Tata:</strong> Za godzinę, a dlaczego pytasz?</p>
+                            <p><strong>Raiman:</strong> Śpieszę się na zajęcia, a chciałabym wysłać dzisiaj list do
+                                dziadka. Na pewno się zastanawia, dlaczego tak długo się nie odzywam. Czy mógłbyś przed
+                                pracą pójść na pocztę i nadać list?</p>
+                            <p><strong>Tata:</strong> Tak, nie ma problemu. Kupiłaś już znaczek i kopertę?</p>
+                            <p><strong>Raiman:</strong> Kupiłam, ale nie wiem czy ją dobrze zaadresowałam. W prawym
+                                dolnym rogu podaje się adres nadawcy?</p>
+                            <p><strong>Tata:</strong> Nie córeczko. Adres nadawcy podaje się w lewym górnym rogu
+                                koperty, w prawym dolnym rogu znajduje się adres odbiorcy.</p>
+                            <p><strong>Raiman:</strong> W takim razie gdzie powinnam nakleić znaczek pocztowy?</p>
+                            <p><strong>Tata:</strong> Znaczek naklej w prawym górnym rogu.</p>
+                            <p><strong>Raiman:</strong> Nigdy nie mogę tego wszystkiego zapamiętać...</p>
+                            <p><strong>Tata:</strong> Nie martw się, z czasem wszystkiego się nauczysz.</p>
+                            <p><strong>Raiman:</strong> Zależy mi, żeby list dotarł do dziadka jak najszybciej.</p>
+
+                            <p><strong>Tata:</strong> To trzeba wysłać list priorytetowy.</p>
+                            <p><strong>Raiman:</strong> Dlaczego priorytetowy? Myślałam, że wyślę list ekonomiczny.</p>
+                            <p><strong>Tata:</strong> Jeśli zależy ci na czasie i potwierdzeniu odbioru, to należy
+                                wybrać list polecony priorytetowy. Taki list dotrze do dziadka w ciągu jednego dnia.
+                                Jest droższy, ale daje gwarancję szybkiego nadania. List ekonomiczny zazwyczaj dociera
+                                do odbiorcy w ciągu trzech dni.</p>
+                            <p><strong>Raiman:</strong> Strasznie to skomplikowane tato...</p>
+                            <p><strong>Tata:</strong> Idź na zajęcia, a ja wszystkim się zajmę. Dziadek na pewno będzie
+                                zadowolony, że o nim pamiętasz.</p>
+                            <p><strong>Raiman:</strong> Wiem, muszę go w końcu odwiedzić.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text">
+                <p><strong>Raiman:</strong> Tato, o której wychodzisz do pracy?</p>
+                <p><strong>Tata:</strong> Za godzinę, a dlaczego pytasz?</p>
+                <p><strong>Raiman:</strong> Śpieszę się na zajęcia, a chciałabym wysłać dzisiaj ................ do
+                    dziadka. Na pewno się zastanawia, dlaczego tak długo się nie odzywam. Czy mógłbyś przed pracą pójść
+                    na ................ i nadać list?</p>
+                <p><strong>Tata:</strong> Tak, nie ma problemu. Kupiłaś już znaczek i ................?</p>
+                <p><strong>Raiman:</strong> Kupiłam, ale nie wiem czy ją dobrze zaadresowałam. W prawym
+                    dolnym rogu podaje się adres ................?</p>
+                <p><strong>Tata:</strong> Nie córeczko. Adres ................ podaje się w lewym górnym rogu
+                    koperty, w prawym dolnym rogu znajduje się adres ................ .</p>
+                <p><strong>Raiman:</strong> W takim razie gdzie powinnam nakleić ................?</p>
+                <p><strong>Tata:</strong> Znaczek naklej w prawym górnym rogu.</p>
+                <p><strong>Raiman:</strong> Nigdy nie mogę tego wszystkiego zapamiętać...</p>
+                <p><strong>Tata:</strong> Nie martw się, z czasem wszystkiego się nauczysz.</p>
+                <p><strong>Raiman:</strong> Zależy mi, żeby list dotarł do dziadka jak najszybciej.</p>
+
+                <p><strong>Tata:</strong> To trzeba wysłać .................</p>
+                <p><strong>Raiman:</strong> Dlaczego priorytetowy? Myślałam, że wyślę .................</p>
+                <p><strong>Tata:</strong> Jeśli zależy ci na czasie i potwierdzeniu odbioru, to należy wybrać
+                    ................ . Taki list dotrze do dziadka w ciągu jednego dnia. Jest droższy, ale daje
+                    gwarancję szybkiego nadania. ................ zazwyczaj dociera do odbiorcy w ciągu trzech dni.</p>
+                <p><strong>Raiman:</strong> Strasznie to skomplikowane tato...</p>
+                <p><strong>Tata:</strong> Idź na zajęcia, a ja wszystkim się zajmę. Dziadek na pewno będzie
+                    zadowolony, że o nim pamiętasz.</p>
+                <p><strong>Raiman:</strong> Wiem, muszę go w końcu odwiedzić.</p>
+            </div>
+            <table class="lesson-table">
+                <tr>
+                    <td>1. Urząd pocztowy </td>
+                    <td>a) dociera do adresata w ciągu trzech dni roboczych.</td>
+                </tr>
+                <tr>
+                    <td>2. Adres nadawcy </td>
+                    <td>b) umieszcza się w prawym dolnym rogu koperty.</td>
+                </tr>
+                <tr>
+                    <td>3. List polecony ekonomiczny </td>
+                    <td>c) nakleja się na kopertę i umieszcza w prawym górnym rogu.</td>
+                </tr>
+                <tr>
+                    <td>4. Znaczek pocztowy </td>
+                    <td>d) umieszcza się w lewym górnym rogu koperty.</td>
+                </tr>
+                <tr>
+                    <td>5. Adres odbiorcy </td>
+                    <td>e) dociera do adresata w ciągu jednego dnia roboczego.</td>
+                </tr>
+                <tr>
+                    <td>6. List polecony priorytetowy </td>
+                    <td>f) miejsce, w którym można nadawać różne przesyłki i opłacać rachunki.</td>
+                </tr>
+            </table>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('otw3')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="otw3" class="answer">
+                <div class="text">
+                    <p><strong>Raiman:</strong> Tato, o której wychodzisz do pracy?</p>
+                    <p><strong>Tata:</strong> Za godzinę, a dlaczego pytasz?</p>
+                    <p><strong>Raiman:</strong> Śpieszę się na zajęcia, a chciałabym wysłać dzisiaj <b>list</b> do
+                        dziadka. Na pewno się zastanawia, dlaczego tak długo się nie odzywam. Czy mógłbyś przed pracą
+                        pójść na <b>pocztę</b> i nadać list?</p>
+                    <p><strong>Tata:</strong> Tak, nie ma problemu. Kupiłaś już znaczek i <b>kopertę</b>?</p>
+                    <p><strong>Raiman:</strong> Kupiłam, ale nie wiem czy ją dobrze zaadresowałam. W prawym dolnym rogu
+                        podaje się adres <b>nadawcy</b>?</p>
+                    <p><strong>Tata:</strong> Nie córeczko. Adres <b>nadawcy</b> podaje się w lewym górnym rogu koperty,
+                        w prawym dolnym rogu znajduje się adres <b>odbiorcy</b>.</p>
+                    <p><strong>Raiman:</strong> W takim razie gdzie powinnam nakleić <b>znaczek pocztowy</b>?</p>
+                    <p><strong>Tata:</strong> Znaczek naklej w prawym górnym rogu.</p>
+                    <p><strong>Raiman:</strong> Nigdy nie mogę tego wszystkiego zapamiętać...</p>
+                    <p><strong>Tata:</strong> Nie martw się, z czasem wszystkiego się nauczysz.</p>
+                    <p><strong>Raiman:</strong> Zależy mi, żeby list dotarł do dziadka jak najszybciej.</p>
+
+                    <p><strong>Tata:</strong> To trzeba wysłać <b>list priorytetowy</b>.</p>
+                    <p><strong>Raiman:</strong> Dlaczego priorytetowy? Myślałam, że wyślę <b>list ekonomiczny</b>.</p>
+                    <p><strong>Tata:</strong> Jeśli zależy ci na czasie i potwierdzeniu odbioru, to należy wybrać
+                        <b>list polecony priorytetowy</b>. Taki list dotrze do dziadka w ciągu jednego dnia. Jest
+                        droższy, ale daje gwarancję szybkiego nadania. <b>List ekonomiczny</b> zazwyczaj dociera do
+                        odbiorcy w ciągu trzech dni.
+                    </p>
+                    <p><strong>Raiman:</strong> Strasznie to skomplikowane tato...</p>
+                    <p><strong>Tata:</strong> Idź na zajęcia, a ja wszystkim się zajmę. Dziadek na pewno będzie
+                        zadowolony, że o nim pamiętasz.</p>
+                    <p><strong>Raiman:</strong> Wiem, muszę go w końcu odwiedzić.</p>
+                </div>
+                <div>
+                    <p><strong>1. Urząd pocztowy</strong> – miejsce, w którym można nadawać różne przesyłki i opłacać
+                        rachunki.</p>
+                    <p><strong>2. Adres nadawcy</strong> – umieszcza się w lewym górnym rogu koperty.</p>
+                    <p><strong>3. List polecony ekonomiczny</strong> – dociera do adresata w ciągu trzech dni roboczych.
+                    </p>
+                    <p><strong>4. Znaczek pocztowy</strong> – nakleja się na kopertę i umieszcza w prawym górnym rogu.
+                    </p>
+                    <p><strong>5. Adres odbiorcy</strong> – umieszcza się w prawym dolnym rogu koperty.</p>
+                    <p><strong>6. List polecony priorytetowy</strong> – dociera do adresata w ciągu jednego dnia
+                        roboczego.</p>
+                </div>
+            </div>
+            <button onclick="printTask('task3')" class="biruzaButton">Drukuj</button>
+
+        </div>
+
+        <!-- Zadanie 4 -->
+
+        <div class="box task" id="task4">
+
+            <div class="titleBiruza">Zadanie 4</div>
+            <div class="zadanieBiruza">Przeczytaj list oficjalny, podpisz brakujące elementy i zdecyduj, które zdanie
+                jest prawdziwe <em>P</em>, a które fałszywe <em>F</em>.</div>
+            <div class="image" style="width: 60%;">
+                <img src="https://raw.github.com/ksushatarasenko/polski_kazdego_dnia_images/main/Module10/10C_4.png"
+                    alt="10C_4" class="zum">
+            </div>
+            <div class="text">
+                <p>1. W listach oficjalnych nagłówkiem może być stanowisko osoby, do której piszemy. –
+                    <strong>P / F</strong>
+                </p>
+                <p>2. W liście oficjalnym należy unikać wyrazów i zwrotów z języka potocznego. – <strong>P / F</strong>
+                </p>
+                <p>3. Nadawca listu nie musi podawać swojego adresu. – <strong>P / F</strong></p>
+                <p>4. Podpis autora powinien zawierać imię i nazwisko. – <strong>P / F</strong></p>
+                <p>5. Autor listu powinien posługiwać się formami przywitań i pożegnań. – <strong>P / F</strong></p>
+                <p>6. Nagłówek odnoszący się do konkretnej osoby jest elementem nieobowiązkowym. – <strong>P /
+                        F</strong>
+                </p>
+                <p>7. Treść listu powinna być zwięzła. – <strong>P / F</strong></p>
+                <p>8. List oficjalny ma trójdzielną budowę – zawiera wstęp, rozwinięcie i zakończenie. –
+                    <strong>P / F</strong>
+                </p>
+            </div>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a4')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a4" class="answer">
+                <div>
+                    <p>1. W listach oficjalnych nagłówkiem może być stanowisko osoby, do której piszemy. –
+                        <strong>P</strong>
+                    </p>
+                    <p>2. W liście oficjalnym należy unikać wyrazów i zwrotów z języka potocznego. – <strong>P</strong>
+                    </p>
+                    <p>3. Nadawca listu nie musi podawać swojego adresu. – <strong>P</strong></p>
+                    <p>4. Podpis autora powinien zawierać imię i nazwisko. – <strong>P</strong></p>
+                    <p>5. Autor listu powinien posługiwać się formami przywitań i pożegnań. – <strong>F</strong></p>
+                    <p>6. Nagłówek odnoszący się do konkretnej osoby jest elementem nieobowiązkowym. –
+                        <strong>P</strong>
+                    </p>
+                    <p>7. Treść listu powinna być zwięzła. – <strong>P</strong></p>
+                </div>
+            </div>
+            <button onclick="printTask('task4')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 5 -->
+
+        <div class="box task" id="task5">
+
+            <div class="titleBiruza">Zadanie 5</div>
+            <div class="zadanieBiruza">Przyporządkuj zwroty i wyrażenia do odpowiedniej kolumny.</div>
+
+            <table class="lesson-table">
+                <tr>
+                    <td>Odpowiem Ci... </td>
+                    <td>Wujku... </td>
+                    <td>Szanowni Państwo.. </td>
+                    <td>Po rozpoznaniu sprawy...</td>
+                </tr>
+                <tr>
+                    <td>Łączę wyrazy szacunku...</td>
+                    <td>Drogi Bartku. </td>
+                    <td>W odpowiedzi na Wasz list... </td>
+                    <td>Proszę, żeby</td>
+                </tr>
+                <tr>
+                    <td>Pozdrawiam...</td>
+                    <td>Przesytam pozdrowienia...</td>
+                    <td>Ściskam i d o zobaczenia...</td>
+                    <td>ś...
+                        Dziękuję za troskę...</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Zwracam sie.</td>
+                    <td>PS Powodzenia!</td>
+                    <td></td>
+                </tr>
+            </table>
+            <table class="lesson-table">
+                <tr>
+                    <th>Oficjalne</th>
+                    <th>Nieoficjalne</th>
+                </tr>
+                <tr>
+                    <td style="height: 100px;"></td>
+                    <td></td>
+                </tr>
+            </table>
+
+
+            <!-- otwet -->
+            <button onclick="toggleAnswer('a5')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a5" class="answer">
+                <table class="lesson-table">
+                    <tr>
+                        <th>Oficjalne</th>
+                        <th>Nieoficjalne</th>
+                    </tr>
+                    <tr>
+                        <td style="height: 100px;">
+                            <p>Łączę wyrazy szacunku</p>
+                            <p>Zwracam się</p>
+                            <p>Szanowni Państwo</p>
+                            <p>Po rozpoznaniu sprawy</p>
+                            <p>W odpowiedzi na Wasz list</p>
+                            <p>Proszę, żeby...</p>
+                        </td>
+                        <td>
+                            <p>Odpowiem Ci</p>
+                            <p>Pozdrawiam</p>
+                            <p>Wujku</p>
+                            <p>Przesyłam pozdrowienia</p>
+                            <p>Ściskam i do zobaczenia</p>
+                            <p>PS Powodzenia!</p>
+                            <p>Dziękuję za troskę</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button onclick="printTask('task5')" class="biruzaButton">Drukuj</button>
+        </div>
+        <!-- Zadanie 6 -->
+
+        <div class="box task" id="task6">
+
+            <div class="titleBiruza">Porozmawiaj z kolegami/koleżankami z grupy.</div>
+            <ol>
+                <li>Jak wygląda wasza korespondencja z rodziną i przyjaciółmi?</li>
+                <li>Czy we współczesnym świecie tradycyjny list to przeżytek?</li>
+                <li>Co łączy e-maile i tradycyjne listy?</li>
+                <li>Czy list elektroniczny nadal pozostaje listem?/li>
+            </ol>
+
+
+            <!-- otwet -->
+            <!-- <button onclick="toggleAnswer('a6')" class="biruzaButton">Odpowiedź</button>
+
+            <div id="a6" class="answer">
+                
+            </div> -->
+            <button onclick="printTask('task6')" class="biruzaButton">Drukuj</button>
+        </div>
+
+
+        <button onclick="printTask('task10C')" class="biruzaButton">Drukuj</button>
+
+        <!-- end -->
+        <div class="knopki">
+            <a href="../index.html" class="back">
+                ⬅ Powrót do wszystkich lekcji
+            </a>
+            <!-- <a href="./lesson10B.html" class="back">
+                Następna lekcji ⮕
+            </a> -->
+        </div>
+
+        <!--  -->
+
+        <div id="tooltip"></div>
+    </div>
+    <script src="../js/imageZum.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptRu.js"></script>
+    <script src="../js/cards.js"></script>
+
+
+
+</body>
+
+</html>
