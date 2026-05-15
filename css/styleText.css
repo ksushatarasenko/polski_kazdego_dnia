@@ -13,6 +13,11 @@ p{
     font-style: italic;
     color: rgb(193, 23, 193);
 }
+.p20{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(23, 71, 193);
+}
 .p24{
     font-size: 23px;
     padding: 10px;
@@ -29,6 +34,7 @@ em{
     letter-spacing: 1px;
     color: #333;
     font-size: 22px;
+    
 }
 h1{
     color: rgb(0, 128, 122);

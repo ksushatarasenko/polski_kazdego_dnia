@@ -1,0 +1,279 @@
+:root{
+--btn-size:48px;
+--btn-bg: #0b5ed7;
+--btn-fg: #fff;
+--btn-shadow: 0 6px 18px rgba(11,94,215,0.25);
+--btn-radius: 999px;
+}
+html{scroll-behavior:smooth}
+
+
+
+/* Demo content styling */
+/* main{max-width:900px; margin:40px auto; padding:0 16px}
+h1{font-size:clamp(1.25rem,2.4vw,2rem); margin-top:0}
+p{margin:0 0 1rem} */
+
+
+/* Back-to-top button */
+.back-to-top{
+position:fixed;
+right:20px;
+bottom:20px;
+width:var(--btn-size);
+height:var(--btn-size);
+display:inline-grid;
+place-items:center;
+background:var(--btn-bg);
+color:var(--btn-fg);
+border-radius:var(--btn-radius);
+box-shadow:var(--btn-shadow);
+border:0;
+cursor:pointer;
+transform:translateY(16px) scale(.9);
+opacity:0;
+pointer-events:none;
+transition:opacity .25s ease, transform .25s cubic-bezier(.2,.9,.2,1);
+}
+.back-to-top.show{opacity:1; transform:translateY(0) scale(1); pointer-events:auto}
+
+
+.back-to-top:focus{outline:3px solid rgba(255,255,255,0.25); outline-offset:3px}
+.back-to-top svg{width:22px; height:22px; display:block}
+
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce){
+html{scroll-behavior:auto}
+.back-to-top{transition:none}
+}
+
+
+/* Small screens tweak */
+@media (max-width:480px){
+.back-to-top{right:12px; bottom:12px; --btn-size:44px}
+}
+
+/*  */
+#floatingAudioBtn {
+
+    position: fixed;
+
+    right: 20px;
+    bottom: 90px;
+
+    width: 70px;
+    height: 70px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #ff7675;
+    color: white;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    z-index: 9999;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.25);
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease;
+
+}
+
+/* hover */
+
+#floatingAudioBtn:hover {
+
+    transform: scale(1.08);
+
+}
+
+/* active */
+
+#floatingAudioBtn:active {
+
+    transform: scale(0.95);
+
+}
+
+/* mobile */
+
+@media (max-width: 768px) {
+
+    #floatingAudioBtn {
+
+        width: 64px;
+        height: 64px;
+
+        font-size: 24px;
+
+        right: 16px;
+        bottom: 80px;
+
+    }
+
+}
+
+/* перевод */
+/* .word-popup {
+
+    position: absolute;
+
+    background: white;
+
+    padding: 10px 14px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,0.2);
+
+    z-index: 99999;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    animation: fadeIn 0.2s ease;
+
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+} */
+
+/* =========================
+   WORD POPUP
+========================= */
+
+.word-popup {
+
+    position: absolute;
+
+    background: white;
+
+    padding: 14px;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.2);
+
+    z-index: 99999;
+
+    min-width: 180px;
+
+    animation: popupShow 0.2s ease;
+    position: absolute;
+
+    overflow: hidden;
+
+}
+
+.popup-word {
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+    color: #7b2cbf;
+
+}
+
+.popup-translation {
+
+    font-size: 20px;
+
+    margin-bottom: 12px;
+
+}
+
+.popup-buttons {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+.popup-buttons button {
+
+    border: none;
+
+    background: #ff7675;
+
+    color: white;
+
+    padding: 8px 12px;
+
+    border-radius: 10px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+}
+
+@keyframes popupShow {
+
+    from {
+
+        opacity: 0;
+
+        transform: scale(0.9);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: scale(1);
+
+    }
+
+}
+
+.popup-close {
+
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+
+    border: none;
+
+    background: transparent;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    color: #888;
+
+}
+
+.popup-close:hover {
+
+    color: black;
+
+}

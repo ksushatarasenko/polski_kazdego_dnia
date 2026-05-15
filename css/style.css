@@ -222,21 +222,24 @@ width: 50%;
 }
 
 .video{
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
 }
 .video> iframe{
     width: 100%;
     margin: 0 auto;
+    height: auto;
 }
 .pdf{
     width: 90%;
     margin: 0 auto;
+    height: 60em;
 }
 .pdf> iframe{
     width: 100%;
     margin: 0 auto;
+    height: 100%;
 }
 
 /* ul */
